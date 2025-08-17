@@ -1,0 +1,97 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageTitle from "@components/PageTitle.astro";
+import HomepageButton from "@components/HomepageButton.astro";
+import HomepageCard from "@components/HomepageCard.astro";
+import publications from "../publications.json";
+
+const workplaces = (await getCollection("workplaces"))
+  .sort((a, b) => new Date(b.data.startDate).valueOf() - new Date(a.data.startDate).valueOf())
+  .filter((item) => item.data.hideOnHomepage !== true)
+  .map((item) => ({
+    url: "/work/" + item.slug,
+    title: item.data.title,
+    iconImage: item.data.iconImage,
+    iconImageDark: item.data.iconImageDark,
+  }));
+const education = (await getCollection("education"))
+  .sort((a, b) => new Date(b.data.startDate).valueOf() - new Date(a.data.startDate).valueOf())
+  .filter((item) => item.data.hideOnHomepage !== true)
+  .map((item) => ({
+    url: "/education/" + item.slug,
+    title: item.data.title,
+    iconImage: item.data.iconImage,
+    iconImageDark: item.data.iconImageDark,
+  }));
+const workplaces_edu = workplaces.concat(education);
+const workplaces_edu_count = (await getCollection("workplaces")).length + (await getCollection("education")).length;
+
+const projects = (await getCollection("projects"))
+  .sort((a, b) => a.data.order - b.data.order)
+  .filter((p) => p.data.personal != true && p.data.archived != true)
+  .map((item) => ({
+    url: "/projects/" + item.slug,
+    title: item.data.title,
+    iconImage: item.data.iconImage,
+    iconImageDark: item.data.iconImageDark,
+  }));
+const projects_count = (await getCollection("projects")).length;
+
+const talks = await getCollection("talks");
+---
+
+<BaseLayout>
+  <div class="mb-5">
+    <img src="/me.png" class="mx-auto my-5 w-1/2 rounded-full md:hidden" alt="Joon Klaps" />
+    <PageTitle extraClass="text-center md:text-left">Hi there!</PageTitle>
+    <p class="mb-3 text-center text-xl md:text-left">
+      I'm a molecular epidemiology PhD student living in Belgium 🇧🇪.
+    </p>
+    <p class="text-center text-base font-light opacity-80 md:text-left">
+      I work with high-throughput genomic data of viruses.
+    </p>
+  </div>
+  <div class="mb-5 text-center md:text-left">
+    <HomepageButton href="https://github.com/Joon-Klaps/" icon="mdi:github" title="GitHub" />
+    <HomepageButton href="http://uk.linkedin.com/in/joon-k-5183a7198" icon="mdi:linkedin" title="LinkedIn" />
+    <HomepageButton href="https://bsky.app/profile/joon-klaps.bsky.social" icon="simple-icons:bluesky" title="Bluesky" />
+    <HomepageButton href="http://orcid.org/0000-0002-2507-0430" icon="simple-icons:orcid" title="ORCiD" />
+    <HomepageButton
+      href="https://scholar.google.se/citations?hl=nl&user=7txje8gAAAAJ&view_op=list_works&sortby=pubdate"
+      title="Google Scholar"
+      icon="simple-icons:googlescholar"
+    />
+  </div>
+
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+    <HomepageCard
+      title="Where I've worked"
+      description="I'm a biochemical engineer turned epidemiologists with a love for workflows."
+      href="/work"
+      items={workplaces_edu}
+      plus={workplaces_edu_count - workplaces_edu.length}
+    />
+    <HomepageCard
+      title="Projects"
+      description="Explore some of the projects I've worked on."
+      href="/projects"
+      items={projects}
+      plus={projects_count - projects.length}
+    />
+    <HomepageCard
+      title="Publications"
+      description="Delve into journal articles that I've written or worked on."
+      href="/publications"
+      btn_text="Read publications"
+      btn_badge={Object.keys(publications).length}
+    />
+    <HomepageCard
+      title="Contact me"
+      description="Feel free to drop me a line via Slack, bluesky, email or the website contact form."
+      href="/contact"
+      btn_text="Contact me"
+    />
+  </div>
+</BaseLayout>

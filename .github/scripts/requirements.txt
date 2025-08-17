@@ -1,0 +1,7 @@
+rich
+requests
+typer
+PyYAML
+unidecode
+questionary
+biopython

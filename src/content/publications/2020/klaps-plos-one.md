@@ -1,0 +1,9 @@
+---
+doi: 10.1371/journal.pone.0240093
+title: Candida metrosideri pro tempore sp. nov. and Candida ohialehuae pro tempore sp. nov., two antifungal-resistant yeasts associated with Metrosideros polymorpha flowers in Hawaii
+journal: PLOS ONE
+pubDate: 2020-10-08
+---
+
+## Abstract
+Flowers produce an array of nutrient-rich exudates in which microbes can thrive, making them hotspots for microbial abundance and diversity. During a diversity study of yeasts inhabiting the flowers of Metrosideros polymorpha (Myrtaceae) in the Hawai’i Volcanoes National Park (HI, USA), five isolates were found to represent two novel species. Morphological and physiological characterization, and sequence analysis of the small subunit ribosomal RNA (rRNA) genes, the D1/D2 domains of the large subunit rRNA genes, the internal transcribed spacer (ITS) regions, and the genes encoding the largest and second largest subunits of the RNA polymerase II (RPB1 and RPB2, respectively), classified both species in the family Metschnikowiaceae, and we propose the names Candida metrosideri pro tempore sp. nov. (JK22T = CBS 16091 = MUCL 57821) and Candida ohialehuae pro tempore sp. nov. (JK58.2T = CBS 16092 = MUCL 57822) for such new taxa. Both novel Candida species form a well-supported subclade in the Metschnikowiaceae containing species associated with insects, flowers, and a few species of clinical importance. The ascosporic state of the novel species was not observed. The two novel yeast species showed elevated minimum inhibitory concentrations to the antifungal drug amphotericin B (>4 μg/mL). The ecology and phylogenetic relationships of C. metrosideri and C. ohialehuae are also discussed.

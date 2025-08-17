@@ -1,0 +1,3331 @@
+{
+  "10.1093/bioinformatics/btae721": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2025-07-30T11:43:53Z",
+      "timestamp": 1753875833070,
+      "version": "3.41.2"
+    },
+    "reference-count": 19,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              29
+            ]
+          ],
+          "date-time": "2024-11-29T00:00:00Z",
+          "timestamp": 1732838400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Research Foundation \u2013 Flanders"
+      },
+      {
+        "name": "European Union Horizon 2020 project MOOD",
+        "award": [
+          "874850"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Bayesian phylogeographic analyses are pivotal in reconstructing the spatio-temporal dispersal histories of pathogens. However, interpreting the complex outcomes of phylogeographic reconstructions requires sophisticated visualization tools.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>To meet this challenge, we developed spread.gl, an open-source, feature-rich browser application offering a smooth and intuitive visualization tool for both discrete and continuous phylogeographic inferences, including the animation of pathogen geographic dispersal through time. Spread.gl can render and combine the visualization of multiple layers that contain information extracted from the input phylogeny and diverse environmental data layers, enabling researchers to explore which environmental factors may have impacted pathogen dispersal patterns before conducting formal testing. We showcase the visualization features of spread.gl with representative examples, including the smooth animation of a phylogeographic reconstruction based on &amp;gt;17\u00a0000 SARS-CoV-2 genomic sequences.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>Source code, installation instructions, example input data, and outputs of spread.gl are accessible at https://github.com/GuyBaele/SpreadGL.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/bioinformatics/btae721",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2024-12-03T22:33:06Z",
+      "timestamp": 1733265186000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "spread.gl: visualizing pathogen dispersal in a high-performance browser application"
+    ],
+    "prefix": "10.1093",
+    "volume": "40",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-9939-8192",
+        "authenticated-orcid": false,
+        "given": "Yimin",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          },
+          {
+            "name": "Spatial Epidemiology Lab (SpELL), Universit\u00e9 Libre de Bruxelles , Brussels 1050,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0532-0658",
+        "authenticated-orcid": false,
+        "given": "Nena",
+        "family": "Bollen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          },
+          {
+            "name": "Spatial Epidemiology Lab (SpELL), Universit\u00e9 Libre de Bruxelles , Brussels 1050,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6354-4943",
+        "authenticated-orcid": false,
+        "given": "Samuel L",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-2134-1515",
+        "authenticated-orcid": false,
+        "given": "Marius",
+        "family": "Brusselmans",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7760-2112",
+        "authenticated-orcid": false,
+        "given": "Fabiana",
+        "family": "Gambaro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Spatial Epidemiology Lab (SpELL), Universit\u00e9 Libre de Bruxelles , Brussels 1050,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2507-0430",
+        "authenticated-orcid": false,
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9818-479X",
+        "authenticated-orcid": false,
+        "given": "Marc A",
+        "family": "Suchard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomathematics, David Geffen School of Medicine, University of California Los Angeles , Los Angeles, CA 90095,",
+            "place": [
+              "United States"
+            ]
+          },
+          {
+            "name": "Department of Biostatistics, Fielding School of Public Health, University of California Los Angeles , Los Angeles, CA 90095,",
+            "place": [
+              "United States"
+            ]
+          },
+          {
+            "name": "Department of Human Genetics, David Geffen School of Medicine, University of California Los Angeles , Los Angeles, CA 90095,",
+            "place": [
+              "United States"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4337-3707",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "Rambaut",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Ecology and Evolution, University of Edinburgh , Edinburgh, EH9 3FL,",
+            "place": [
+              "United Kingdom"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2826-5353",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9558-1052",
+        "authenticated-orcid": false,
+        "given": "Simon",
+        "family": "Dellicour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          },
+          {
+            "name": "Spatial Epidemiology Lab (SpELL), Universit\u00e9 Libre de Bruxelles , Brussels 1050,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1915-7732",
+        "authenticated-orcid": false,
+        "given": "Guy",
+        "family": "Baele",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven , Leuven 3000,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2024121804355793600_btae721-B1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2167",
+        "DOI": "10.1093/molbev/msw082",
+        "article-title": "SpreaD3: interactive visualization of spatiotemporal history and trait evolutionary processes",
+        "volume": "33",
+        "author": "Bielejec",
+        "year": "2016",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2910",
+        "DOI": "10.1093/bioinformatics/btr481",
+        "article-title": "SPREAD: spatial phylogenetic reconstruction of evolutionary dynamics",
+        "volume": "27",
+        "author": "Bielejec",
+        "year": "2011",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024121804355793600_btae721-B3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006650",
+        "DOI": "10.1371/journal.pcbi.1006650",
+        "article-title": "Beast 2.5: an advanced software platform for Bayesian evolutionary analysis",
+        "volume": "15",
+        "author": "Bouckaert",
+        "year": "2019",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "year": "2012",
+        "author": "Coles",
+        "key": "2024121804355793600_btae721-B4"
+      },
+      {
+        "key": "2024121804355793600_btae721-B5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3204",
+        "DOI": "10.1093/bioinformatics/btw384",
+        "article-title": "SERAPHIM: studying environmental rasters and phylogenetically informed movements",
+        "volume": "32",
+        "author": "Dellicour",
+        "year": "2016",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024121804355793600_btae721-B6",
+        "doi-asserted-by": "crossref",
+        "first-page": "4302",
+        "DOI": "10.1002/joc.5086",
+        "article-title": "WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas",
+        "volume": "37",
+        "author": "Fick",
+        "year": "2017",
+        "journal-title": "Int J Climatol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B7",
+        "doi-asserted-by": "crossref",
+        "first-page": "4121",
+        "DOI": "10.1093/bioinformatics/bty407",
+        "article-title": "Nextstrain: real-time tracking of pathogen evolution",
+        "volume": "34",
+        "author": "Hadfield",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024121804355793600_btae721-B8",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1038/s41597-020-0453-3",
+        "article-title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+        "volume": "7",
+        "author": "Harris",
+        "year": "2020",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "2024121804355793600_btae721-B9",
+        "doi-asserted-by": "crossref",
+        "first-page": "msab364",
+        "DOI": "10.1093/molbev/msab364",
+        "article-title": "Phylogeography reveals association between swine trade and the spread of porcine epidemic diarrhea virus in China and across the world",
+        "volume": "39",
+        "author": "He",
+        "year": "2022",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "year": "2022",
+        "author": "Hill",
+        "key": "2024121804355793600_btae721-B10"
+      },
+      {
+        "key": "2024121804355793600_btae721-B11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2069",
+        "DOI": "10.1093/molbev/msz131",
+        "article-title": "A fast likelihood method to reconstruct and visualize ancestral scenarios",
+        "volume": "36",
+        "author": "Ishikawa",
+        "year": "2019",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008561",
+        "DOI": "10.1371/journal.pcbi.1008561",
+        "article-title": "Sampling bias and model choice in continuous phylogeography: getting lost on a random walk",
+        "volume": "17",
+        "author": "Kalkauskas",
+        "year": "2021",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "889",
+        "DOI": "10.1126/science.abj0113",
+        "article-title": "Spatiotemporal invasion dynamics of SARS-CoV-2 lineage B.1.1.7 emergence",
+        "volume": "373",
+        "author": "Kraemer",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2024121804355793600_btae721-B14",
+        "doi-asserted-by": "crossref",
+        "first-page": "vead010",
+        "DOI": "10.1093/ve/vead010",
+        "article-title": "Impact and mitigation of sampling bias to determine viral spread: evaluating discrete phylogeography through CTMC modeling and structured coalescent model approximations",
+        "volume": "9",
+        "author": "Layan",
+        "year": "2023",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1000520",
+        "DOI": "10.1371/journal.pcbi.1000520",
+        "article-title": "Bayesian phylogeography finds its roots",
+        "volume": "5",
+        "author": "Lemey",
+        "year": "2009",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1877",
+        "DOI": "10.1093/molbev/msq067",
+        "article-title": "Phylogeography takes a relaxed random walk in continuous space and time",
+        "volume": "27",
+        "author": "Lemey",
+        "year": "2010",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B17",
+        "doi-asserted-by": "crossref",
+        "first-page": "veac088",
+        "DOI": "10.1093/ve/veac088",
+        "article-title": "SPREAD 4: online visualisation of pathogen phylogeographic reconstructions",
+        "volume": "8",
+        "author": "Nahata",
+        "year": "2022",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B18",
+        "doi-asserted-by": "crossref",
+        "first-page": "vex042",
+        "DOI": "10.1093/ve/vex042",
+        "article-title": "TreeTime: maximum-likelihood phylodynamic analysis",
+        "volume": "4",
+        "author": "Sagulenko",
+        "year": "2018",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024121804355793600_btae721-B19",
+        "doi-asserted-by": "crossref",
+        "first-page": "vey016",
+        "DOI": "10.1093/ve/vey016",
+        "article-title": "Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10",
+        "volume": "4",
+        "author": "Suchard",
+        "year": "2018",
+        "journal-title": "Virus Evol"
+      }
+    ],
+    "container-title": [
+      "Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btae721/60923725/btae721.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/bioinformatics/article-pdf/40/12/btae721/61219276/btae721.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/bioinformatics/article-pdf/40/12/btae721/61219276/btae721.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2024-12-18T04:36:34Z",
+      "timestamp": 1734496594000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btae721/7914009"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Russell",
+        "family": "Schwartz",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            28
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/bioinformatics/btae721",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2024.06.04.24308447",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1367-4811"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1367-4811"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "article-number": "btae721"
+  },
+  "10.1371/journal.pone.0240093": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2025-05-28T09:28:06Z",
+      "timestamp": 1748424486248,
+      "version": "3.37.3"
+    },
+    "reference-count": 64,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2020-10-08T00:00:00Z",
+          "timestamp": 1602115200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JU2856/2\u20132"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Spanish Ministry of Science",
+        "award": [
+          "RYC2018-023847-I"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "DOI": "10.1371/journal.pone.0240093",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2020-10-08T17:54:47Z",
+      "timestamp": 1602179687000
+    },
+    "page": "e0240093",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Candida metrosideri pro tempore sp. nov. and Candida ohialehuae pro tempore sp. nov., two antifungal-resistant yeasts associated with Metrosideros polymorpha flowers in Hawaii"
+    ],
+    "prefix": "10.1371",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2507-0430",
+        "authenticated-orcid": true,
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Clara",
+        "family": "de Vega",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlos M.",
+        "family": "Herrera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert R.",
+        "family": "Junker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bart",
+        "family": "Lievens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6587-8995",
+        "authenticated-orcid": true,
+        "given": "Sergio",
+        "family": "\u00c1lvarez-P\u00e9rez",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pone.0240093.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1139/cjb-2013-0166",
+        "article-title": "The microbial ecology of flowers: an emerging frontier in phyllosphere research",
+        "volume": "92",
+        "author": "K Aleklett",
+        "year": "2014",
+        "journal-title": "Botany"
+      },
+      {
+        "issue": "5",
+        "key": "pone.0240093.ref002",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/femsyr/fox054",
+        "article-title": "Flowers as a reservoir of yeast diversity: description of Wickerhamiella nectarea f.a. sp. nov., and Wickerhamiella natalensis f.a. sp. nov. from South African flowers and pollinators, and transfer of related Candida species to the genus Wickerhamiella as new combinations",
+        "volume": "17",
+        "author": "C de Vega",
+        "year": "2017",
+        "journal-title": "FEMS Yeast Res"
+      },
+      {
+        "key": "pone.0240093.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s40694-019-0091-8",
+        "article-title": "Towards a better understanding of the role of fungi in plant-animal interactions",
+        "volume": "7",
+        "author": "J Klaps",
+        "year": "2020",
+        "journal-title": "Fungal Biol Biotechnol"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1476",
+        "DOI": "10.1099/ijsem.0.000905",
+        "article-title": "Starmerella orientalis f.a., sp. nov., an ascomycetous yeast species isolated from flowers",
+        "volume": "66",
+        "author": "N Alimadadi",
+        "year": "2016",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0240093.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "2299",
+        "DOI": "10.1099/ijsem.0.002829",
+        "article-title": "Starmerella reginensis f.a., sp. nov. and Starmerella kourouensis f.a., sp. nov., isolated from flowers in French Guiana",
+        "volume": "68",
+        "author": "TLS Amoikon",
+        "year": "2018",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0240093.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "2028",
+        "DOI": "10.1099/ijsem.0.002784",
+        "article-title": "Metschnikowia maroccana f.a., sp. nov., a new yeast species associated with floral nectar from Morocco",
+        "volume": "68",
+        "author": "C de Vega",
+        "year": "2018",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "Pt 10",
+        "key": "pone.0240093.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "2538",
+        "DOI": "10.1099/ijs.0.040790-0",
+        "article-title": "Metschnikowia proteae sp. nov., a nectarivorous insect-associated yeast species from Africa",
+        "volume": "62",
+        "author": "C de Vega",
+        "year": "2012",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "Pt 11",
+        "key": "pone.0240093.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "3724",
+        "DOI": "10.1099/ijs.0.068445-0",
+        "article-title": "Metschnikowia drakensbergensis sp. nov. and Metschnikowia caudata sp. nov., endemic yeasts associated with Protea flowers in South Africa",
+        "volume": "64",
+        "author": "C de Vega",
+        "year": "2014",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0240093.ref009",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1016/S1567-1356(03)00149-1",
+        "article-title": "Geography and niche occupancy as determinants of yeast biodiversity: the yeast\u2013insect\u2013morning glory ecosystem of K\u00edpuka Puaulu, Hawai\u2019i",
+        "volume": "4",
+        "author": "MA Lachance",
+        "year": "2003",
+        "journal-title": "FEMS Yeast Res"
+      },
+      {
+        "issue": "Pt 3",
+        "key": "pone.0240093.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1369",
+        "DOI": "10.1099/ijs.0.63615-0",
+        "article-title": "Metschnikowia hamakuensis sp. nov., Metschnikowia kamakouana sp. nov. and Metschnikowia mauinuiana sp. nov., three endemic yeasts from Hawaiian nitidulid beetles",
+        "volume": "55",
+        "author": "MA Lachance",
+        "year": "2005",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0240093.ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "563",
+        "DOI": "10.1002/yea.3208",
+        "article-title": "Metschnikowia: half tetrads, a regicide and the fountain of youth",
+        "volume": "33",
+        "author": "MA Lachance",
+        "year": "2016",
+        "journal-title": "Yeast"
+      },
+      {
+        "issue": "Pt 1",
+        "key": "pone.0240093.ref012",
+        "first-page": "388",
+        "article-title": "Starmerella jinningensis sp. nov., a yeast species isolated from flowers of Erianthus rufipilus",
+        "volume": "63",
+        "author": "SL Li",
+        "year": "2013",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "Pt 4",
+        "key": "pone.0240093.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "914",
+        "DOI": "10.1099/ijs.0.003939-0",
+        "article-title": "Jaminaea angkorensis gen. nov., sp. nov., a novel anamorphic fungus containing an S943 nuclear small-subunit rRNA group IB intron represents a basal branch of Microstromatales",
+        "volume": "59",
+        "author": "M Sipiczki",
+        "year": "2009",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "847",
+        "DOI": "10.1007/s10482-015-0377-7",
+        "article-title": "Starmerella syriaca f.a., sp. nov., an osmotolerant yeast species isolated from flowers in Syria",
+        "volume": "107",
+        "author": "M Sipiczki",
+        "year": "2015",
+        "journal-title": "Antonie Van Leeuwenhoek"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "e01397",
+        "DOI": "10.1128/mBio.01397-19",
+        "article-title": "On the Emergence of Candida auris: climate change, azoles, swamps, and birds",
+        "volume": "10",
+        "author": "A Casadevall",
+        "year": "2019",
+        "journal-title": "mBio"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0240093.ref016",
+        "doi-asserted-by": "crossref",
+        "first-page": "3641",
+        "DOI": "10.1128/JCM.02248-12",
+        "article-title": "Reclassification of the Candida haemulonii complex as Candida haemulonii (C. haemulonii group I), C. duobushaemulonii sp. nov. (C. haemulonii group II), and C. haemulonii var. vulnera var. nov.: three multiresistant human pathogenic yeasts",
+        "volume": "50",
+        "author": "E Cendejas-Bueno",
+        "year": "2012",
+        "journal-title": "J Clin Microbiol"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "e01588",
+        "DOI": "10.1128/JCM.01588-17",
+        "article-title": "Candida auris: an emerging fungal pathogen",
+        "volume": "56",
+        "author": "ES Spivak",
+        "year": "2018",
+        "journal-title": "J Clin Microbiol"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "891",
+        "DOI": "10.1093/jac/dkx480",
+        "article-title": "A multicenter study of antifungal susceptibility patterns among 350 Candida auris isolates (2009\u201317) in India: role of the ERG11 and FKS1 genes in azole and echinocandin resistance",
+        "volume": "73",
+        "author": "A Chowdhary",
+        "year": "2018",
+        "journal-title": "J Antimicrob Chemother"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.1111/j.1567-1364.2008.00372.x",
+        "article-title": "Candida ruellia sp. nov., a novel yeast species isolated from flowers of Ruellia sp. (Acanthaceae)",
+        "volume": "8",
+        "author": "P Saluja",
+        "year": "2008",
+        "journal-title": "FEMS Yeast Res"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0240093.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "4009",
+        "DOI": "10.1099/ijsem.0.001302",
+        "article-title": "Candida vulturna pro tempore sp. nov., a dimorphic yeast species related to the Candida haemulonis species complex isolated from flowers and clinical sample",
+        "volume": "66",
+        "author": "M Sipiczki",
+        "year": "2016",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0240093.ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1111/j.1348-0421.2006.tb03816.x",
+        "article-title": "Candida pseudohaemulonii sp. nov., an amphotericin B- and azole-resistant yeast species, isolated from the blood of a patient from Thailand",
+        "volume": "50",
+        "author": "T Sugita",
+        "year": "2006",
+        "journal-title": "Microbiol Immunol"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0240093.ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "fiv097",
+        "DOI": "10.1093/femsec/fiv097",
+        "article-title": "Microhabitat heterogeneity across leaves and flower organs promotes bacterial diversity",
+        "volume": "91",
+        "author": "RR Junker",
+        "year": "2015",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "key": "pone.0240093.ref023",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4419-8686-3",
+        "volume-title": "Vegetation of the Tropical Pacific Islands",
+        "author": "D Mueller-Dombois",
+        "year": "1998"
+      },
+      {
+        "key": "pone.0240093.ref024",
+        "first-page": "964",
+        "volume-title": "Manual of the flowering plants of Hawai'i",
+        "author": "JW Dawson",
+        "year": "1999"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1080/0028825X.2004.9512903",
+        "article-title": "Morphological and genetic variation within Metrosideros polymorpha (Myrtaceae) on Hawai'i",
+        "volume": "42",
+        "author": "SA James",
+        "year": "2004",
+        "journal-title": "N Z J Bot"
+      },
+      {
+        "key": "pone.0240093.ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "729",
+        "DOI": "10.2307/1369181",
+        "article-title": "Demography and movements of Apapane and Iiwi in Hawaii",
+        "volume": "97",
+        "author": "CJ Ralph",
+        "year": "1995",
+        "journal-title": "Condor"
+      },
+      {
+        "key": "pone.0240093.ref027",
+        "doi-asserted-by": "crossref",
+        "first-page": "760",
+        "DOI": "10.1111/j.1365-2311.2010.01237.x",
+        "article-title": "Intra-floral resource partitioning between endemic and invasive flower visitors: consequences for pollinator effectiveness",
+        "volume": "35",
+        "author": "RR Junker",
+        "year": "2010",
+        "journal-title": "Ecological Entomology"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0240093.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1111/1365-2664.12027",
+        "article-title": "Invasive species management restores a plant\u2013pollinator mutualism in Hawaii",
+        "volume": "50",
+        "author": "C Hanna",
+        "year": "2013",
+        "journal-title": "J Appl Ecol"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0240093.ref029",
+        "doi-asserted-by": "crossref",
+        "first-page": "1622",
+        "DOI": "10.1890/13-1276.1",
+        "article-title": "Competitive impacts of an invasive nectar thief on plant\u2013pollinator mutualisms",
+        "volume": "95",
+        "author": "C Hanna",
+        "year": "2014",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.3109/13693780903095414",
+        "article-title": "Mating type and invasiveness are significantly associated in Aspergillus fumigatus",
+        "volume": "48",
+        "author": "S Alvarez-Perez",
+        "year": "2010",
+        "journal-title": "Med Mycol"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref031",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1023/A:1001761008817",
+        "article-title": "Identification and phylogeny of ascomycetous yeasts from analysis of nuclear large subunit (26S) ribosomal DNA partial sequences",
+        "volume": "73",
+        "author": "CP Kurtzman",
+        "year": "1998",
+        "journal-title": "Antonie Van Leeuwenhoek"
+      },
+      {
+        "issue": "12",
+        "key": "pone.0240093.ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "1799",
+        "DOI": "10.1093/oxfordjournals.molbev.a026092",
+        "article-title": "Phylogenetic relationships among ascomycetes: evidence from an RNA polymerase II subunit",
+        "volume": "16",
+        "author": "YJ Liu",
+        "year": "1999",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref033",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.7171/jbt.12-2303-004",
+        "article-title": "SeqTrace: a graphical tool for rapidly processing dna sequencing chromatograms",
+        "volume": "23",
+        "author": "JB Stucky",
+        "year": "2012",
+        "journal-title": "J Biomol Tech"
+      },
+      {
+        "issue": "5",
+        "key": "pone.0240093.ref034",
+        "doi-asserted-by": "crossref",
+        "first-page": "1792",
+        "DOI": "10.1093/nar/gkh340",
+        "article-title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+        "volume": "32",
+        "author": "RC Edgar",
+        "year": "2004",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0240093.ref035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1547",
+        "DOI": "10.1093/molbev/msy096",
+        "article-title": "MEGA X: Molecular evolutionary genetics analysis across computing platforms",
+        "volume": "35",
+        "author": "S Kumar",
+        "year": "2018",
+        "journal-title": "Mol Biol Evol"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref036",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1093/sysbio/syq010",
+        "article-title": "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0",
+        "volume": "59",
+        "author": "S Guindon",
+        "year": "2010",
+        "journal-title": "Syst Biol"
+      },
+      {
+        "issue": "8",
+        "key": "pone.0240093.ref037",
+        "doi-asserted-by": "crossref",
+        "first-page": "772",
+        "DOI": "10.1038/nmeth.2109",
+        "article-title": "jModelTest 2: more models, new heuristics and parallel computing",
+        "volume": "9",
+        "author": "D Darriba",
+        "year": "2012",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "pone.0240093.ref038",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1016/B978-0-444-52149-1.00007-0",
+        "volume-title": "The Yeasts, a Taxonomic Study",
+        "author": "CP Kurtzman",
+        "year": "2011"
+      },
+      {
+        "issue": "Pt 3",
+        "key": "pone.0240093.ref039",
+        "doi-asserted-by": "crossref",
+        "first-page": "1351",
+        "DOI": "10.1099/00207713-50-3-1351",
+        "article-title": "Biodiversity and systematics of basidiomycetous yeasts as determined by large-subunit rDNA D1/D2 domain sequence analysis",
+        "volume": "50",
+        "author": "JW Fell",
+        "year": "2000",
+        "journal-title": "Int J Syst Evol Microbiol"
+      },
+      {
+        "key": "pone.0240093.ref040",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.simyco.2016.11.007",
+        "article-title": "DNA barcoding analysis of more than 9000 yeast isolates contributes to quantitative thresholds for yeast species and genera delimitation",
+        "volume": "85",
+        "author": "D Vu",
+        "year": "2016",
+        "journal-title": "Stud Mycol"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1016/S1567-1356(03)00113-2",
+        "article-title": "The D1/D2 domain of the large-subunit rDNA of the yeast species Clavispora lusitaniae is unusually polymorphic",
+        "volume": "4",
+        "author": "MA Lachance",
+        "year": "2003",
+        "journal-title": "FEMS Yeast Res"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0240093.ref042",
+        "doi-asserted-by": "crossref",
+        "first-page": "1533",
+        "DOI": "10.1016/j.cell.2018.10.023",
+        "article-title": "Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum",
+        "volume": "175",
+        "author": "XX Shen",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "pone.0240093.ref043",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.simyco.2015.10.004",
+        "article-title": "Multigene phylogeny and taxonomic revision of yeasts and related fungi in the Ustilaginomycotina",
+        "volume": "81",
+        "author": "QM Wang",
+        "year": "2015",
+        "journal-title": "Stud Mycol"
+      },
+      {
+        "issue": "30",
+        "key": "pone.0240093.ref044",
+        "doi-asserted-by": "crossref",
+        "first-page": "10426",
+        "DOI": "10.1073/pnas.0801628105",
+        "article-title": "Chronic intake of fermented floral nectar by wild treeshrews",
+        "volume": "105",
+        "author": "F Wiens",
+        "year": "2008",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pone.0240093.ref045",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1186/s12866-015-0504-7",
+        "article-title": "Changes in the hemolytic activity of Candida species by common electrolytes",
+        "volume": "15",
+        "author": "L Wan",
+        "year": "2015",
+        "journal-title": "BMC Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0240093.ref046",
+        "first-page": "195",
+        "article-title": "Multidrug-Resistant Candida haemulonii and C. auris, Tel Aviv, Israel",
+        "volume": "23",
+        "author": "R Ben-Ami",
+        "year": "2017",
+        "journal-title": "Emerg Infect Dis"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref047",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1007/s10482-010-9451-3",
+        "article-title": "Candida chanthaburiensis sp. nov., Candida kungkrabaensis sp. nov. and Candida suratensis sp. nov., three novel yeast species from decaying plant materials submerged in water of mangrove forests",
+        "volume": "98",
+        "author": "S Limtong",
+        "year": "2010",
+        "journal-title": "Antonie Van Leeuwenhoek"
+      },
+      {
+        "issue": "8",
+        "key": "pone.0240093.ref048",
+        "doi-asserted-by": "crossref",
+        "first-page": "1481",
+        "DOI": "10.1007/s11274-013-1313-5",
+        "article-title": "Candida konsanensis sp. nov., a new yeast species isolated from Jasminum adenophyllum in Thailand with potentially carboxymethyl cellulase-producing capability",
+        "volume": "29",
+        "author": "S Sarawan",
+        "year": "2013",
+        "journal-title": "World J Microbiol Biotechnol"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref049",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1007/s10482-008-9238-y",
+        "article-title": "Candida alocasiicola sp. nov., Candida hainanensis sp. nov., Candida heveicola sp. nov. and Candida musiphila sp. nov., novel anamorphic, ascomycetous yeast species isolated from plants",
+        "volume": "94",
+        "author": "SA Wang",
+        "year": "2008",
+        "journal-title": "Antonie Van Leeuwenhoek"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref050",
+        "doi-asserted-by": "crossref",
+        "first-page": "foz032",
+        "DOI": "10.1093/femsyr/foz032",
+        "article-title": "Pathogenic budding yeasts isolated outside of clinical settings",
+        "volume": "19",
+        "author": "DA Opulente",
+        "year": "2019",
+        "journal-title": "FEMS Yeast Res"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0240093.ref051",
+        "doi-asserted-by": "crossref",
+        "first-page": "1378",
+        "DOI": "10.1016/j.bbadis.2013.03.008",
+        "article-title": "Invertebrate models of fungal infection",
+        "volume": "1832",
+        "author": "M Arvanitis",
+        "year": "2013",
+        "journal-title": "Biochim Biophys Acta"
+      },
+      {
+        "key": "pone.0240093.ref052",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1016/j.jim.2014.03.022",
+        "article-title": "Overview of vertebrate animal models of fungal infection",
+        "volume": "410",
+        "author": "TM Hohl",
+        "year": "2014",
+        "journal-title": "J Immunol Methods"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref053",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1128/AAC.34.2.183",
+        "article-title": "Amphotericin B: current understanding of mechanisms of action",
+        "volume": "34",
+        "author": "J Brajtburg",
+        "year": "1990",
+        "journal-title": "Antimicrob Agents Chemother"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0240093.ref054",
+        "doi-asserted-by": "crossref",
+        "first-page": "2234",
+        "DOI": "10.1073/pnas.1117280109",
+        "article-title": "Amphotericin primarily kills yeast by simply binding ergosterol",
+        "volume": "109",
+        "author": "KC Gray",
+        "year": "2012",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "issue": "Suppl 1",
+        "key": "pone.0240093.ref055",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1093/jac/49.suppl_1.7",
+        "article-title": "Amphotericin B: spectrum and resistance",
+        "volume": "49",
+        "author": "D Ellis",
+        "year": "2002",
+        "journal-title": "J Antimicrob Chemother"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0240093.ref056",
+        "doi-asserted-by": "crossref",
+        "first-page": "2326",
+        "DOI": "10.1128/AAC.02681-15",
+        "article-title": "Cell wall changes in amphotericin B-resistant strains from Candida tropicalis and relationship with the immune responses elicited by the host",
+        "volume": "60",
+        "author": "AC Mesa-Arango",
+        "year": "2016",
+        "journal-title": "Antimicrob Agents Chemother"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0240093.ref057",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1001692",
+        "DOI": "10.1371/journal.pbio.1001692",
+        "article-title": "Fitness trade-offs restrict the evolution of resistance to amphotericin B",
+        "volume": "11",
+        "author": "BM Vincent",
+        "year": "2013",
+        "journal-title": "PLoS Biol"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0240093.ref058",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1111/j.1574-6941.2012.01329.x",
+        "article-title": "Zooming-in on floral nectar: a first exploration of nectar-associated bacteria in wild plant communities",
+        "volume": "80",
+        "author": "S \u00c1lvarez-P\u00e9rez",
+        "year": "2012",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "issue": "5",
+        "key": "pone.0240093.ref059",
+        "doi-asserted-by": "crossref",
+        "first-page": "393",
+        "DOI": "10.1016/j.tplants.2019.01.012",
+        "article-title": "Yeast-bacterium interactions: the next frontier in nectar research",
+        "volume": "24",
+        "author": "S \u00c1lvarez-P\u00e9rez",
+        "year": "2019",
+        "journal-title": "Trends Plant Sci"
+      },
+      {
+        "issue": "1682",
+        "key": "pone.0240093.ref060",
+        "doi-asserted-by": "crossref",
+        "first-page": "747",
+        "DOI": "10.1098/rspb.2009.1485",
+        "article-title": "Inhospitable sweetness: nectar filtering of pollinator-borne inocula leads to impoverished, phylogenetically clustered yeast communities",
+        "volume": "277",
+        "author": "CM Herrera",
+        "year": "2010",
+        "journal-title": "Proc Biol Sci"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref061",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1111/1462-2920.12570",
+        "article-title": "Microbiology of sugar-rich environments: diversity, ecology and system constraints",
+        "volume": "17",
+        "author": "B Lievens",
+        "year": "2015",
+        "journal-title": "Environ Microbiol"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0240093.ref062",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1016/j.ympev.2013.04.003",
+        "article-title": "Phylogenetic analysis of the angiosperm-floricolous insect\u2013yeast association: Have yeast and angiosperm lineages co-diversified?",
+        "volume": "68",
+        "author": "B Guzm\u00e1n",
+        "year": "2013",
+        "journal-title": "Mol Phylogenet Evol"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0240093.ref063",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1186/s12898-015-0036-x",
+        "article-title": "Nectar sugars and bird visitation define a floral niche for basidiomycetous yeast on the Canary Islands",
+        "volume": "15",
+        "author": "M Mittelbach",
+        "year": "2015",
+        "journal-title": "BMC Ecol"
+      },
+      {
+        "issue": "12",
+        "key": "pone.0240093.ref064",
+        "article-title": "Surviving in the absence of flowers: do nectar yeasts rely on overwintering bumblebee queens to complete their annual life cycle?",
+        "volume": "94",
+        "author": "MI Pozo",
+        "year": "2018",
+        "journal-title": "FEMS Microbiol Ecol"
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0240093",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          22
+        ]
+      ],
+      "date-time": "2022-11-22T17:40:57Z",
+      "timestamp": 1669138857000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0240093"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Andrey M.",
+        "family": "Yurkov",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            8
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0240093",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1932-6203"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    }
+  },
+  "10.1186/s40694-019-0091-8": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2025-08-06T12:11:57Z",
+      "timestamp": 1754482317309,
+      "version": "3.37.3"
+    },
+    "reference-count": 81,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              8
+            ]
+          ],
+          "date-time": "2020-01-08T00:00:00Z",
+          "timestamp": 1578441600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              8
+            ]
+          ],
+          "date-time": "2020-01-08T00:00:00Z",
+          "timestamp": 1578441600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010665",
+        "name": "H2020 Marie Sk\u0142odowska-Curie Actions",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "742964"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010665",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004040",
+        "name": "KU Leuven",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004040",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "Fonds Wetenschappelijk Onderzoek",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100012331",
+        "name": "Agentschap Innoveren en Ondernemen",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100012331",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Fungal Biol Biotechnol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Flowers offer a wide variety of substrates suitable for fungal growth. However, the mycological study of flowers has only recently begun to be systematically addressed from an ecological point of view. Most research on the topic carried out during the last decade has focused on studying the prevalence and diversity of flower-inhabiting yeasts, describing new species retrieved from floral parts and animal pollinators, and the use of select nectar yeasts as model systems to test ecological hypotheses. In this primer article, we summarize the current state of the art in floral nectar mycology and provide an overview of some research areas that, in our view, still require further attention, such as the influence of fungal volatile organic compounds on the foraging behavior of pollinators and other floral visitors, the analysis of the direct and indirect effects of nectar-inhabiting fungi on the fitness of plants and animals, and the nature and consequences of fungal-bacterial interactions taking place within flowers.</jats:p>",
+    "DOI": "10.1186/s40694-019-0091-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2020-01-08T06:02:29Z",
+      "timestamp": 1578463349000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 41,
+    "title": [
+      "Towards a better understanding of the role of nectar-inhabiting yeasts in plant\u2013animal interactions"
+    ],
+    "prefix": "10.1186",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Bart",
+        "family": "Lievens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6587-8995",
+        "authenticated-orcid": false,
+        "given": "Sergio",
+        "family": "\u00c1lvarez-P\u00e9rez",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "91_CR1",
+        "volume-title": "Encyclopedia of entomology",
+        "author": "PG Kevan",
+        "year": "2008",
+        "unstructured": "Kevan PG. Pollination and flower visitation. In: Capinera JL, editor. Encyclopedia of entomology. Dordrecht: Springer; 2008."
+      },
+      {
+        "issue": "2",
+        "key": "91_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "350",
+        "DOI": "10.1111/nph.14312",
+        "volume": "216",
+        "author": "E Moyroud",
+        "year": "2017",
+        "unstructured": "Moyroud E, Glover BJ. The physics of pollinator attraction. New Phytol. 2017;216(2):350\u20134.",
+        "journal-title": "New Phytol"
+      },
+      {
+        "issue": "2",
+        "key": "91_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "571",
+        "DOI": "10.1111/nph.13243",
+        "volume": "206",
+        "author": "FP Schiestl",
+        "year": "2015",
+        "unstructured": "Schiestl FP. Ecology and evolution of floral volatile-mediated information transfer in plants. New Phytol. 2015;206(2):571\u20137.",
+        "journal-title": "New Phytol"
+      },
+      {
+        "issue": "2",
+        "key": "91_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.2307/2398800",
+        "volume": "68",
+        "author": "BB Simpson",
+        "year": "1981",
+        "unstructured": "Simpson BB, Neff JL. Floral rewards: alternatives to pollen and nectar. Ann Missouri Bot Gard. 1981;68(2):301\u201322.",
+        "journal-title": "Ann Missouri Bot Gard."
+      },
+      {
+        "issue": "7",
+        "key": "91_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "e67556",
+        "DOI": "10.1371/journal.pone.0067556",
+        "volume": "8",
+        "author": "Y Aizenberg-Gershtein",
+        "year": "2013",
+        "unstructured": "Aizenberg-Gershtein Y, Izhaki I, Halpern M. Do honeybees shape the bacterial community composition in floral nectar? PLoS ONE. 2013;8(7):e67556.",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "issue": "12",
+        "key": "91_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "fix 150",
+        "DOI": "10.1093/femsec/fix150",
+        "volume": "93",
+        "author": "SL Hausmann",
+        "year": "2017",
+        "unstructured": "Hausmann SL, Tietjen B, Rillig MC. Solving the puzzle of yeast survival in ephemeral nectar systems: exponential growth is not enough. FEMS Microbiol Ecol. 2017;93(12):fix 150.",
+        "journal-title": "FEMS Microbiol Ecol."
+      },
+      {
+        "issue": "9",
+        "key": "91_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "fiv097",
+        "DOI": "10.1093/femsec/fiv097",
+        "volume": "91",
+        "author": "RR Junker",
+        "year": "2015",
+        "unstructured": "Junker RR, Keller A. Microhabitat heterogeneity across leaves and flower organs promotes bacterial diversity. FEMS Microbiol Ecol. 2015;91(9):fiv097.",
+        "journal-title": "FEMS Microbiol Ecol."
+      },
+      {
+        "issue": "6",
+        "key": "91_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "918",
+        "DOI": "10.1111/j.1438-8677.2011.00454.x",
+        "volume": "13",
+        "author": "RR Junker",
+        "year": "2011",
+        "unstructured": "Junker RR, Loewel C, Gross R, D\u00f6tterl S, Keller A, Bl\u00fcthgen N. Composition of epiphytic bacterial communities differs on petals and leaves. Plant Biol (Stuttg). 2011;13(6):918\u201324.",
+        "journal-title": "Plant Biol (Stuttg)"
+      },
+      {
+        "issue": "5",
+        "key": "91_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "e02714",
+        "DOI": "10.1002/ecs2.2714",
+        "volume": "10",
+        "author": "AL Russell",
+        "year": "2019",
+        "unstructured": "Russell AL, Rebolleda-Gomez M, Shaible TM, Ashman T-L. Movers and shakers: bumble bee foraging behavior shapes the dispersal of microbes among and within flowers. Ecosphere. 2019;10(5):e02714.",
+        "journal-title": "Ecosphere."
+      },
+      {
+        "issue": "7",
+        "key": "91_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "901",
+        "DOI": "10.1111/ele.12787",
+        "volume": "20",
+        "author": "RL Vannette",
+        "year": "2017",
+        "unstructured": "Vannette RL, Fukami T. Dispersal enhances beta diversity in nectar microbes. Ecol Lett. 2017;20(7):901\u201310.",
+        "journal-title": "Ecol Lett"
+      },
+      {
+        "issue": "10",
+        "key": "91_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e02459",
+        "DOI": "10.1002/ecs2.2459",
+        "volume": "9",
+        "author": "AT Zemenick",
+        "year": "2018",
+        "unstructured": "Zemenick AT, Rosenheim JA, Vannette RL. Legitimate visitors and nectar robbers of Aquilegia formosa have different effects on nectar bacterial communities. Ecosphere. 2018;9(10):e02459.",
+        "journal-title": "Ecosphere."
+      },
+      {
+        "issue": "1729",
+        "key": "91_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.1098/rspb.2011.1230",
+        "volume": "279",
+        "author": "KG Peay",
+        "year": "2012",
+        "unstructured": "Peay KG, Belisle M, Fukami T. Phylogenetic relatedness predicts priority effects in nectar yeast communities. Proc Biol Sci. 2012;279(1729):749\u201358.",
+        "journal-title": "Proc Biol Sci."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "345",
+        "DOI": "10.1111/oik.04243",
+        "volume": "127",
+        "author": "H Toju",
+        "year": "2018",
+        "unstructured": "Toju H, Vannette RL, Gauthier M-PL, Dhami MK, Fukami T. Priority effects can persist across floral generations in nectar microbial metacommunities. Oikos. 2018;127(3):345\u201352.",
+        "journal-title": "Oikos."
+      },
+      {
+        "issue": "2",
+        "key": "91_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1111/j.1574-6968.2006.00168.x",
+        "volume": "257",
+        "author": "HK Ngugi",
+        "year": "2006",
+        "unstructured": "Ngugi HK, Scherm H. Mimicry in plant-parasitic fungi. FEMS Microbiol Lett. 2006;257(2):171\u20136.",
+        "journal-title": "FEMS Microbiol Lett"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1111/j.1469-8137.2004.01215.x",
+        "volume": "165",
+        "author": "J Antonovics",
+        "year": "2005",
+        "unstructured": "Antonovics J. Plant venereal diseases: insights from a messy metaphor. New Phytol. 2005;165(1):71\u201380.",
+        "journal-title": "New Phytol"
+      },
+      {
+        "key": "91_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1146/annurev.phyto.44.070505.143405",
+        "volume": "44",
+        "author": "HK Ngugi",
+        "year": "2006",
+        "unstructured": "Ngugi HK, Scherm H. Biology of flower-infecting fungi. Annu Rev Phytopathol. 2006;44:261\u201382.",
+        "journal-title": "Annu Rev Phytopathol"
+      },
+      {
+        "key": "91_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.1016/j.plantsci.2017.04.012",
+        "volume": "262",
+        "author": "R Roy",
+        "year": "2017",
+        "unstructured": "Roy R, Schmitt AJ, Thomas JB, Carter CJ. Review: nectar biology: from molecules to ecosystems. Plant Sci. 2017;262:148\u201364.",
+        "journal-title": "Plant Sci"
+      },
+      {
+        "key": "91_CR18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4020-5937-7",
+        "volume-title": "Nectaries and nectar",
+        "author": "SW Nicolson",
+        "year": "2007",
+        "unstructured": "Nicolson SW, Thornburg RW. Nectar chemistry. In: Nicolson SW, Nepi M, Pacini E, editors. Nectaries and nectar. Dordrecht: Springer; 2007."
+      },
+      {
+        "issue": "4",
+        "key": "91_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "253",
+        "DOI": "10.1139/cjb-2013-0166",
+        "volume": "92",
+        "author": "K Aleklett",
+        "year": "2014",
+        "unstructured": "Aleklett K, Hart M, Shade A. The microbial ecology of flowers: an emerging frontier in phyllosphere research. Botany. 2014;92(4):253\u201366.",
+        "journal-title": "Botany."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "685",
+        "DOI": "10.1111/1574-6941.12027",
+        "volume": "83",
+        "author": "S \u00c1lvarez-P\u00e9rez",
+        "year": "2013",
+        "unstructured": "\u00c1lvarez-P\u00e9rez S, Herrera CM. Composition, richness and nonrandom assembly of culturable bacterial-microfungal communities in floral nectar of Mediterranean plants. FEMS Microbiol Ecol. 2013;83(3):685\u201399.",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "issue": "3",
+        "key": "91_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "591",
+        "DOI": "10.1111/j.1574-6941.2012.01329.x",
+        "volume": "80",
+        "author": "S \u00c1lvarez-P\u00e9rez",
+        "year": "2012",
+        "unstructured": "\u00c1lvarez-P\u00e9rez S, Herrera CM, de Vega C. Zooming-in on floral nectar: a first exploration of nectar-associated bacteria in wild plant communities. FEMS Microbiol Ecol. 2012;80(3):591\u2013602.",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "issue": "12",
+        "key": "91_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "5161",
+        "DOI": "10.1111/1462-2920.13524",
+        "volume": "18",
+        "author": "B Ambika Manirajan",
+        "year": "2016",
+        "unstructured": "Ambika Manirajan B, Ratering S, Rusch V, Schwiertz A, Geissler-Plaum R, Cardinale M, Schnell S. Bacterial microbiota associated with flower pollen is influenced by pollination type, and shows a high degree of diversity and species-specificity. Environ Microbiol. 2016;18(12):5161\u201374.",
+        "journal-title": "Environ Microbiol"
+      },
+      {
+        "issue": "8",
+        "key": "91_CR23",
+        "first-page": "fiy112",
+        "volume": "94",
+        "author": "B Ambika Manirajan",
+        "year": "2018",
+        "unstructured": "Ambika Manirajan B, Maisinger C, Ratering S, Rusch V, Schwiertz A, Cardinale M, Schnell S. Diversity, specificity, co-occurrence and hub taxa of the bacterial-fungal pollen microbiome. FEMS Microbiol Ecol. 2018;94(8):fiy112.",
+        "journal-title": "FEMS Microbiol Ecol."
+      },
+      {
+        "issue": "4",
+        "key": "91_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "711",
+        "DOI": "10.1007/s00248-011-9975-8",
+        "volume": "63",
+        "author": "M Belisle",
+        "year": "2012",
+        "unstructured": "Belisle M, Peay KG, Fukami T. Flowers as islands: spatial distribution of nectar-inhabiting microfungi among plants of Mimulus aurantiacus, a hummingbird-pollinated shrub. Microb Ecol. 2012;63(4):711\u20138.",
+        "journal-title": "Microb Ecol"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "97",
+        "DOI": "10.1111/j.1758-2229.2011.00309.x",
+        "volume": "4",
+        "author": "S Fridman",
+        "year": "2012",
+        "unstructured": "Fridman S, Izhaki I, Gerchman Y, Halpern M. Bacterial communities in floral nectar. Environ Microbiol Rep. 2012;4(1):97\u2013104.",
+        "journal-title": "Environ Microbiol Rep."
+      },
+      {
+        "issue": "9",
+        "key": "91_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1415",
+        "DOI": "10.1093/aob/mcp026",
+        "volume": "103",
+        "author": "CM Herrera",
+        "year": "2009",
+        "unstructured": "Herrera CM, de Vega C, Canto A, Pozo MI. Yeasts in floral nectar: a quantitative survey. Ann Bot. 2009;103(9):1415\u201323.",
+        "journal-title": "Ann Bot"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "82",
+        "DOI": "10.1007/s00248-010-9682-x",
+        "volume": "61",
+        "author": "MI Pozo",
+        "year": "2011",
+        "unstructured": "Pozo MI, Herrera CM, Bazaga P. Species richness of yeast communities in floral nectar of southern Spanish plants. Microb Ecol. 2011;61(1):82\u201391.",
+        "journal-title": "Microb Ecol"
+      },
+      {
+        "key": "91_CR28",
+        "volume-title": "Nectar: production, chemical composition and benefits to animals and plants",
+        "author": "M Pozo",
+        "year": "2015",
+        "unstructured": "Pozo M, Lievens B, Jacquemyn H. Impact of microorganisms on the nectar chemistry, pollinator attraction and plant fitness. In: Peck RL, editor. Nectar: production, chemical composition and benefits to animals and plants. New York: Nova Science Publishers Inc.; 2015."
+      },
+      {
+        "key": "91_CR29",
+        "series-title": "Master Thesis",
+        "volume-title": "Analysis of yeast diversity in floral microhabitats from Metrosideros polymorpha Gaud",
+        "author": "J Klaps",
+        "year": "2019",
+        "unstructured": "Klaps J. Analysis of yeast diversity in floral microhabitats from Metrosideros polymorpha Gaud. Master Thesis. Leuven: KU Leuven; 2019."
+      },
+      {
+        "key": "91_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "2369",
+        "DOI": "10.1890/08-0241.1",
+        "volume": "89",
+        "author": "CM Herrera",
+        "year": "2008",
+        "unstructured": "Herrera CM, Garc\u00eda IM, P\u00e9rez R. Invisible floral larcenies: microbial communities degrade floral nectar of bumblebee-pollinated plants. Ecology. 2008;89:2369\u201376.",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "2",
+        "key": "91_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "247",
+        "DOI": "10.1093/aob/mcy132",
+        "volume": "123",
+        "author": "AL Parachnowitsch",
+        "year": "2019",
+        "unstructured": "Parachnowitsch AL, Manson JS, Sletvold N. Evolutionary ecology of nectar. Ann Bot. 2019;123(2):247\u201361.",
+        "journal-title": "Ann Bot"
+      },
+      {
+        "issue": "7",
+        "key": "91_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1343",
+        "DOI": "10.1093/aob/mcy032",
+        "volume": "121",
+        "author": "RL Vannette",
+        "year": "2018",
+        "unstructured": "Vannette RL, Fukami T. Contrasting effects of yeasts and bacteria on floral nectar traits. Ann Bot. 2018;121(7):1343\u20139.",
+        "journal-title": "Ann Bot"
+      },
+      {
+        "key": "91_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "363",
+        "DOI": "10.17660/ActaHortic.2006.704.55",
+        "volume": "704",
+        "author": "B Duffy",
+        "year": "2006",
+        "unstructured": "Duffy B, Vogelsanger J, Schoch B, Holliger E. Biocontrol of Erwinia amylovora using a commercial yeast strain mixture. Acta Hortic. 2006;704:363\u20136.",
+        "journal-title": "Acta Hortic"
+      },
+      {
+        "issue": "5",
+        "key": "91_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "571",
+        "DOI": "10.1094/PHYTO-99-5-0571",
+        "volume": "99",
+        "author": "PL Pusey",
+        "year": "2009",
+        "unstructured": "Pusey PL, Stockwell VO, Mazzola M. Epiphytic bacteria and yeasts on apple blossoms and their potential as antagonists of Erwinia amylovora. Phytopathology. 2009;99(5):571\u201381.",
+        "journal-title": "Phytopathology."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1012",
+        "DOI": "10.1111/nph.16137",
+        "volume": "224",
+        "author": "M Rebolleda-G\u00f3mez",
+        "year": "2019",
+        "unstructured": "Rebolleda-G\u00f3mez M, Forrester NJ, Russell AL, Wei N, Fetters AM, Stephens JD, Ashman T-L. Gazing into the anthosphere: considering how microbes influence floral evolution. New Phytol. 2019;224(3):1012\u201320.",
+        "journal-title": "New Phytol"
+      },
+      {
+        "key": "91_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "216",
+        "DOI": "10.1186/s13068-017-0899-5",
+        "volume": "10",
+        "author": "V Mukherjee",
+        "year": "2017",
+        "unstructured": "Mukherjee V, Radecka D, Aerts G, Verstrepen KJ, Lievens B, Thevelein JM. Phenotypic landscape of non-conventional yeast species for different stress tolerance traits desirable in bioethanol fermentation. Biotechnol Biofuels. 2017;10:216.",
+        "journal-title": "Biotechnol Biofuels"
+      },
+      {
+        "key": "91_CR37",
+        "first-page": "144",
+        "volume": "17",
+        "author": "L Boutroux",
+        "year": "1884",
+        "unstructured": "Boutroux L. Conservation des ferments alcooliques dans la nature. Annales des Sci Naturelles, S\u00e9rie IV, Botanique. 1884;17:144\u2013209.",
+        "journal-title": "Annales des Sci Naturelles, S\u00e9rie IV, Botanique."
+      },
+      {
+        "key": "91_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1186/s12898-016-0072-1",
+        "volume": "16",
+        "author": "J Bartlewicz",
+        "year": "2016",
+        "unstructured": "Bartlewicz J, Lievens B, Honnay O, Jacquemyn H. Microbial diversity in the floral nectar of Linaria vulgaris along an urbanization gradient. BMC Ecol. 2016;16:18.",
+        "journal-title": "BMC Ecol"
+      },
+      {
+        "key": "91_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.1016/j.femsec.2004.06.003",
+        "volume": "50",
+        "author": "M Brysch-Herzberg",
+        "year": "2004",
+        "unstructured": "Brysch-Herzberg M. Ecology of yeasts in plant-bumblebee mutualism in Central Europe. FEMS Microbiol Ecol. 2004;50:87\u2013100.",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "key": "91_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "e3517",
+        "DOI": "10.7717/peerj.3517",
+        "volume": "5",
+        "author": "A Canto",
+        "year": "2017",
+        "unstructured": "Canto A, Herrera CM, Rodriguez R. Nectar-living yeasts of a tropical host plant community: diversity and effects on community-wide floral nectar traits. Peer J. 2017;5:e3517.",
+        "journal-title": "Peer J."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "e56917",
+        "DOI": "10.1371/journal.pone.0056917",
+        "volume": "8",
+        "author": "H Jacquemyn",
+        "year": "2013",
+        "unstructured": "Jacquemyn H, Lenaerts M, Brys R, Willems K, Honnay O, Lievens B. Among-population variation in microbial community structure in the floral nectar of the bee-pollinated forest herb Pulmonaria officinalis L. PLoS ONE. 2013;8(3):e56917.",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "91_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1186/s12898-015-0036-x",
+        "volume": "15",
+        "author": "M Mittelbach",
+        "year": "2015",
+        "unstructured": "Mittelbach M, Yurkov AM, Nocentini D, Nepi M, Weigend M, Begerow D. Nectar sugars and bird visitation define a floral niche for basidiomycetous yeast on the Canary Islands. BMC Ecol. 2015;15:2.",
+        "journal-title": "BMC Ecol"
+      },
+      {
+        "issue": "5",
+        "key": "91_CR43",
+        "doi-asserted-by": "crossref",
+        "first-page": "fox054",
+        "DOI": "10.1093/femsyr/fox054",
+        "volume": "17",
+        "author": "C de Vega",
+        "year": "2017",
+        "unstructured": "de Vega C, Albaladejo RG, Guzm\u00e1n B, Steenhuisen SL, Johnson SD, Herrera CM, Lachance MA. Flowers as a reservoir of yeast diversity: description of Wickerhamiella nectarea f.a. sp. nov., and Wickerhamiella natalensis f.a. sp. nov. from South African flowers and pollinators, and transfer of related Candida species to the genus Wickerhamiella as new combinations. FEMS Yeast Res. 2017;17(5):fox054.",
+        "journal-title": "FEMS Yeast Res."
+      },
+      {
+        "issue": "2",
+        "key": "91_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.1111/j.1574-6941.2011.01286.x",
+        "volume": "80",
+        "author": "MI Pozo",
+        "year": "2012",
+        "unstructured": "Pozo MI, Lachance MA, Herrera CM. Nectar yeasts of two southern Spanish plants: the roles of immigration and physiological traits in community assembly. FEMS Microbiol Ecol. 2012;80(2):281\u201393.",
+        "journal-title": "FEMS Microbiol Ecol"
+      },
+      {
+        "issue": "5",
+        "key": "91_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "393",
+        "DOI": "10.1016/j.tplants.2019.01.012",
+        "volume": "24",
+        "author": "S \u00c1lvarez-P\u00e9rez",
+        "year": "2019",
+        "unstructured": "\u00c1lvarez-P\u00e9rez S, Lievens B, Fukami T. Yeast\u2013bacterium interactions: the next frontier in nectar research. Trends Plant Sci. 2019;24(5):393\u2013401.",
+        "journal-title": "Trends Plant Sci"
+      },
+      {
+        "issue": "1682",
+        "key": "91_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "747",
+        "DOI": "10.1098/rspb.2009.1485",
+        "volume": "277",
+        "author": "CM Herrera",
+        "year": "2010",
+        "unstructured": "Herrera CM, Canto A, Pozo MI, Bazaga P. Inhospitable sweetness: nectar filtering of pollinator-borne inocula leads to impoverished, phylogenetically clustered yeast communities. Proc Biol Sci. 2010;277(1682):747\u201354.",
+        "journal-title": "Proc Biol Sci."
+      },
+      {
+        "issue": "2",
+        "key": "91_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "278",
+        "DOI": "10.1111/1462-2920.12570",
+        "volume": "17",
+        "author": "B Lievens",
+        "year": "2015",
+        "unstructured": "Lievens B, Hallsworth JE, Pozo MI, Belgacem ZB, Stevenson A, Willems KA, Jacquemyn H. Microbiology of sugar-rich environments: diversity, ecology and system constraints. Environ Microbiol. 2015;17(2):278\u201398.",
+        "journal-title": "Environ Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR48",
+        "first-page": "38",
+        "volume": "18",
+        "author": "S Lupo",
+        "year": "2001",
+        "unstructured": "Lupo S, Tiscornia S, Bettucci L. Endophytic fungi from flowers, capsules and seeds of Eucalyptus globulus. Rev Iberoam Micol. 2001;18(1):38\u201341.",
+        "journal-title": "Rev Iberoam Micol."
+      },
+      {
+        "key": "91_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "222",
+        "DOI": "10.1007/S10267-003-0171-7",
+        "volume": "45",
+        "author": "K Sugawara",
+        "year": "2004",
+        "unstructured": "Sugawara K, Ohkubo H, Mikoshiba Y, Yamashita M. Flowers for Neotyphodium endophytes detection: a new observation method using flowers of host grasses. Mycoscience. 2004;45:222\u20136.",
+        "journal-title": "Mycoscience."
+      },
+      {
+        "issue": "4",
+        "key": "91_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "1073",
+        "DOI": "10.1007/s00248-012-0079-x",
+        "volume": "64",
+        "author": "EO Martinson",
+        "year": "2012",
+        "unstructured": "Martinson EO, Herre EA, Machado CA, Arnold AE. Culture-free survey reveals diverse and distinctive fungal communities associated with developing figs (Ficus spp.) in Panama. Microb Ecol. 2012;64(4):1073\u201384.",
+        "journal-title": "Microb Ecol."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1476",
+        "DOI": "10.1099/ijsem.0.000905",
+        "volume": "66",
+        "author": "N Alimadadi",
+        "year": "2016",
+        "unstructured": "Alimadadi N, Soudi MR, Wang SA, Wang QM, Talebpour Z, Bai FY. Starmerella orientalis f.a., sp. nov., an ascomycetous yeast species isolated from flowers. Int J Syst Evol Microbiol. 2016;66(3):1476\u201381.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "7",
+        "key": "91_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "2299",
+        "DOI": "10.1099/ijsem.0.002829",
+        "volume": "68",
+        "author": "TLS Amoikon",
+        "year": "2018",
+        "unstructured": "Amoikon TLS, Grondin C, Dj\u00e9ni TN, Jacques N, Casaregola S. Starmerella reginensis f.a., sp. nov. and Starmerella kourouensis fa, sp. nov, isolated from flowers in French Guiana. Int J Syst Evol Microbiol. 2018;68(7):2299\u2013305.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "10",
+        "key": "91_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "3896",
+        "DOI": "10.1099/ijs.0.055897-0",
+        "volume": "63",
+        "author": "HM Daniel",
+        "year": "2013",
+        "unstructured": "Daniel HM, Rosa CA, S\u00e3o Thiago-Cala\u00e7a PS, Antonini Y, Bastos EM, Evrard P, Huret S, Fidalgo-Jim\u00e9nez A, Lachance MA. Starmerella neotropicalis f. a., sp. nov., a yeast species found in bees and pollen. Int J Syst Evol Microbiol. 2013;63(10):3896\u2013903.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "10",
+        "key": "91_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "2538",
+        "DOI": "10.1099/ijs.0.040790-0",
+        "volume": "62",
+        "author": "C de Vega",
+        "year": "2012",
+        "unstructured": "de Vega C, Guzm\u00e1n B, Lachance MA, Steenhuisen SL, Johnson SD, Herrera CM. Metschnikowia proteae sp. nov., a nectarivorous insect-associated yeast species from Africa. Int J Syst Evol Microbiol. 2012;62(10):2538\u201345.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "11",
+        "key": "91_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "3724",
+        "DOI": "10.1099/ijs.0.068445-0",
+        "volume": "64",
+        "author": "C de Vega",
+        "year": "2014",
+        "unstructured": "de Vega C, Guzm\u00e1n B, Steenhuisen SL, Johnson SD, Herrera CM, Lachance MA. Metschnikowia drakensbergensis sp. nov. and Metschnikowia caudata sp. nov., endemic yeasts associated with Protea flowers in South Africa. Int J Syst Evol Microbiol. 2014;64(11):3724\u201332.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "6",
+        "key": "91_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "2028",
+        "DOI": "10.1099/ijsem.0.002784",
+        "volume": "68",
+        "author": "C de Vega",
+        "year": "2018",
+        "unstructured": "de Vega C, Albaladejo RG, Lachance MA. Metschnikowia maroccana f.a., sp. nov., a new yeast species associated with floral nectar from Morocco. Int J Syst Evol Microbiol. 2018;68(6):2028\u201335.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "10",
+        "key": "91_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "3351",
+        "DOI": "10.1099/ijsem.0.003000",
+        "volume": "68",
+        "author": "MA Lachance",
+        "year": "2018",
+        "unstructured": "Lachance MA, Vale HMM, Sperandio EM, Carvalho AOS, Santos ARO, Grondin C, Jacques N, Casaregola S, Rosa CA. Wickerhamiella dianesei f.a., sp. nov. and Wickerhamiella kurtzmanii f.a., sp. nov., two yeast species isolated from plants and insects. Int J Syst Evol Microbiol. 2018;68(10):3351\u20135.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "1",
+        "key": "91_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "388",
+        "DOI": "10.1099/ijs.0.044081-0",
+        "volume": "63",
+        "author": "SL Li",
+        "year": "2013",
+        "unstructured": "Li SL, Li ZY, Yang LY, Zhou XL, Dong MH, Zhou P, Lai YH, Duan CQ. Starmerella jinningensis sp. nov., a yeast species isolated from flowers of Erianthus rufipilus. Int J Syst Evol Microbiol. 2013;63(1):388\u201392.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "4",
+        "key": "91_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "1333",
+        "DOI": "10.1099/ijsem.0.002675",
+        "volume": "68",
+        "author": "ARO Santos",
+        "year": "2018",
+        "unstructured": "Santos ARO, Leon MP, Barros KO, Freitas LFD, Hughes AFS, Morais PB, Lachance MA, Rosa CA. Starmerella camargoi f.a., sp. nov., Starmerella ilheusensis f.a., sp. nov., Starmerella litoralis f.a., sp. nov., Starmerella opuntiae f.a., sp. nov., Starmerella roubikii f.a., sp. nov. and Starmerella vitae f.a., sp. no, isolated from flowers and bees, and transfer of related Candida species to the genus Starmerella as new combinations. Int J Syst Evol Microbiol. 2018;68(4):1333\u201343.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "4",
+        "key": "91_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "847",
+        "DOI": "10.1007/s10482-015-0377-7",
+        "volume": "107",
+        "author": "M Sipiczki",
+        "year": "2015",
+        "unstructured": "Sipiczki M. Starmerella syriaca f.a., sp. nov., an osmotolerant yeast species isolated from flowers in Syria. Antonie Van Leeuwenhoek. 2015;107(4):847\u201356.",
+        "journal-title": "Antonie Van Leeuwenhoek."
+      },
+      {
+        "issue": "12",
+        "key": "91_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0143189",
+        "DOI": "10.1371/journal.pone.0143189",
+        "volume": "10",
+        "author": "MH Taniwaki",
+        "year": "2015",
+        "unstructured": "Taniwaki MH, Pitt JI, Iamanaka BT, Massi FP, Fungaro MH, Frisvad JC. Penicillium excelsum sp. nov. from the Brazil nut tree ecosystem in the Amazon Basin\u2019. PLoS ONE. 2015;10(12):e0143189.",
+        "journal-title": "PLoS ONE."
+      },
+      {
+        "issue": "3",
+        "key": "91_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1192",
+        "DOI": "10.1099/ijs.0.049767-0",
+        "volume": "63",
+        "author": "VN Thanh",
+        "year": "2013",
+        "unstructured": "Thanh VN, Hien DD, Thom TT. Moniliella byzovii sp. nov., a chlamydospore-forming black yeast isolated from flowers. Int J Syst Evol Microbiol. 2013;63(3):1192\u20136.",
+        "journal-title": "Int J Syst Evol Microbiol."
+      },
+      {
+        "issue": "6",
+        "key": "91_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "417",
+        "DOI": "10.1002/yea.3311",
+        "volume": "35",
+        "author": "CR Chappell",
+        "year": "2018",
+        "unstructured": "Chappell CR, Fukami T. Nectar yeasts: a natural microcosm for ecology. Yeast. 2018;35(6):417\u201323.",
+        "journal-title": "Yeast"
+      },
+      {
+        "issue": "26",
+        "key": "91_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "6745",
+        "DOI": "10.1073/pnas.1801846115",
+        "volume": "115",
+        "author": "AD Letten",
+        "year": "2018",
+        "unstructured": "Letten AD, Dhami MK, Ke PJ, Fukami T. Species coexistence through simultaneous fluctuation-dependent mechanisms. Proc Natl Acad Sci USA. 2018;115(26):6745\u201350.",
+        "journal-title": "Proc Natl Acad Sci USA"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.1111/ele.12204",
+        "volume": "17",
+        "author": "RL Vannette",
+        "year": "2014",
+        "unstructured": "Vannette RL, Fukami T. Historical contingency in species interactions: towards niche-based predictions. Ecol Lett. 2014;17(1):115\u201324.",
+        "journal-title": "Ecol Lett"
+      },
+      {
+        "issue": "3",
+        "key": "91_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "750",
+        "DOI": "10.1111/nph.14809",
+        "volume": "220",
+        "author": "CC Rering",
+        "year": "2018",
+        "unstructured": "Rering CC, Beck JJ, Hall GW, McCartney MM, Vannette RL. Nectar-inhabiting microorganisms influence nectar volatile composition and attractiveness to a generalist pollinator. New Phytol. 2018;220(3):750\u20139.",
+        "journal-title": "New Phytol"
+      },
+      {
+        "issue": "3",
+        "key": "91_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "746",
+        "DOI": "10.1093/beheco/arz011",
+        "volume": "30",
+        "author": "AL Rusell",
+        "year": "2019",
+        "unstructured": "Rusell AL, Ashman T-L. Associative learning of flowers by generalist bumble bees can be mediated by microbes on the petals. Behav Ecol. 2019;30(3):746\u201355.",
+        "journal-title": "Behav Ecol"
+      },
+      {
+        "issue": "7",
+        "key": "91_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "20190132",
+        "DOI": "10.1098/rsbl.2019.0132",
+        "volume": "15",
+        "author": "RN Schaeffer",
+        "year": "2019",
+        "unstructured": "Schaeffer RN, Rering CC, Maalouf I, Beck JJ, Vannette RL. Microbial metabolites elicit distinct olfactory and gustatory preferences in bumblebees. Biol Lett. 2019;15(7):20190132.",
+        "journal-title": "Biol Lett"
+      },
+      {
+        "key": "91_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "1009",
+        "DOI": "10.3389/fpls.2018.01009",
+        "volume": "9",
+        "author": "IS Sobhy",
+        "year": "2018",
+        "unstructured": "Sobhy IS, Baets D, Goelen T, Herrera-Malaver B, Bosmans L, Van den Ende W, Verstrepen KJ, W\u00e4ckers F, Jacquemyn H, Lievens B. Sweet scents: nectar specialist yeasts enhance nectar attraction of a generalist aphid parasitoid without affecting survival. Front Plant Sci. 2018;9:1009.",
+        "journal-title": "Front Plant Sci."
+      },
+      {
+        "key": "91_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1016/j.anbehav.2019.05.006",
+        "volume": "153",
+        "author": "IS Sobhy",
+        "year": "2019",
+        "unstructured": "Sobhy IS, Goelen T, Herrera-Malaver B, Verstrepen KJ, W\u00e4ckers F, Jacquemyn H, Lievens B. Associative learning and memory retention of nectar yeast volatiles in a generalist parasitoid. Anim Behav. 2019;153:137\u201346.",
+        "journal-title": "Anim Behav"
+      },
+      {
+        "issue": "2",
+        "key": "91_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.1890/12-0595.1",
+        "volume": "94",
+        "author": "CM Herrera",
+        "year": "2013",
+        "unstructured": "Herrera CM, Pozo MI, Medrano M. Yeasts in nectar of an early-blooming herb: sought by bumble bees, detrimental to plant fecundity. Ecology. 2013;94(2):273\u20139.",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "7",
+        "key": "91_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "1792",
+        "DOI": "10.1890/13-1740.1",
+        "volume": "95",
+        "author": "RN Schaeffer",
+        "year": "2014",
+        "unstructured": "Schaeffer RN, Irwin RE. Yeasts in nectar enhance male fitness in a montane perennial herb. Ecology. 2014;95(7):1792\u20138.",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "3",
+        "key": "91_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "613",
+        "DOI": "10.1111/1365-2435.12762",
+        "volume": "31",
+        "author": "RN Schaeffer",
+        "year": "2017",
+        "unstructured": "Schaeffer RN, Mei YZ, Andicoechea J, Manson JS, Irwin RE. Consequences of a nectar yeast for pollinator preference and performance. Funct Ecol. 2017;31(3):613\u201321.",
+        "journal-title": "Funct Ecol"
+      },
+      {
+        "issue": "1",
+        "key": "91_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "e86494",
+        "DOI": "10.1371/journal.pone.0086494",
+        "volume": "9",
+        "author": "AP Good",
+        "year": "2014",
+        "unstructured": "Good AP, Gauthier MP, Vannette RL, Fukami T. Honey bees avoid nectar colonized by three bacterial species, but not by a yeast species, isolated from the bee gut. PLoS ONE. 2014;9(1):e86494.",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "issue": "3",
+        "key": "91_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1098/rsbl.2009.0953",
+        "volume": "6",
+        "author": "TJA Bruce",
+        "year": "2010",
+        "unstructured": "Bruce TJA, Midega CAO, Birkett MA, Pickett JA, Khan ZR. Is quality more important than quantity? Insect behavioural responses to changes in a volatile blend after stemborer oviposition on an African grass. Biol Lett. 2010;6(3):314\u20137.",
+        "journal-title": "Biol Lett"
+      },
+      {
+        "issue": "5",
+        "key": "91_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "1163",
+        "DOI": "10.1139/b90-147",
+        "volume": "68",
+        "author": "D Eisikowitch",
+        "year": "1990",
+        "unstructured": "Eisikowitch D, Lachance M-A, Kevan PG, Willis S, Collins-Thompson DL. The effect of the natural assemblage of microorganisms and selected strains of the yeast Metschnikowia reukaufii in controlling the germination of pollen of the common milkweed Asclepias syriaca. Can J Bot. 1990;68(5):1163\u20135.",
+        "journal-title": "Can J Bot"
+      },
+      {
+        "issue": "1752",
+        "key": "91_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "20122601",
+        "DOI": "10.1098/rspb.2012.2601",
+        "volume": "280",
+        "author": "RL Vannette",
+        "year": "2013",
+        "unstructured": "Vannette RL, Gauthier MP, Fukami T. Nectar bacteria, but not yeast, weaken a plant-pollinator mutualism. Proc Biol Sci. 2013;280(1752):20122601.",
+        "journal-title": "Proc Biol Sci."
+      },
+      {
+        "issue": "11",
+        "key": "91_CR78",
+        "doi-asserted-by": "publisher",
+        "first-page": "2061",
+        "DOI": "10.1111/1365-2435.12933",
+        "volume": "31",
+        "author": "M Lenaerts",
+        "year": "2017",
+        "unstructured": "Lenaerts M, Goelen T, Paulussen C, Herrera-Malaver B, Steensels J, Van den Ende W, Verstrepen KJ, W\u00e4ckers F, Jacquemyn H, Lievens B. Nectar bacteria affect life history of a generalist aphid parasitoid by altering nectar chemistry. Funct Ecol. 2017;31(11):2061\u20139.",
+        "journal-title": "Funct Ecol"
+      },
+      {
+        "issue": "11",
+        "key": "91_CR79",
+        "doi-asserted-by": "publisher",
+        "first-page": "2476",
+        "DOI": "10.1002/ecy.2494",
+        "volume": "99",
+        "author": "K Tsuji",
+        "year": "2018",
+        "unstructured": "Tsuji K, Fukami T. Community-wide consequences of sexual dimorphism: evidence from nectar microbes in dioecious plants. Ecology. 2018;99(11):2476\u201384.",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "6",
+        "key": "91_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "1410",
+        "DOI": "10.1890/15-0858.1",
+        "volume": "97",
+        "author": "RL Vannette",
+        "year": "2016",
+        "unstructured": "Vannette RL, Fukami T. Nectar microbes can reduce secondary metabolites in nectar and alter effects on nectar consumption by pollinators. Ecology. 2016;97(6):1410\u20139.",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "1778",
+        "key": "91_CR81",
+        "doi-asserted-by": "publisher",
+        "first-page": "20132637",
+        "DOI": "10.1098/rspb.2013.2637",
+        "volume": "281",
+        "author": "CM Tucker",
+        "year": "2014",
+        "unstructured": "Tucker CM, Fukami T. Environmental variability counteracts priority effects to facilitate species coexistence: evidence from nectar microbes. Proc Biol Sci. 2014;281(1778):20132637.",
+        "journal-title": "Proc Biol Sci."
+      }
+    ],
+    "container-title": [
+      "Fungal Biology and Biotechnology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/s40694-019-0091-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1186/s40694-019-0091-8/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/s40694-019-0091-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2021-01-07T00:12:47Z",
+      "timestamp": 1609978367000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://fungalbiolbiotech.biomedcentral.com/articles/10.1186/s40694-019-0091-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          8
+        ]
+      ]
+    },
+    "references-count": 81,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "91"
+    ],
+    "URL": "https://doi.org/10.1186/s40694-019-0091-8",
+    "relation": {},
+    "ISSN": [
+      "2054-3085"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2054-3085"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 September 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "26 December 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "8 January 2020",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Not applicable.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethics approval and consent to participate"
+        }
+      },
+      {
+        "value": "Not applicable.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent for publication"
+        }
+      },
+      {
+        "value": "The authors declare that they have no competing interests.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "1"
+  },
+  "10.5281/zenodo.16890693": {
+    "title": [
+      "Large-scale genomic characterization of Bacteroides fragilis reveals multiple lineages associated with functional distinct traits"
+    ],
+    "author": [
+      {
+        "given": "Joon",
+        "family": "Klaps"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5281/zenodo.16890693",
+    "abstract": "Bacteroides fragilis is one of the most abundant Gram-negative bacteria in the human\n\ngut microbiota and has been associated with inflammatory bowel disease, colorectal\n\ncancer and various other diseases. Interestingly, the nontoxigenic counterpart of B.\n\nfragilis is increasingly suggested as a probiotic due to its beneficial interactions with the\n\nhost. We hypothesized that this contradiction could be explained by the existence of\n\ndiversifying subspecies or the exchange of mobile genetic elements encoding for\n\npathogenic and virulence factors. In this master thesis research, we analysed the\n\ngenomic diversity of B. fragilis aiming to comprehend the exceptional but varying\n\nproperties of this species, which remain poorly understood. We first compiled all the\n\navailable genomes from multiple geographic locations and sources into a large-scale\n\ndataset of over a thousand sequences. Phylogenetic and population structure analyses\n\nrevealed numerous lineages, which were supported by pangenomic analyses,\n\nsuggesting a common diversification of the core and accessory genomes, and\n\nreinforcing the concept of subspecies in B. fragilis. In total, we identified 18 distinct\n\nlineages, 15 of them were significantly associated with multidrug resistance encoding\n\ngenes, and several others with distinct carbohydrate metabolism genes. Additionally,\n\nmultiple mobile elements were detected containing virulence factors and stress\n\nresistance genes. In summary, our study confirms the widely underestimated genetic\n\ndiversity of Bacteroides fragilis."
+  },
+  "10.1101/2025.06.27.661954": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2025-07-05T04:10:10Z",
+      "timestamp": 1751688610147,
+      "version": "3.41.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 49,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2025-07-02T00:00:00Z",
+          "timestamp": 1751414400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "award": [
+          "G005323N",
+          "G051322N",
+          "1SH2V24N",
+          "12X9222N"
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/03qtxy027",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n            <jats:sec>\n               <jats:title>Motivation</jats:title>\n               <jats:p>Eukaryotic viruses present significant challenges for genome reconstruction and variant analysis due to their extensive diversity and potential genome segmentation. While de novo assembly followed by reference database matching and scaffolding is a commonly used approach, the manual execution of this workflow is extremely time-consuming, particularly due to the extensive reference curation required. Here, we address the critical need for an automated, scalable pipeline that can efficiently handle viral metagenomic analysis without manual intervention.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Results</jats:title>\n               <jats:p>We present nf-core/viralmetagenome, a comprehensive viral metagenomic pipeline for untargeted genome reconstruction and variant analysis of eukaryotic DNA and RNA viruses. Viral-metagenome is implemented as a Nextflow workflow that processes short-read metagenomic samples to automatically detect and assemble viral genomes, while also performing variant analysis. The pipeline features automated reference selection, consensus quality control metrics, comprehensive documentation, and seamless integration with containerization technologies, including Docker and Singularity. We demonstrate the utility and accuracy of our approach through validation on both simulated and real datasets, showing robust performance across diverse viral families in metage-nomic samples.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Availability</jats:title>\n               <jats:p>nf-core/viralmetagenome is freely available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/nf-core/viralmetagenome\">https://github.com/nf-core/viralmetagenome</jats:ext-link> with comprehensive documentation at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://nf-co.re/viralmetagenome\">https://nf-co.re/viralmetagenome</jats:ext-link>\n               </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Contact</jats:title>\n               <jats:p>\n                  <jats:email>joon.klaps@kuleuven.be</jats:email>\n               </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Supplementary information</jats:title>\n               <jats:p>Supplementary data are available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript\">https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript</jats:ext-link> online.</jats:p>\n            </jats:sec>",
+    "DOI": "10.1101/2025.06.27.661954",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2025-07-03T04:05:15Z",
+      "timestamp": 1751515515000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "nf-core/viralmetagenome: A Novel Pipeline for Untargeted Viral Genome Reconstruction"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2507-0430",
+        "authenticated-orcid": false,
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2826-5353",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "nf-core community",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4531-1374",
+        "authenticated-orcid": false,
+        "given": "Liana Eleni",
+        "family": "Kafetzopoulou",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jasmijn A Baaijens , Amal Zine El Aabidine , Eric Rivals , and Alexander Sch\u00f6nhuth . De novo assembly of viral quasispecies using overlap graphs. 27:835\u2013848.",
+        "DOI": "10.1101/gr.215038.116"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhi-Luo Deng , Akshay Dhingra , Adrian Fritz , Jasper G\u00f6tting , Philipp C M\u00fcnch , Lars Steinbr\u00fcck , Thomas F Schulz , Tina Ganzenm\u00fcller , and Alice C McHardy . Evaluating assembly and variant calling software for strain-resolved analysis of large DNA viruses. 22.",
+        "DOI": "10.1093/bib/bbaa123"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.3",
+        "unstructured": "Dmitry Meleshko , Iman Hajirasouliha , and Anton Korobeynikov . coronaSPAdes: from biosynthetic gene clusters to RNA viral assemblies."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Samuel S Shepard , Sarah Meno , Justin Bahl , Malania M Wilson , John Barnes , and Elizabeth Neuhaus . Viral deep sequencing needs an adaptive approach: IRMA, the iterative refinement meta-assembler. 17:708.",
+        "DOI": "10.1186/s12864-016-3030-6"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.5",
+        "unstructured": "Christopher Tomkins-Tinch , Simon Ye , Hayden Metsky , Irwin Jungreis , Rachel Sealfon , Xiao Yang , Kristian Andersen , Michael Lin , and Daniel Park . broadinstitute/viral-ngs: v1.14.0."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jutte J C de Vries , Julianne R Brown , Nicole Fischer , Igor A Sidorov , Sofia Morfopoulou , Jiabin Huang , Bas B Oude Munnink , Arzu Sayiner , Alihan Bulgurcu , Christophe Rodriguez , Guillaume Gricourt , Els Keyaerts , Leen Beller , Claudia Bachofen , Jakub Kubacki , Cordey Samuel , Laubscher Florian , Schmitz Dennis , Martin Beer , Dirk Hoeper , Michael Huber , Verena Kufner , Maryam Zaheri , Aitana Lebrand , Anna Papa , Sander van Boheemen , Aloys C M Kroes , Judith Breuer , F Xavier Lopez-Labrador , and Eric C J Claas . Benchmark of thirteen bioinformatic pipelines for metagenomic virus diagnostics using datasets from clinical samples. 141:104908.",
+        "DOI": "10.1016/j.jcv.2021.104908"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yiqiao Li , Mariana Polychronopoulou , Ine Boonen , Antonios Fikatas , Sophie Gryseels , Anne Laudisoit , Joelle Gouy de Bellocq , Bram Vrancken , Gkikas Magiorkinis , Philippe Lemey , and Magda Bletsa . Evaluation of metatranscriptomic sequencing protocols to obtain full-length RNA virus genomes from mammalian tissues. 20:e0324537.",
+        "DOI": "10.1371/journal.pone.0324537"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paolo Di Tommaso , Maria Chatzou , Evan W Floden , Pablo Prieto Barja , Emilio Palumbo , and Cedric Notredame . Nextflow enables reproducible computational workflows. 35:316\u2013319.",
+        "DOI": "10.1038/nbt.3820"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Philip A Ewels , Alexander Peltzer , Sven Fillinger , Harshil Patel , Johannes Alneberg , Andreas Wilm , Maxime Ulysse Garcia , Paolo Di Tommaso , and Sven Nahnsen . The nf-core framework for community-curated bioinformatics pipelines. 38:276\u2013278.",
+        "DOI": "10.1038/s41587-020-0439-x"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.10",
+        "unstructured": "D Merkel . Docker: lightweight linux containers for consistent development and deployment. 2014:2."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregory M Kurtzer , Vanessa Sochat , and Michael W Bauer . Singularity: Scientific containers for mobility of compute. 12:e0177459.",
+        "DOI": "10.1371/journal.pone.0177459"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shifu Chen , Yanqing Zhou , Yaru Chen , and Jia Gu . fastp: an ultra-fast all-in-one FASTQ preprocessor. 34:i884\u2013i890.",
+        "DOI": "10.1093/bioinformatics/bty560"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anthony M Bolger , Marc Lohse , and Bjoern Usadel . Trimmomatic: a flexible trimmer for illumina sequence data. 30:2114\u20132120.",
+        "DOI": "10.1093/bioinformatics/btu170"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.14",
+        "unstructured": "Jeroen F J Laros . HUMID: HUMID: reference free FastQ deduplication."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tom Smith , Andreas Heger , and Ian Sudbery . UMI-tools: modeling sequencing errors in unique molecular identifiers to improve quantification accuracy. 27:491\u2013499.",
+        "DOI": "10.1101/gr.209601.116"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.16",
+        "unstructured": "Brian Bushnell . BBMap."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.17",
+        "unstructured": "Vito Adrian Cantu , Jeffrey Sadural , and Robert Edwards . PRINSEQ++, a multi-threaded tool for fast and efficient quality control and preprocessing of sequencing datasets."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.18",
+        "unstructured": "Derrick E Wood , Jennifer Lu , and Ben Langmead . Improved metagenomic analysis with kraken 2. 20:257."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Matthew Forbes , Duncan Y K Ng , Roisin M Boggan , Andrea Frick-Kretschmer , Jillian Durham , Oliver Lorenz , Bruhad Dave , Florent Lassalle , Carol Scott , Josef Wagner , Adrianne Lignes , Fernanda Noaves , David K Jackson , Kevin Howe , and Ewan Harrison . Benchmarking of human read removal strategies for viral and microbial metagenomics. page 2025.03.21.644587.",
+        "DOI": "10.1101/2025.03.21.644587"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peter Menzel , Kim Lee Ng , and Anders Krogh . Fast and sensitive taxonomic classification for metagenomics with kaiju. 7:11257.",
+        "DOI": "10.1038/ncomms11257"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brian D Ondov , Nicholas H Bergman , and Adam M Phillippy . Interactive metagenomic visualization in a web browser. 12:385.",
+        "DOI": "10.1186/1471-2105-12-385"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dinghua Li , Ruibang Luo , Chi-Man Liu , Chi-Ming Leung , Hing-Fung Ting , Kunihiko Sadakane , Hiroshi Yamashita , and Tak-Wah Lam . MEGAHIT v1.0: A fast and scalable metagenome assembler driven by advanced methodologies and community practices. 102:3\u201311.",
+        "DOI": "10.1016/j.ymeth.2016.02.020"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manfred G Grabherr , Brian J Haas , Moran Yassour , Joshua Z Levin , Dawn A Thompson , Ido Amit , Xian Adiconis , Lin Fan , Raktima Raychowdhury , Qiandong Zeng , Zehua Chen , Evan Mauceli , Nir Hacohen , Andreas Gnirke , Nicholas Rhind , Federica di Palma , Bruce W Birren , Chad Nusbaum , Kerstin Lindblad-Toh , Nir Friedman , and Aviv Regev . Full-length transcriptome assembly from RNA-seq data without a reference genome. 29:644\u2013652.",
+        "DOI": "10.1038/nbt.1883"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marten Boetzer , Christiaan V Henkel , Hans J Jansen , Derek Butler , and Walter Pirovano . Scaffolding pre-assembled contigs using SSPACE. 27:578\u2013579.",
+        "DOI": "10.1093/bioinformatics/btq683"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "SF Altschul , W Gish , W Miller , EW Myers , and DJ Lipman . Basic local alignment search tool. 215:403\u2013410.",
+        "DOI": "10.1016/S0022-2836(05)80360-2"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Norman Goodacre , Aisha Aljanahi , Subhiksha Nandakumar , Mike Mikailov , and Arifa S Khan . A reference viral database (RVDB) to enhance bioinformatics analysis of high-throughput sequencing for novel virus detection. 3.",
+        "DOI": "10.1128/mSphereDirect.00069-18"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weizhong Li and Adam Godzik . Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. 22:1658\u20131659.",
+        "DOI": "10.1093/bioinformatics/btl158"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torbj\u00f8rn Rognes , Tom\u00e1\u0161 Flouri , Ben Nichols , Christopher Quince , and Fr\u00e9d\u00e9ric Mah\u00e9 . VSEARCH: a versatile open source tool for metagenomics. 4:e2584.",
+        "DOI": "10.7717/peerj.2584"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martin Steinegger and Johannes S\u00f6ding . MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. 35:1026\u20131028.",
+        "DOI": "10.1038/nbt.3988"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kristopher Kieft , Alyssa Adams , Rauf Salamzade , Lindsay Kalan , and Karthik Anantharaman . vRhyme enables binning of viral genomes from metagenomes. 50:e83.",
+        "DOI": "10.1093/nar/gkac341"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brian D Ondov , Gabriel J Starrett , Anna Sappington , Aleksandra Kostic , Sergey Koren , Christopher B Buck , and Adam M Phillippy . Mash screen: high-throughput sequence containment estimation for genome discovery. 20:232.",
+        "DOI": "10.1186/s13059-019-1841-x"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "VA Traag , L Waltman , and NJ van Eck . From louvain to leiden: guaranteeing well-connected communities. 9:5233.",
+        "DOI": "10.1038/s41598-019-41695-z"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrzej Zielezinski , Adam Gudy\u015b , Jakub Barylski , Krzysztof Siminski , Piotr Rozwalak , Bas E Dutilh , and Sebastian Deorowicz . Ultrafast and accurate sequence alignment and clustering of viral genomes. 22:1191\u20131194.",
+        "DOI": "10.1038/s41592-025-02701-7"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Md Vasimuddin , Sanchit Misra , Heng Li , and Srinivas Aluru . Efficient architecture-aware acceleration of BWA-MEM for multicore systems. In 2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS), pages 314\u2013324. IEEE.",
+        "DOI": "10.1109/IPDPS.2019.00041"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.35",
+        "unstructured": "Heng Li . Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ben Langmead, Christopher Wilks , Valentin Antonescu , and Rone Charles . Scaling read aligners to hundreds of threads on general-purpose processors. 35:421\u2013432.",
+        "DOI": "10.1093/bioinformatics/bty648"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Heng Li . Minimap2: pairwise alignment for nucleotide sequences. 34:3094\u20133100.",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nathan D Grubaugh , Karthik Gangavarapu , Joshua Quick , Nathaniel L Matteson , Jaqueline Goes De Jesus , Bradley J Main , Amanda L Tan , Lauren M Paul , Doug E Brackney , Saran Grewal , Nikos Gurfield , Koen KA Van Rompay , Sharon Isern , Scott F Michael , Lark L Coffey , Nicholas J Loman , and Kristian G Andersen . An amplicon-based sequencing framework for accurately measuring intrahost virus diversity using PrimalSeq and iVar. 20:8.",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petr Danecek , James K Bonfield , Jennifer Liddle , John Marshall , Valeriu Ohan , Martin O Pollard , Andrew Whitwham , Thomas Keane , Shane A McCarthy , Robert M Davies , and Heng Li . Twelve years of SAMtools and BCFtools. 10.",
+        "DOI": "10.1093/gigascience/giab008"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.40",
+        "unstructured": "Irene Bassano , Vinoy K Ramachandran , Mohammad S Khalifa , Chris J Lilley , Mathew R Brown , Ronny van Aerle , Hubert Denise , William Rowe , Airey George , Edward Cairns , Claudia Wierzbicki , Natalie D Pickwell , Myles Wilson , Matthew Carlile , Nadine Holmes , Alexander Payne , Matthew Loose , Terry A Burke , Steve Paterson , Matthew J Wade , and Jasmine MS Grimsley . Evaluation of variant calling algorithms for wastewater-based epidemiology using mixed populations of SARS-CoV-2 variants in synthetic and wastewater samples."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.41",
+        "unstructured": "Broad Institute. Picard toolkit."
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brent S Pedersen and Aaron R Quinlan . Mosdepth: quick coverage calculation for genomes and exomes. 34:867\u2013868.",
+        "DOI": "10.1093/bioinformatics/btx699"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephen Nayfach , Antonio Pedro Camargo , Frederik Schulz , Emiley Eloe-Fadrosh , Simon Roux , and Nikos C Kyrpides . CheckV assesses the quality and completeness of metagenome-assembled viral genomes. 39:578\u2013585.",
+        "DOI": "10.1038/s41587-020-00774-7"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anne Gleizes , Florian Laubscher , Nicolas Guex , Christian Iseli , Thomas Junier , Samuel Cordey , Jacques Fellay , Ioannis Xenarios , Laurent Kaiser , and Philippe Le Mercier . Virosaurus a reference to explore and capture virus genetic diversity. 12.",
+        "DOI": "10.3390/v12111248"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kazutaka Katoh , Kazuharu Misawa , Kei-Ichi Kuma , and Takashi Miyata . MAFFT: a novel method for rapid multiple sequence alignment based on fast fourier transform. 30:3059\u20133066.",
+        "DOI": "10.1093/nar/gkf436"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Philip Ewels , M\u00e5ns Magnusson , Sverker Lundin , and Max K\u00e4ller . MultiQC: summarize analysis results for multiple tools and samples in a single report. 32:3047\u20133048.",
+        "DOI": "10.1093/bioinformatics/btw354"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guillermo Rangel-Pineros , Alexandre Almeida , Martin Beracochea , Ekaterina Sakharova , Manja Marz , Alejandro Reyes Mu\u00f1oz , Martin H\u00f6lzer , and Robert D Finn . VIRify: an integrated detection, annotation and taxonomic classification pipeline using virus-specific protein profile hidden markov models. page 2022.08.22.504484.",
+        "DOI": "10.1101/2022.08.22.504484"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kristopher Kieft , Zhichao Zhou , and Karthik Anantharaman . VIBRANT: automated recovery, annotation and curation of microbial viruses, and evaluation of viral community function from genomic sequences. 8:90.",
+        "DOI": "10.1186/s40168-020-00867-0"
+      },
+      {
+        "key": "2025070420501509000_2025.06.27.661954v1.49",
+        "unstructured": "Jiarong Guo , Ben Bolduc , Ahmed A Zayed , Arvind Varsani , Guillermo Dominguez-Huerta , Tom O Delmont , Akbar Adjie Pratama , M Consuelo Gazit\u00faa , Dean Vik , Matthew B Sullivan , and Simon Roux . VirSorter2: a multi-classifier, expert-guided approach to detect diverse DNA and RNA viruses. 9:37."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.27.661954",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2025-07-05T03:50:29Z",
+      "timestamp": 1751687429000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.27.661954"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2025.06.27.661954",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  },
+  "10.5281/zenodo.16890658": {
+    "title": [
+      "Analysis of yeast diversity in floral microhabitats from Metrosideros polymorpha Gaud."
+    ],
+    "author": [
+      {
+        "given": "Joon",
+        "family": "Klaps"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5281/zenodo.16890658",
+    "abstract": "Flowers offer a wide variety of substrates suitable for microbial growth. However, the\n\nmicrobiological study of flowers has only recently begun to be systematically\n\naddressed, and our knowledge about floral-inhabiting microorganisms is yet very\n\nlimited. The aim of this study was to assess the diversity of culturable yeasts associated\n\nwith three floral microhabitats \u2013namely, nectar, stamina and styles\u2013 of Metrosideros\n\npolymorpha Gaud. (Myrtaceae), a tree endemic to Hawaii. Yeast isolates recovered\n\nfrom floral samples were identified by sequencing different regions of the ribosomal\n\nRNA operon and classified into operational taxonomic units (OTUs). Furthermore,\n\nrarefaction-based estimators were used to assess the diversity and composition of the\n\nflower-dwelling yeast communities. Our results showed that M. polymorpha flowers are\n\ninhabited by species-poor yeast communities (<42 predicted OTUs, of which we\n\nrecovered c.50%) that are dominated by ascomycetous taxa (75% of observed OTUs).\n\nFurthermore, the yeast communities associated to specific floral structures showed\n\ncertain differentiation in their OTU richness and phylogenetic diversity, both of which\n\nwere higher for styles and stamina than for nectar. Finally, our mycological survey led\n\nto the discovery of two novel yeast lineages that diverged phylogenetically and\n\nphenotypically from previously described taxa, and might represent new species within\n\nthe anamorphic genus Candida. Future work should clarify the taxonomic status and\n\necology of these new yeast lineages."
+  }
+}

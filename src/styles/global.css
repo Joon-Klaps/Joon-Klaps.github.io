@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Mona-Sans";
+  src:
+    url("Mona-Sans.woff2") format("woff2 supports variations"),
+    url("Mona-Sans.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+body {
+  background-image: url(/bg.jpg);
+  background-size: cover;
+}
+
+/* Custom Scrollbar Styling */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5); /* gray-400 with opacity */
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.8); /* gray-400 with higher opacity */
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.5); /* gray-600 with opacity */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 85, 99, 0.8); /* gray-600 with higher opacity */
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+}
+
+.dark html {
+  scrollbar-color: rgba(75, 85, 99, 0.5) transparent;
+}
+
+.prose-lg :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin: 0;
+}
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  @apply mx-1 rounded bg-blue-200 px-1 py-0.5 dark:bg-blue-900;
+}
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+  content: "";
+}
+
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before,
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+  content: "";
+}
+
+.timeline_entry .description {
+  @apply my-2 text-justify text-sm text-gray-600 dark:text-gray-400;
+  p {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin: 0;
+  }
+}
+.timeline_entry:last-child .education__time > .education__line {
+  height: calc(100% - 1.75rem);
+}

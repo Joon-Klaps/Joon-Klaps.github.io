@@ -1,0 +1,112 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageTitle from "@components/PageTitle.astro";
+
+import HomepageButton from "@components/HomepageButton.astro";
+import Button from "@components/Button.astro";
+---
+
+<BaseLayout title="Contact Me">
+  <PageTitle>Contact Me</PageTitle>
+  <p class="mb-3 text-xl">Interested in working together, or something that I can help with? Let's get in touch.</p>
+  <p class="mb-8 text-base font-light opacity-80">
+    If you need help with nf-core pipelines or specific projects such as MultiQC, please use the <a
+      href="https://community.seqera.io/">community support channels</a
+    >
+    and GitHub issues where possible.
+  </p>
+  <div class="mb-5 text-center md:text-left">
+    <HomepageButton href="https://github.com/Joon-Klaps/" icon="mdi:github" title="GitHub" />
+    <HomepageButton href="http://uk.linkedin.com/in/joon-k-5183a7198" icon="mdi:linkedin" title="LinkedIn" />
+    <HomepageButton href="https://bsky.app/profile/joon-klaps.bsky.social" icon="simple-icons:bluesky" title="Bluesky" />
+    <HomepageButton href="http://orcid.org/0000-0002-2507-0430" icon="simple-icons:orcid" title="ORCiD" />
+  </div>
+
+  <form id="contact-form" action="https://formspree.io/f/manbvyaz" method="POST">
+    <label class="mb-8 hidden">
+      <span class="block">If you're a real person, do not enter anything in this field</span>
+      <input type="text" name="sweet-and-sticky" />
+    </label>
+    <label class="mb-8 block">
+      <span class="block">Your e-mail address</span>
+      <input type="email" name="email" />
+    </label>
+    <label class="mb-8 block">
+      <span class="block">Your message</span>
+      <textarea name="message" rows="8"></textarea>
+    </label>
+    <div class="flex items-center gap-4">
+      <Button id="submit-btn" type="submit" icon="mdi:email">Send email</Button>
+      <span id="contact-form-status"></span>
+    </div>
+  </form>
+</BaseLayout>
+
+<script>
+  async function handleSubmit(event) {
+    // Don't let the browser submit
+    event.preventDefault();
+
+    // Check that all fields are filled in
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+    const requiredFields = ["email", "message"];
+    // Add 'required' attribute to field
+    for (const field of requiredFields) {
+      myForm.querySelector(`[name="${field}"]`).setAttribute("required", true);
+    }
+    // Prevent form submission if any fields are empty
+    for (const field of requiredFields) {
+      if (!formData.get(field)) {
+        return;
+      }
+    }
+
+    var status = document.getElementById("contact-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: myForm.method,
+      body: data,
+      headers: { Accept: "application/json" },
+    })
+      .then((response) => {
+        if (response.ok) {
+          status.innerHTML = "Message sent - thanks!";
+          status.style.color = "rgb(22, 163, 74)";
+          for (const field of requiredFields) {
+            myForm.querySelector(`[name="${field}"]`).removeAttribute("required");
+          }
+          myForm.reset();
+          document.getElementById("submit-btn").disabled = true;
+        } else {
+          response.json().then((data) => {
+            if (Object.hasOwn(data, "errors")) {
+              status.innerHTML = data["errors"].map((error) => error["message"]).join(", ");
+              status.style.color = "rgb(220, 38, 38)";
+            } else {
+              status.innerHTML = "Error: There was a problem sending your email";
+              status.style.color = "rgb(220, 38, 38)";
+            }
+          });
+        }
+      })
+      .catch((error) => {
+        status.innerHTML = "Error: Something went wrong whilst sending your email";
+        status.style.color = "rgb(220, 38, 38)";
+      });
+  }
+  document.getElementById("contact-form").addEventListener("submit", handleSubmit);
+</script>
+
+<style>
+  input,
+  textarea {
+    @apply mt-1 block w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm placeholder-slate-400 shadow-sm invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 disabled:border-slate-200 disabled:bg-slate-50 disabled:text-slate-500 disabled:shadow-none dark:border-stone-600 dark:bg-stone-800;
+  }
+  a {
+    @apply underline decoration-dotted underline-offset-4 transition-colors;
+    &:hover {
+      @apply text-white decoration-white decoration-2;
+    }
+  }
+</style>

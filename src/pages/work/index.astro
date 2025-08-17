@@ -1,0 +1,67 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageTitle from "@components/PageTitle.astro";
+import HorizontalCard from "@components/HorizontalCard.astro";
+import HomepageButton from "@components/HomepageButton.astro";
+
+const workplaces = (await getCollection("workplaces")).sort(
+  (a, b) => new Date(b.data.startDate).valueOf() - new Date(a.data.startDate).valueOf(),
+);
+const education = (await getCollection("education")).sort(
+  (a, b) => new Date(b.data.startDate).valueOf() - new Date(a.data.startDate).valueOf(),
+);
+---
+
+<BaseLayout title="Where I've developed my knowledge">
+  <PageTitle>Where I've developed my knowledge</PageTitle>
+  <p class="mb-3 text-xl">I'm a molecular biologist, turned bioinformatician, turned research-software engineer.</p>
+  <p class="mb-3 text-base font-light opacity-80">
+    I started in microbial ecology wet lab work, then moved into population genetics and taxonomy.
+    This path led me to bioinformatics and software development, where I now work as a PhD student in molecular epidemiology,
+    developing analytical tools and infrastructure for viral research
+  </p>
+  <ul>
+    <!--List the array of astronaut info-->
+    {
+      workplaces.map((post) => (
+        <>
+          <HorizontalCard
+            title={post.data.title}
+            img={post.data.iconImage}
+            imgDark={post.data.iconImageDark ?? post.data.iconImage}
+            description={post.data.location}
+            startDate={post.data.startDate}
+            endDate={post.data.endDate}
+            countryFlag={post.data.countryFlag}
+            tags={[post.data.numPositions + " position" + (post.data.numPositions > 1 ? "s" : "")]}
+            url={"/work/" + post.slug}
+          />
+        </>
+      ))
+    }
+  </ul>
+
+  <h2 class="mb-8 mt-12 text-3xl font-bold">Education</h2>
+  <ul>
+    <!--List the array of astronaut info-->
+    {
+      education.map((post) => (
+        <>
+          <HorizontalCard
+            title={post.data.title}
+            subtitle={post.data.subtitle}
+            img={post.data.iconImage}
+            imgDark={post.data.iconImageDark ?? post.data.iconImage}
+            description={post.data.location}
+            startDate={post.data.startDate}
+            endDate={post.data.endDate}
+            countryFlag={post.data.countryFlag}
+            url={"/education/" + post.slug}
+          />
+        </>
+      ))
+    }
+  </ul>
+</BaseLayout>
