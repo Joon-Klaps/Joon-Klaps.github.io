@@ -30,7 +30,7 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
               <img src={item.iconImageDark ?? item.iconImage} alt={item.title} class="hidden dark:block" />
             </a>
           ))}
-        {plus && (
+        {(plus ?? 0) > 0 && (
           <div class="flex items-center">
             <a
               href={href}

@@ -30,25 +30,6 @@ const publicationsCollection = defineCollection({
     pubDate: z.date(),
   }),
 });
-const talksCollection = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    online: z.boolean(),
-    location: z.string().optional(),
-    countryFlag: z.string().optional(),
-    type: z.enum(["Talk", "Invited speaker", "Conference talk", "Workshop", "Webinar", "Bytesize"]),
-    keynote: z.boolean().optional(),
-    eventURLs: z.array(z.string().url()).optional(),
-    pdfURLs: z.array(z.string()).optional(),
-    youtubeIDs: z.array(z.string().length(11)).optional(),
-    heroImage: z.string().optional(),
-    logoImage: z.string().optional(),
-    logoImageDark: z.string().optional(),
-    date: z.date(),
-  }),
-});
 const workplaceCollection = defineCollection({
   type: "content",
   schema: z.object({
@@ -91,7 +72,6 @@ const educationCollection = defineCollection({
 export const collections = {
   projects: projectsCollection,
   publications: publicationsCollection,
-  talks: talksCollection,
   workplaces: workplaceCollection,
   education: educationCollection,
 };
