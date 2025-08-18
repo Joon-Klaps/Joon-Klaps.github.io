@@ -18,28 +18,30 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
   <p class="mx-5 mb-5 grow self-stretch">{description}</p>
   {
     items && (
-      <div class="flex items-center justify-around border-t bg-zinc-100 p-5 dark:border-t-zinc-700 dark:bg-zinc-800">
-        {items &&
-          items.map((item) => (
-            <a
-              href={item.url}
-              title={item.title}
-              class="w-12 rounded border p-2 shadow transition-colors hover:border-gray-400 hover:bg-zinc-50 dark:border-gray-700 hover:dark:border-gray-500 dark:hover:bg-zinc-700"
-            >
-              <img src={item.iconImage} alt={item.title} class="block dark:hidden" />
-              <img src={item.iconImageDark ?? item.iconImage} alt={item.title} class="hidden dark:block" />
-            </a>
-          ))}
-        {(plus ?? 0) > 0 && (
-          <div class="flex items-center">
-            <a
-              href={href}
-              class="ml-2 inline-block rounded-full bg-sky-800/20 px-2 py-1 text-xs font-bold leading-none text-black/40 dark:bg-sky-800 dark:text-white/70"
-            >
-              +{plus}
-            </a>
-          </div>
-        )}
+      <div class="flex items-center justify-around border-t bg-zinc-100 p-5 dark:border-t-zinc-700 dark:bg-zinc-800 min-h-[80px]">
+        <div class="flex items-center gap-10 justify-around max-w-full">
+          {items &&
+            items.map((item) => (
+              <a
+                href={item.url}
+                title={item.title}
+                class="w-12 h-12 rounded border p-2 shadow transition-colors hover:border-gray-400 hover:bg-zinc-50 dark:border-gray-700 hover:dark:border-gray-500 dark:hover:bg-zinc-700 flex items-center justify-center"
+              >
+                <img src={item.iconImage} alt={item.title} class="block dark:hidden" />
+                <img src={item.iconImageDark ?? item.iconImage} alt={item.title} class="hidden dark:block" />
+              </a>
+            ))}
+          {(plus ?? 0) > 0 && (
+            <div class="flex items-center">
+              <a
+                href={href}
+                class="ml-2 inline-block rounded-full bg-sky-800/20 px-2 py-1 text-xs font-bold leading-none text-black/40 dark:bg-sky-800 dark:text-white/70"
+              >
+                +{plus}
+              </a>
+            </div>
+          )}
+        </div>
       </div>
     )
   }
