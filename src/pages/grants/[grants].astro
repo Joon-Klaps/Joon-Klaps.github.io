@@ -4,9 +4,9 @@ import { getCollection } from "astro:content";
 import ContentLayout from "@layouts/ContentLayout.astro";
 
 export async function getStaticPaths() {
-  const projectEntries = await getCollection("projects");
-  return projectEntries.map((entry) => ({
-    params: { project: entry.slug },
+  const grantEntries = await getCollection("grants");
+  return grantEntries.map((entry) => ({
+    params: { grants: entry.slug },
     props: { entry },
   }));
 }
@@ -18,8 +18,7 @@ const { Content } = await entry.render();
 <ContentLayout
   entry={entry}
   Content={Content}
-  back_to_text="projects"
-  back_to_link="/projects/"
+  back_to_text="grants"
+  back_to_link="/grants/"
   is_archived={entry.data.archived}
-  currentPage="projects"
 />

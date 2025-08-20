@@ -2,10 +2,10 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Button from "@components/Button.astro";
 
-const { entry, Content, back_to_text = false, back_to_link = false, is_archived = false } = Astro.props;
+const { entry, Content, back_to_text = false, back_to_link = false, is_archived = false, currentPage = "" } = Astro.props;
 ---
 
-<BaseLayout title={entry.data.title} description={entry.data.description} image={entry.data.heroImage}>
+<BaseLayout title={entry.data.title} description={entry.data.description} image={entry.data.heroImage} currentPage={currentPage}>
   {
     back_to_text && back_to_link && (
       <a href={back_to_link} class="text-xs opacity-30">

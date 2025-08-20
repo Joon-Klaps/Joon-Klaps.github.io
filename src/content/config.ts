@@ -69,9 +69,31 @@ const educationCollection = defineCollection({
   }),
 });
 
+const grantsCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    amount: z.string().optional(),
+    funder: z.string(),
+    role: z.string(),
+    logoImage: z.string().optional(),
+    logoImageDark: z.string().optional(),
+    iconImage: z.string(),
+    iconImageDark: z.string().optional(),
+    noIconPadding: z.boolean().optional(),
+    heroImage: z.string().optional(),
+    startDate: z.date(),
+    endDate: z.date().optional(),
+    archived: z.boolean().optional(),
+    order: z.number().optional(),
+  }),
+});
+
 export const collections = {
   projects: projectsCollection,
   publications: publicationsCollection,
   workplaces: workplaceCollection,
   education: educationCollection,
+  grants: grantsCollection,
 };

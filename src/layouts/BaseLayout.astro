@@ -6,7 +6,7 @@ import Footer from "@components/Footer.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
-const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, currentPage = "" } = Astro.props;
 ---
 
 <!doctype html>
@@ -27,7 +27,7 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
           </main>
           <Footer />
         </div>
-        <SideBar />
+        <SideBar currentPage={currentPage} />
       </div>
     </div>
     <!-- Google tag (gtag.js)

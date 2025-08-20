@@ -24,16 +24,7 @@ import { Icon } from "astro-icon/components";
 
 let countryFlagIcon;
 let countryFlagIconDark;
-if (talk_type == "Bytesize") {
-  countryFlagIcon = "nfcore";
-  countryFlagIconDark = "nfcoredark";
-} else if (talk_type == "Webinar") {
-  countryFlagIcon = "seqera";
-  countryFlagIconDark = "seqeradark";
-} else if (talk_online) {
-  countryFlagIcon = "bi:globe";
-  countryFlagIconDark = "bi:globe";
-} else if (countryFlag) {
+if (countryFlag) {
   countryFlagIcon = "flag:" + countryFlag + "-4x3";
   countryFlagIconDark = "flag:" + countryFlag + "-4x3";
 }

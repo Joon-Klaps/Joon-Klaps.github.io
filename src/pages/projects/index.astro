@@ -4,16 +4,18 @@ import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import PageTitle from "@components/PageTitle.astro";
 import HorizontalCard from "@components/HorizontalCard.astro";
+import HomepageButton from "@components/HomepageButton.astro";
 
 const projects = await getCollection("projects");
 ---
 
-<BaseLayout title="Projects">
+<BaseLayout title="Projects" currentPage="projects">
   <PageTitle>Projects</PageTitle>
   <p class="mb-3 text-xl">
-    Open source software has been at the heart of everything I have done for most of my career.
+    I love community projects and open source software.
   </p>
-  <p class="mb-5 text-base font-light opacity-80">Below are some of the key projects that I've been involved with.</p>
+  <p class="mb-5 text-base font-light opacity-80">I feel very comfortable in bash, python, R and  I love to automate things with nextflow. Java is something that I have learned in my masters but I've rarely had to use it. I'm activly learning rust when python or R don't cut it. Below are some of the key projects that I've spent quite some time on.</p>
+  <HomepageButton href="https://github.com/Joon-Klaps/" icon="mdi:github" title="GitHub" />
   <ul>
     {
       projects
@@ -43,28 +45,6 @@ const projects = await getCollection("projects");
             description={p.data.description}
             url={"/projects/" + p.slug}
             badge="Archived"
-          />
-        ))
-    }
-  </ul>
-
-  <h2 class="mb-2 mt-12 text-3xl font-bold" id="personal-projects">Personal projects</h2>
-  <p class="mb-5 text-base font-light opacity-80">
-    Hobby projects are one of the ways that I experiment and learn new things. I generally only build what I need, and
-    sometimes something useful comes out.
-  </p>
-  <ul>
-    {
-      projects
-        .filter((p) => p.data.personal == true)
-        .map((p) => (
-          <HorizontalCard
-            title={p.data.title}
-            img={p.data.iconImage}
-            imgDark={p.data.iconImageDark ?? p.data.iconImage}
-            noIconPadding={p.data.noIconPadding}
-            description={p.data.description}
-            url={"/projects/" + p.slug}
           />
         ))
     }

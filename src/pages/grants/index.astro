@@ -1,0 +1,50 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageTitle from "@components/PageTitle.astro";
+import HorizontalCard from "@components/HorizontalCard.astro";
+
+const grants = await getCollection("grants");
+---
+
+<BaseLayout title="Grants">
+  <PageTitle>Grants</PageTitle>
+  <p class="mb-3 text-xl">
+    Research funding and grants I've been involved with.
+  </p>
+  <p class="mb-5 text-base font-light opacity-80">Below are some of the key grants and funding opportunities that have supported my research work.</p>
+  <ul>
+    {
+      grants
+        .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0))
+        .filter((g) => g.data.archived != true)
+        .map((g) => (
+          <HorizontalCard
+            title={g.data.title}
+            img={g.data.iconImage}
+            imgDark={g.data.iconImageDark ?? g.data.iconImage}
+            noIconPadding={g.data.noIconPadding}
+            description={g.data.description}
+            url={"/grants/" + g.slug}
+          />
+        ))
+    }
+    {
+      grants
+        .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0))
+        .filter((g) => g.data.archived == true)
+        .map((g) => (
+          <HorizontalCard
+            title={g.data.title}
+            img={g.data.iconImage}
+            imgDark={g.data.iconImageDark ?? g.data.iconImage}
+            noIconPadding={g.data.noIconPadding}
+            description={g.data.description}
+            url={"/grants/" + g.slug}
+            badge="Archived"
+          />
+        ))
+    }
+  </ul>
+</BaseLayout>

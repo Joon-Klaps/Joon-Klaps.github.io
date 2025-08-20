@@ -2,6 +2,10 @@
 import NavItem from "@components/SideBar/NavItem.astro";
 import SocialIcon from "@components/SideBar/SocialIcon.astro";
 import DarkModeToggle from "@components/DarkModeToggle.svelte";
+
+const { currentPage = "" } = Astro.props;
+const isProjectsPage = currentPage === "projects";
+const profileImage = isProjectsPage ? "/images/projects/DALL·E 2023-09-08 10.43.02 - happy muscular bald Jesus husbando in an oasis dragonball z style anime drawing screensaver wide shot.jpg" : "/me.png";
 ---
 
 <div
@@ -19,7 +23,7 @@ import DarkModeToggle from "@components/DarkModeToggle.svelte";
       <hr class="w-1/6 border-zinc-400/60 lg:w-1/5 dark:border-zinc-600" />
       <a href="/" class="m-auto flex grow items-center justify-center">
         <img
-          src="/me.png"
+          src={profileImage}
           class="mr-4 inline-block w-[3rem] rounded-full lg:w-1/2"
           alt="Photo of Joon Klaps"
         />
@@ -32,6 +36,7 @@ import DarkModeToggle from "@components/DarkModeToggle.svelte";
       <NavItem href="/" icon="bi:house-door">Home</NavItem>
       <NavItem href="/work" icon="bi:person-circle">Where I've learned</NavItem>
       <NavItem href="/projects" icon="bi:journal-bookmark-fill">Projects</NavItem>
+      <NavItem href="/grants" icon="bi:wallet2">Grants</NavItem>
       <NavItem href="/publications" icon="bi:file-earmark-text">Publications</NavItem>
       <NavItem href="/contact" icon="bi:envelope">Contact me</NavItem>
     </ul>

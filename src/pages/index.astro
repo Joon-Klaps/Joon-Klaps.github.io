@@ -39,7 +39,16 @@ const projects = (await getCollection("projects"))
   }));
 const projects_count = (await getCollection("projects")).length;
 
-const talks = await getCollection("talks");
+const grants = (await getCollection("grants"))
+  .sort((a, b) => a.data.order - b.data.order)
+  .filter((g) => g.data.archived != true)
+  .map((item) => ({
+    url: "/grants/" + item.slug,
+    title: item.data.title,
+    iconImage: item.data.iconImage,
+    iconImageDark: item.data.iconImageDark,
+  }));
+
 ---
 
 <BaseLayout>
@@ -87,6 +96,15 @@ const talks = await getCollection("talks");
       btn_text="Read publications"
       btn_badge={Object.keys(publications).length}
     />
+    <HomepageCard
+      title="Grants and Awards"
+      description="Explore the grants and awards I've received."
+      href="/grants"
+      btn_text="Read grants"
+      btn_badge={Object.keys(grants).length}
+    />
+  </div>
+  <div class="my-6">
     <HomepageCard
       title="Contact me"
       description="Feel free to drop me a line via Slack, bluesky, email or the website contact form."
