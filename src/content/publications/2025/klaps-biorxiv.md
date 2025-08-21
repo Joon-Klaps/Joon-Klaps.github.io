@@ -17,14 +17,11 @@ We present nf-core/viralmetagenome, a comprehensive viral metagenomic pipeline f
 
 ## Availability
 
-nf-core/viralmetagenome is freely available at <jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/nf-core/viralmetagenome">https://github.com/nf-core/viralmetagenome</jats:ext-link> with comprehensive documentation at <jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://nf-co.re/viralmetagenome">https://nf-co.re/viralmetagenome</jats:ext-link>
+nf-core/viralmetagenome is freely available at https://github.com/nf-core/viralmetagenome with comprehensive documentation at https://nf-co.re/viralmetagenome
 
-## Contact
-
-<jats:email>joon.klaps@kuleuven.be</jats:email>
 
 ## Supplementary information
 
-Supplementary data are available at <jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript">https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript</jats:ext-link> online.
+Supplementary data are available at https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript.
 
 
