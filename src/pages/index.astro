@@ -48,6 +48,7 @@ const grants = (await getCollection("grants"))
     iconImage: item.data.iconImage,
     iconImageDark: item.data.iconImageDark,
   }));
+const grants_count = (await getCollection("grants")).length;
 
 ---
 
@@ -90,19 +91,20 @@ const grants = (await getCollection("grants"))
       plus={projects_count - projects.length}
     />
     <HomepageCard
+      title="Grants and Awards"
+      description="Explore the grants and awards I've received."
+      href="/grants"
+      items={grants}
+      plus={grants_count - grants.length}
+    />
+    <HomepageCard
       title="Publications"
       description="Delve into journal articles that I've written or worked on."
       href="/publications"
       btn_text="Read publications"
       btn_badge={Object.keys(publications).length}
     />
-    <HomepageCard
-      title="Grants and Awards"
-      description="Explore the grants and awards I've received."
-      href="/grants"
-      btn_text="Read grants"
-      btn_badge={Object.keys(grants).length}
-    />
+
   </div>
   <div class="my-6">
     <HomepageCard

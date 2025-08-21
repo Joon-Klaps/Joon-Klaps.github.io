@@ -18,7 +18,7 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
   <p class="mx-5 mb-5 grow self-stretch">{description}</p>
   {
     items && (
-      <div class="flex items-center justify-around border-t bg-zinc-100 p-5 dark:border-t-zinc-700 dark:bg-zinc-800 min-h-[80px]">
+      <div class="flex items-center justify-around border-t bg-zinc-100 p-3 dark:border-t-zinc-700 dark:bg-zinc-800 min-h-[60px]">
         <div class="flex items-center gap-10 justify-around max-w-full">
           {items &&
             items.map((item) => (
@@ -27,8 +27,8 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
                 title={item.title}
                 class="w-12 h-12 rounded border p-2 shadow transition-colors hover:border-gray-400 hover:bg-zinc-50 dark:border-gray-700 hover:dark:border-gray-500 dark:hover:bg-zinc-700 flex items-center justify-center"
               >
-                <img src={item.iconImage} alt={item.title} class="block dark:hidden" />
-                <img src={item.iconImageDark ?? item.iconImage} alt={item.title} class="hidden dark:block" />
+                <img src={item.iconImage} alt={item.title} class="block dark:hidden max-w-full max-h-full object-contain" />
+                <img src={item.iconImageDark ?? item.iconImage} alt={item.title} class="hidden dark:block max-w-full max-h-full object-contain" />
               </a>
             ))}
           {(plus ?? 0) > 0 && (
@@ -49,7 +49,7 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
     btn_text && (
       <a
         href={href}
-        class="block w-full border-t bg-zinc-100 p-5 text-center transition-colors hover:bg-zinc-50 dark:border-t-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+        class="block w-full border-t bg-zinc-100 p-5 text-center transition-colors hover:bg-zinc-50 dark:border-t-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700 min-h-[72px]"
       >
         {btn_text}
         {btn_badge && (
