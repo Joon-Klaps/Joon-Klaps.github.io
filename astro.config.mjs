@@ -9,7 +9,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://github.com/Joon-Klaps/Joon-Klaps.github.io",
+  site: "https://Joon-Klaps.github.io",
   integrations: [icon(), mdx(), sitemap(), tailwind(), svelte()],
   vite: {
     css: {
