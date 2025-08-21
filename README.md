@@ -1,4 +1,4 @@
-# joon.klaps.github.io
+# [My personal website](http://joon.klaps.github.io)
 
 The repository holds the code used on my website, [joon.klaps.github.io](http://joon.klaps.github.io).
 
