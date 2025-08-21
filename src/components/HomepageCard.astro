@@ -4,17 +4,18 @@ interface Props {
   title: string;
   description: string;
   href: string;
-  btn_text: string;
-  btn_badge: string;
-  items: [any];
+  btn_text?: string;
+  btn_badge?: string;
+  items?: [any];
   plus?: number;
+  reload?: boolean;
 }
 
-const { title, description, href, btn_text, btn_badge, items, plus } = Astro.props;
+const { title, description, href, btn_text, btn_badge, items, plus, reload = false } = Astro.props;
 ---
 
 <div class="flex flex-col justify-between rounded border shadow dark:border-zinc-700">
-  <h2 class="m-5 text-2xl"><a href={href}>{title}</a></h2>
+  <h2 class="m-5 text-2xl"><a href={href} data-astro-reload={reload ? true : undefined}>{title}</a></h2>
   <p class="mx-5 mb-5 grow self-stretch">{description}</p>
   {
     items && (
@@ -36,6 +37,7 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
               <a
                 href={href}
                 class="ml-2 inline-block rounded-full bg-sky-800/20 px-2 py-1 text-xs font-bold leading-none text-black/40 dark:bg-sky-800 dark:text-white/70"
+                data-astro-reload={reload ? true : undefined}
               >
                 +{plus}
               </a>
@@ -50,6 +52,7 @@ const { title, description, href, btn_text, btn_badge, items, plus } = Astro.pro
       <a
         href={href}
         class="block w-full border-t bg-zinc-100 p-5 text-center transition-colors hover:bg-zinc-50 dark:border-t-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700 min-h-[72px]"
+        data-astro-reload={reload ? true : undefined}
       >
         {btn_text}
         {btn_badge && (
