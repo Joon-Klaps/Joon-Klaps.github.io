@@ -54,7 +54,7 @@ function yearRange(startDate: Date, endDate: Date) {
 ---
 
 <div class="horizontal-card-container">
-  <a href={url} target={target} class="horizontal-card py-2 2xl:p-4">
+  <a href={url} target={target} class="horizontal-card py-2 2xl:p-4" data-astro-reload={doi ? true : undefined}>
     {img && <img src={img} alt={title} class={"block dark:hidden" + (noIconPadding ? "" : " p-2")} />}
     {
       (img || imgDark) && (
@@ -92,7 +92,7 @@ function yearRange(startDate: Date, endDate: Date) {
         {hasYouTube && <Icon name="mdi:youtube" class="icon" title="Recording available" />}
       </p>
     </div>
-    {doi && <script async is:inline src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>}
+    {doi && <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>}
     <div class="hidden md:block">
       <Icon name="bi:arrow-right" size="16" class="text-black-50" />
     </div>

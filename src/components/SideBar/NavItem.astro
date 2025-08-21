@@ -1,7 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 
-const { href, icon } = Astro.props;
+const { href, icon, reload = false } = Astro.props;
 ---
 
 <li class="relative flex flex-col flex-wrap items-stretch">
@@ -10,6 +10,7 @@ const { href, icon } = Astro.props;
       ? "bg-gradient-to-r from-white to-zinc-100 shadow  dark:from-black dark:to-black "
       : ""}
     href={href}
+    data-astro-reload={reload ? true : undefined}
   >
     <Icon name={icon} size="16" />
     <slot />
