@@ -3327,5 +3327,1456 @@
     },
     "URL": "https://doi.org/10.5281/zenodo.16890658",
     "abstract": "Flowers offer a wide variety of substrates suitable for microbial growth. However, the\n\nmicrobiological study of flowers has only recently begun to be systematically\n\naddressed, and our knowledge about floral-inhabiting microorganisms is yet very\n\nlimited. The aim of this study was to assess the diversity of culturable yeasts associated\n\nwith three floral microhabitats \u2013namely, nectar, stamina and styles\u2013 of Metrosideros\n\npolymorpha Gaud. (Myrtaceae), a tree endemic to Hawaii. Yeast isolates recovered\n\nfrom floral samples were identified by sequencing different regions of the ribosomal\n\nRNA operon and classified into operational taxonomic units (OTUs). Furthermore,\n\nrarefaction-based estimators were used to assess the diversity and composition of the\n\nflower-dwelling yeast communities. Our results showed that M. polymorpha flowers are\n\ninhabited by species-poor yeast communities (<42 predicted OTUs, of which we\n\nrecovered c.50%) that are dominated by ascomycetous taxa (75% of observed OTUs).\n\nFurthermore, the yeast communities associated to specific floral structures showed\n\ncertain differentiation in their OTU richness and phylogenetic diversity, both of which\n\nwere higher for styles and stamina than for nectar. Finally, our mycological survey led\n\nto the discovery of two novel yeast lineages that diverged phylogenetically and\n\nphenotypically from previously described taxa, and might represent new species within\n\nthe anamorphic genus Candida. Future work should clarify the taxonomic status and\n\necology of these new yeast lineages."
+  },
+  "10.1016/j.cell.2025.08.016": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2025-08-27T00:17:08Z",
+      "timestamp": 1756253828314,
+      "version": "3.44.0"
+    },
+    "reference-count": 88,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012247",
+        "name": "Program of Shanghai Academic Research Leader",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZYGXQNJSKYCXNLZCXM-116",
+          "23XD1420700"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012247",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01 AI153044"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "T2525019"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100005416",
+        "name": "Norges Forskningsr\u00e5d",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "262700"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100005416",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004359",
+        "name": "Vetenskapsr\u00e5det",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2020-02593"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004359",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE220100965"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021YFC2300903",
+          "32425053"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "Fonds Wetenschappelijk Onderzoek",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G005323N",
+          "G051322N"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000925",
+        "name": "National Health and Medical Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GNT2017197"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000925",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002338",
+        "name": "Ministry of Education of the People's Republic of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002338",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100021078",
+        "name": "Norwegian Institute of Public Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100021078",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003452",
+        "name": "Innovation and Technology Commission",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003452",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cell.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Cell"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cell.2025.08.016",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2025-08-26T14:42:21Z",
+      "timestamp": 1756219341000
+    },
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Extensive cross-species transmission of pathogens and antibiotic resistance genes in mammals neglected by public health surveillance"
+    ],
+    "prefix": "10.1016",
+    "author": [
+      {
+        "given": "Yuqi",
+        "family": "Shi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yuxing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haipeng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ayidana",
+        "family": "Haerheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vanessa R.",
+        "family": "Marcelino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Meng",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jia",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuhai",
+        "family": "Bi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John H.-O.",
+        "family": "Pettersson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jon",
+        "family": "Bohlin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zuowei",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wenbo",
+        "family": "Wan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bowen",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mei",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Edward C.",
+        "family": "Holmes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Na",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shuo",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "S55",
+        "DOI": "10.3201/eid2313.170418",
+        "article-title": "Prioritizing Zoonoses for Global Health Capacity Building-Themes from One Health Zoonotic Disease Workshops in 7 Countries, 2014\u20132016",
+        "volume": "23",
+        "author": "Salyer",
+        "year": "2017",
+        "journal-title": "Emerg. Infect. Dis."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib2",
+        "unstructured": "Grace, D., Mutua, F.K., Ochungo, P., Kruska, R.L., Jones, K., Brierley, L., Lapar, M.L., Said, M.Y., Herrero, M., Phuc, P.M., et al. (2012). Mapping of poverty and likely zoonoses hotspots. https://cgspace.cgiar.org/items/c879acdd-6b11-4166-aa8d-48049783b453."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2028",
+        "DOI": "10.1056/NEJMc2405371",
+        "article-title": "Highly Pathogenic Avian Influenza A(H5N1) Virus Infection in a Dairy Farm Worker",
+        "volume": "390",
+        "author": "Uyeki",
+        "year": "2024",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib4",
+        "unstructured": "CDC. (2025). H5 Bird Flu: Current Situation. Avian Influenza Bird Flu. https://www.cdc.gov/bird-flu/situation-summary/index.html."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2023.162194",
+        "article-title": "Potential reservoirs of antimicrobial resistance in livestock waste and treated wastewater that can be disseminated to agricultural land",
+        "volume": "872",
+        "author": "Ibekwe",
+        "year": "2023",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1186/s12917-024-04462-5",
+        "article-title": "Antimicrobial resistance in wild game mammals: a glimpse into the contamination of wild habitats in a systematic review and meta-analysis",
+        "volume": "21",
+        "author": "Akwongo",
+        "year": "2025",
+        "journal-title": "BMC Vet. Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/S0140-6736(24)01867-1",
+        "article-title": "Global burden of bacterial antimicrobial resistance 1990\u20132021: a systematic analysis with forecasts to 2050",
+        "volume": "404",
+        "year": "2024",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1126/science.abc0017",
+        "article-title": "Rigorous wildlife disease surveillance",
+        "volume": "369",
+        "author": "Watsa",
+        "year": "2020",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.3390/v12010107",
+        "article-title": "Virus Metagenomics in Farm Animals: A Systematic Review",
+        "volume": "12",
+        "author": "Kwok",
+        "year": "2020",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2040",
+        "DOI": "10.1016/j.cell.2023.04.002",
+        "article-title": "Zoonotic risk assessment among farmed mammals",
+        "volume": "186",
+        "author": "Lu",
+        "year": "2023",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1111/j.1365-2907.2010.00163.x",
+        "article-title": "Carnivores (Mammalia: Carnivora) in South China: a status review with notes on the commercial trade",
+        "volume": "40",
+        "author": "Lau",
+        "year": "2010",
+        "journal-title": "Mamm. Rev."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "22067.1-13",
+        "DOI": "10.25225/jvb.22067",
+        "article-title": "Forest musk deer (Moschus berezovskii) in China: research and protection",
+        "volume": "72",
+        "author": "Feng",
+        "year": "2023",
+        "journal-title": "J. Vertebr. Biol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1038/s44259-024-00071-2",
+        "article-title": "Antibiotic ecotoxicity and resistance risks in resource-constrained chicken and pig farming environments",
+        "volume": "2",
+        "author": "Gudda",
+        "year": "2024",
+        "journal-title": "Npj Antimicrob. Resist."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "8399",
+        "DOI": "10.1073/pnas.1208059110",
+        "article-title": "Zoonosis emergence linked to agricultural intensification and environmental change",
+        "volume": "110",
+        "author": "Jones",
+        "year": "2013",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1038/s43247-023-00790-w",
+        "article-title": "Intensified livestock farming increases antibiotic resistance genotypes and phenotypes in animal feces",
+        "volume": "4",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Commun. Earth Environ."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.meegid.2023.105406",
+        "article-title": "Discovery of a coronavirus in the Eurasian badger (Meles meles) belonging to a putative new genus",
+        "volume": "109",
+        "author": "Zamperin",
+        "year": "2023",
+        "journal-title": "Infect. Genet. Evol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1117",
+        "DOI": "10.1016/j.cell.2022.02.014",
+        "article-title": "Virome characterization of game animals in China reveals a spectrum of emerging pathogens",
+        "volume": "185",
+        "author": "He",
+        "year": "2022",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "725",
+        "DOI": "10.1038/nbt.3893",
+        "article-title": "Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea",
+        "volume": "35",
+        "author": "Bowers",
+        "year": "2017",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-018-07641-9",
+        "article-title": "High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries",
+        "volume": "9",
+        "author": "Jain",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "D785",
+        "DOI": "10.1093/nar/gkab776",
+        "article-title": "GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy",
+        "volume": "50",
+        "author": "Parks",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "727",
+        "DOI": "10.1038/s41587-020-00797-0",
+        "article-title": "inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains",
+        "volume": "39",
+        "author": "Olm",
+        "year": "2021",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1633",
+        "DOI": "10.1038/s41587-023-01688-w",
+        "article-title": "Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4",
+        "volume": "41",
+        "author": "Blanco-M\u00edguez",
+        "year": "2023",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "626",
+        "DOI": "10.1101/gr.216242.116",
+        "article-title": "Microbial strain-level population structure and genetic diversity from metagenomes",
+        "volume": "27",
+        "author": "Truong",
+        "year": "2017",
+        "journal-title": "Genome Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3491",
+        "DOI": "10.1093/jac/dkaa345",
+        "article-title": "ResFinder 4.0 for predictions of phenotypes from genotypes",
+        "volume": "75",
+        "author": "Bortolaia",
+        "year": "2020",
+        "journal-title": "J. Antimicrob. Chemother."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib25",
+        "series-title": "WHO publishes the WHO Medically Important Antimicrobials List for Human Medicine",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1038/s41587-020-0603-3",
+        "article-title": "A unified catalog of 204,938 reference genomes from the human gut microbiome",
+        "volume": "39",
+        "author": "Almeida",
+        "year": "2021",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2053",
+        "DOI": "10.1016/j.cell.2021.02.052",
+        "article-title": "Elevated rates of horizontal gene transfer in the industrialized human microbiome",
+        "volume": "184",
+        "author": "Groussin",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib28",
+        "unstructured": "Word Health Organization. (2024). WHO bacterial priority pathogens list, 2024: Bacterial pathogens of public health importance to guide research, development and strategies to prevent and control antimicrobial resistance. https://www.who.int/publications/i/item/9789240093461."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib29",
+        "unstructured": "Word Health Organization. (2024). Pathogens prioritization: a scientific framework for epidemic and pandemic research preparedness. https://www.who.int/publications/m/item/pathogens-prioritization-a-scientific-framework-for-epidemic-and-pandemic-research-preparedness."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib30",
+        "unstructured": "Word Health Organization. (2024). WHO fungal priority pathogens list to guide research, development and public health action. https://www.who.int/publications/i/item/9789240060241."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "228",
+        "DOI": "10.1038/s41586-024-07901-3",
+        "article-title": "Farmed fur animals harbour viruses with zoonotic spillover potential",
+        "volume": "634",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-023-39455-9",
+        "article-title": "Higher convergence of human-great ape enteric eukaryotic viromes in central African forest than in a European zoo: a One Health analysis",
+        "volume": "14",
+        "author": "Narat",
+        "year": "2023",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1007/s10393-009-0226-0",
+        "article-title": "Industrial food animal production and global health risks: exploring the ecosystems and economics of avian influenza",
+        "volume": "6",
+        "author": "Leibler",
+        "year": "2009",
+        "journal-title": "EcoHealth"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "646",
+        "DOI": "10.1038/nature22975",
+        "article-title": "Host and viral traits predict zoonotic spillover from mammals",
+        "volume": "546",
+        "author": "Olival",
+        "year": "2017",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/science.abb5352",
+        "article-title": "Diversity and functional landscapes in the microbiota of animals in the wild",
+        "volume": "372",
+        "author": "Levin",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5775",
+        "DOI": "10.1016/j.cell.2024.07.039",
+        "article-title": "Unexplored microbial diversity from 2,500 food metagenomes and links with the human microbiome",
+        "volume": "187",
+        "author": "Carlino",
+        "year": "2024",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1186/s12917-025-04548-8",
+        "article-title": "Systematic review and meta-analysis of antimicrobial resistant bacteria in free-ranging wild mammals",
+        "volume": "21",
+        "author": "Smoglica",
+        "year": "2025",
+        "journal-title": "BMC Vet. Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "705",
+        "DOI": "10.1038/s41591-020-0825-4",
+        "article-title": "Adaptive evolution of virulence and persistence in carbapenem-resistant Klebsiella pneumoniae",
+        "volume": "26",
+        "author": "Ernst",
+        "year": "2020",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2114",
+        "DOI": "10.1093/bioinformatics/btu170",
+        "article-title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+        "volume": "30",
+        "author": "Bolger",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib40",
+        "author": "Babraham"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1038/nmeth.1923",
+        "article-title": "Fast gapped-read alignment with Bowtie 2",
+        "volume": "9",
+        "author": "Langmead",
+        "year": "2012",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1674",
+        "DOI": "10.1093/bioinformatics/btv033",
+        "article-title": "MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph",
+        "volume": "31",
+        "author": "Li",
+        "year": "2015",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1038/nmeth.3176",
+        "article-title": "Fast and sensitive protein alignment using DIAMOND",
+        "volume": "12",
+        "author": "Buchfink",
+        "year": "2015",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "403",
+        "DOI": "10.1016/S0022-2836(05)80360-2",
+        "article-title": "Basic local alignment search tool",
+        "volume": "215",
+        "author": "Altschul",
+        "year": "1990",
+        "journal-title": "J. Mol. Biol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1792",
+        "DOI": "10.1093/nar/gkh340",
+        "article-title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+        "volume": "32",
+        "author": "Edgar",
+        "year": "2004",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1972",
+        "DOI": "10.1093/bioinformatics/btp348",
+        "article-title": "trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses",
+        "volume": "25",
+        "author": "Capella-Guti\u00e9rrez",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1093/sysbio/syq010",
+        "article-title": "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0",
+        "volume": "59",
+        "author": "Guindon",
+        "year": "2010",
+        "journal-title": "Syst. Biol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "W78",
+        "DOI": "10.1093/nar/gkae268",
+        "article-title": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+        "volume": "52",
+        "author": "Letunic",
+        "year": "2024",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "1530",
+        "DOI": "10.1093/molbev/msaa015",
+        "article-title": "IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era",
+        "volume": "37",
+        "author": "Minh",
+        "year": "2020",
+        "journal-title": "Mol. Biol. Evol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "502",
+        "DOI": "10.1093/bioinformatics/18.3.502",
+        "article-title": "TREE-PUZZLE: maximum likelihood phylogenetic analysis using quartets and parallel computing",
+        "volume": "18",
+        "author": "Schmidt",
+        "year": "2002",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1128/JVI.73.1.152-160.1999",
+        "article-title": "Full-length human immunodeficiency virus type 1 genomes from subtype C-infected seroconverters in India, with evidence of intersubtype recombination",
+        "volume": "73",
+        "author": "Lole",
+        "year": "1999",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib56",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.7717/peerj.7359",
+        "article-title": "MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies",
+        "volume": "7",
+        "author": "Kang",
+        "year": "2019",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "1043",
+        "DOI": "10.1101/gr.186072.114",
+        "article-title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+        "volume": "25",
+        "author": "Parks",
+        "year": "2015",
+        "journal-title": "Genome Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1186/s13059-020-02155-4",
+        "article-title": "Estimating the quality of eukaryotic genomes recovered from metagenomic analysis with EukCC",
+        "volume": "21",
+        "author": "Saary",
+        "year": "2020",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "2864",
+        "DOI": "10.1038/ismej.2017.126",
+        "article-title": "dRep: a tool for fast and accurate genomic comparisons that enables improved genome recovery from metagenomes through de-replication",
+        "volume": "11",
+        "author": "Olm",
+        "year": "2017",
+        "journal-title": "ISME J."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "5315",
+        "DOI": "10.1093/bioinformatics/btac672",
+        "article-title": "GTDB-Tk v2: memory friendly classification with the genome taxonomy database",
+        "volume": "38",
+        "author": "Chaumeil",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib62",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0009490",
+        "article-title": "FastTree 2--approximately maximum-likelihood trees for large alignments",
+        "volume": "5",
+        "author": "Price",
+        "year": "2010",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "4647",
+        "DOI": "10.1093/molbev/msab199",
+        "article-title": "BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes",
+        "volume": "38",
+        "author": "Manni",
+        "year": "2021",
+        "journal-title": "Mol. Biol. Evol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib68",
+        "unstructured": "Aroney, S.T.N., Newell, R.J.P., Nissen, J., Camargo, A.P., Tyson, G.W., and Woodcroft, B.J. (2024). CoverM: Read coverage calculator for metagenomics. Version v0.7.0. Zenodo. https://doi.org/10.5281/zenodo.10531254"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "6830",
+        "DOI": "10.21105/joss.06830",
+        "article-title": "sourmash v4: A multitool to quickly search, compare, and analyze genomic and metagenomic data sets",
+        "volume": "9",
+        "author": "Irber",
+        "year": "2024",
+        "journal-title": "J. Open Source Softw."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1186/1471-2105-11-119",
+        "article-title": "Prodigal: prokaryotic gene recognition and translation initiation site identification",
+        "volume": "11",
+        "author": "Hyatt",
+        "year": "2010",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1754",
+        "DOI": "10.1093/bioinformatics/btp324",
+        "article-title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+        "volume": "25",
+        "author": "Li",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib74",
+        "doi-asserted-by": "crossref",
+        "first-page": "2078",
+        "DOI": "10.1093/bioinformatics/btp352",
+        "article-title": "The Sequence Alignment/Map format and SAMtools",
+        "volume": "25",
+        "author": "Li",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib77",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1002195",
+        "article-title": "Accelerated Profile HMM Searches",
+        "volume": "7",
+        "author": "Eddy",
+        "year": "2011",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "D36",
+        "DOI": "10.1093/nar/gks1195",
+        "article-title": "GenBank",
+        "volume": "41",
+        "author": "Benson",
+        "year": "2013",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "D243",
+        "DOI": "10.1093/nar/gkae1038",
+        "article-title": "NCBI RefSeq: reference sequence standards through 25 years of curation and annotation",
+        "volume": "53",
+        "author": "Goldfarb",
+        "year": "2025",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "D20",
+        "DOI": "10.1093/nar/gkab1112",
+        "article-title": "Database resources of the national center for biotechnology information",
+        "volume": "50",
+        "author": "Sayers",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "D590",
+        "DOI": "10.1093/nar/gks1219",
+        "article-title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools",
+        "volume": "41",
+        "author": "Quast",
+        "year": "2013",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "D708",
+        "DOI": "10.1093/nar/gkx932",
+        "article-title": "Virus taxonomy: the database of the International Committee on Taxonomy of Viruses (ICTV)",
+        "volume": "46",
+        "author": "Lefkowitz",
+        "year": "2018",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib54",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1099/jgv.0.001843",
+        "article-title": "ICTV Virus Taxonomy Profile: Coronaviridae 2023",
+        "volume": "104",
+        "author": "Woo",
+        "year": "2023",
+        "journal-title": "J. Gen. Virol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "1079",
+        "DOI": "10.1038/s41587-020-0501-8",
+        "article-title": "A complete domain-to-species taxonomy for Bacteria and Archaea",
+        "volume": "38",
+        "author": "Parks",
+        "year": "2020",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "2969",
+        "DOI": "10.1016/j.cell.2024.04.043",
+        "article-title": "A genomic compendium of cultivated human gut fungi characterizes the gut mycobiome and its relevance to common diseases",
+        "volume": "187",
+        "author": "Yan",
+        "year": "2024",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib67",
+        "series-title": "FigTree",
+        "author": "Rambaut",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib70",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-021-27917-x",
+        "article-title": "Short- and long-read metagenomics of urban and rural South African gut microbiomes reveal a transitional composition and undescribed taxa",
+        "volume": "13",
+        "author": "Tamburini",
+        "year": "2022",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib71",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fmicb.2024.1328083",
+        "article-title": "Biogeographic distribution of five Antarctic cyanobacteria using large-scale k-mer searching with sourmash branchwater",
+        "volume": "15",
+        "author": "Lumian",
+        "year": "2024",
+        "journal-title": "Front. Microbiol."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib75",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0022099",
+        "article-title": "Universally distributed single-copy genes indicate a constant rate of horizontal transfer",
+        "volume": "6",
+        "author": "Creevey",
+        "year": "2011",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib76",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0047656",
+        "article-title": "MOCAT: a metagenomics assembly and gene prediction toolkit",
+        "volume": "7",
+        "author": "Kultima",
+        "year": "2012",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib78",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1128/mBio.02060-21",
+        "article-title": "TnCentral: a Prokaryotic Transposable Element Database and Web Portal for Transposon Analysis",
+        "volume": "12",
+        "author": "Ross",
+        "year": "2021",
+        "journal-title": "mBio"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "D32",
+        "DOI": "10.1093/nar/gkj014",
+        "article-title": "ISfinder: the reference centre for bacterial insertion sequences",
+        "volume": "34",
+        "author": "Siguier",
+        "year": "2006",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib80",
+        "doi-asserted-by": "crossref",
+        "first-page": "1096",
+        "DOI": "10.1093/bioinformatics/btp105",
+        "article-title": "INTEGRALL: a database and search engine for integrons, integrases and gene cassettes",
+        "volume": "25",
+        "author": "Moura",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib81",
+        "doi-asserted-by": "crossref",
+        "first-page": "D690",
+        "DOI": "10.1093/nar/gkac920",
+        "article-title": "CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database",
+        "volume": "51",
+        "author": "Alcock",
+        "year": "2023",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib82",
+        "doi-asserted-by": "crossref",
+        "first-page": "e00483-19",
+        "DOI": "10.1128/AAC.00483-19",
+        "article-title": "Validating the AMRFinder Tool and Resistance Gene Database by Using Antimicrobial Resistance Genotype-Phenotype Correlations in a Collection of Isolates",
+        "volume": "63",
+        "author": "Feldgarden",
+        "year": "2019",
+        "journal-title": "Antimicrob. Agents Chemother."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib83",
+        "doi-asserted-by": "crossref",
+        "first-page": "e35",
+        "DOI": "10.1093/nar/gkx1321",
+        "article-title": "PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures",
+        "volume": "46",
+        "author": "Krawczyk",
+        "year": "2018",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib84",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.chemosphere.2024.143808",
+        "article-title": "Antimicrobial resistance genes and associated mobile genetic elements in Escherichia coli from human, animal and environment",
+        "volume": "369",
+        "author": "Rana",
+        "year": "2024",
+        "journal-title": "Chemosphere"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "D791",
+        "DOI": "10.1093/nar/gkad1039",
+        "article-title": "The UNITE database for molecular identification and taxonomic communication of fungi and other eukaryotes: sequences, taxa and classifications reconsidered",
+        "volume": "52",
+        "author": "Abarenkov",
+        "year": "2024",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib86",
+        "doi-asserted-by": "crossref",
+        "first-page": "933",
+        "DOI": "10.1111/1755-0998.13756",
+        "article-title": "COInr and mkCOInr: Building and customizing a nonredundant barcoding reference database from BOLD and NCBI using a semi-automated pipeline",
+        "volume": "23",
+        "author": "Megl\u00e9cz",
+        "year": "2023",
+        "journal-title": "Mol. Ecol. Resour."
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib87",
+        "series-title": "R: A Language and Environment for Statistical Computing",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cell.2025.08.016_bib88",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/molbev/msac174",
+        "article-title": "TimeTree 5: An Expanded Resource for Species Divergence Times",
+        "volume": "39",
+        "author": "Kumar",
+        "year": "2022",
+        "journal-title": "Mol. Biol. Evol."
+      }
+    ],
+    "container-title": [
+      "Cell"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0092867425009717?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0092867425009717?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2025-08-26T14:42:32Z",
+      "timestamp": 1756219352000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0092867425009717"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "references-count": 88,
+    "alternative-id": [
+      "S0092867425009717"
+    ],
+    "URL": "https://doi.org/10.1016/j.cell.2025.08.016",
+    "relation": {},
+    "ISSN": [
+      "0092-8674"
+    ],
+    "issn-type": [
+      {
+        "value": "0092-8674",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Extensive cross-species transmission of pathogens and antibiotic resistance genes in mammals neglected by public health surveillance",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Cell",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.cell.2025.08.016",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
   }
 }
