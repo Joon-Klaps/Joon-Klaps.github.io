@@ -73,9 +73,9 @@ jobs:
         git add .
 
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          git commit -m "Update all publications [skip ci]"
+          git commit -m "Update all publications"
         else
-          git commit -m "Add ${{ steps.filter_dois.outputs.new_count }} new publications [skip ci]"
+          git commit -m "Add ${{ steps.filter_dois.outputs.new_count }} new publications"
         fi
 
         git push
