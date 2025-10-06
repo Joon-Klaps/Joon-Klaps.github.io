@@ -6,6 +6,7 @@ pubDate: 2025-08-01
 ---
 
 ## Highlights
+
 •	7,063 undescribed bacteria and a new coronavirus genus in 973 non-traditional mammals
 •	Highly diverse influenza A viruses found in four different mammals
 •	Bacteria, including pathogens, are shared across regions, host orders, and lifestyles
