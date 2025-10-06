@@ -1,8 +1,10 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Button from "@components/Button.astro";
+import { formatDateRange } from "../utils/dateFormatting";
 
 const { entry, Content, back_to_text = false, back_to_link = false, is_archived = false, currentPage = "" } = Astro.props;
+const dateRangeLabel = formatDateRange(entry.data.startDate, entry.data.endDate, { separator: " - " });
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.description} image={entry.data.heroImage} currentPage={currentPage}>
@@ -88,17 +90,7 @@ const { entry, Content, back_to_text = false, back_to_link = false, is_archived 
           </Button>
         )
       }
-      {
-        entry.data.startDate && (
-          <p class="mt-3text-sm ml-3">
-            {entry.data.startDate.toLocaleString("default", { month: "long" })}
-            {entry.data.startDate.getFullYear()} -
-            {entry.data.endDate
-              ? entry.data.endDate.toLocaleString("default", { month: "long" }) + " " + entry.data.endDate.getFullYear()
-              : "Present"}
-          </p>
-        )
-      }
+      {dateRangeLabel && <p class="ml-3 mt-3 text-sm">{dateRangeLabel}</p>}
     </div>
     {
       entry.data.heroImage && (

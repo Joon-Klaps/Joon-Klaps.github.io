@@ -68,6 +68,10 @@ html {
   content: "";
 }
 
+strong {
+  font-weight: bold;
+}
+
 .timeline_entry .description {
   @apply my-2 text-justify text-sm text-gray-600 dark:text-gray-400;
   p {

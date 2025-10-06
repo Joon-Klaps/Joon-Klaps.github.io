@@ -7,7 +7,7 @@ const {
   noIconPadding,
   description,
   startDate,
-  endDate = false,
+  endDate,
   url,
   postDate,
   badge,
@@ -21,6 +21,8 @@ const {
   doi,
 } = Astro.props;
 import { Icon } from "astro-icon/components";
+import { highlightAuthorName } from "../utils/highlightAuthorName";
+import { formatDateRange } from "../utils/dateFormatting";
 
 let countryFlagIcon;
 let countryFlagIconDark;
@@ -29,7 +31,7 @@ if (countryFlag) {
   countryFlagIconDark = "flag:" + countryFlag + "-4x3";
 }
 
-const nth = (d) => {
+const nth = (d: number) => {
   if (d > 3 && d < 21) return "th";
   switch (d % 10) {
     case 1:
@@ -42,15 +44,12 @@ const nth = (d) => {
       return "th";
   }
 };
-const dateString = (d) => {
+const dateString = (d: Date) => {
   return d.toLocaleString("default", { month: "long" }) + " " + d.getDate() + "<sup>" + nth(d.getDate()) + "</sup>";
 };
 
-function yearRange(startDate: Date, endDate: Date) {
-  const startYear = startDate.getFullYear();
-  const endYear = endDate ? endDate.getFullYear() : "present";
-  return startYear + " - " + endYear;
-}
+const descriptionHtml = description ? highlightAuthorName(description) : "";
+const dateRangeLabel = formatDateRange(startDate, endDate, { separator: " - " });
 ---
 
 <div class="horizontal-card-container">
@@ -85,9 +84,9 @@ function yearRange(startDate: Date, endDate: Date) {
         }
         {postDate && <Fragment set:html={dateString(postDate)} />}
         {postDate && description && <span class="mx-2">&bull;</span>}
-        {description}
-        {startDate && <span class="ml-2 opacity-50">{yearRange(startDate, endDate)}</span>}
-        {tags && tags.map((tag) => <span class="tag">{tag}</span>)}
+  {description && <Fragment set:html={descriptionHtml} />}
+        {dateRangeLabel && <span class="ml-2 opacity-50">{dateRangeLabel}</span>}
+  {tags && tags.map((tag: string) => <span class="tag">{tag}</span>)}
         {hasDownload && <Icon name="bi:file-earmark-pdf" class="icon" title="Slides available" />}
         {hasYouTube && <Icon name="mdi:youtube" class="icon" title="Recording available" />}
       </p>

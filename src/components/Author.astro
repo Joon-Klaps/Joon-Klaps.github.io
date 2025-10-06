@@ -1,17 +1,20 @@
 ---
-const { author } = Astro.props;
 import { Icon } from "astro-icon/components";
+import { highlightAuthorName } from "../utils/highlightAuthorName";
 
-var longname = author.name;
-var shortname = author.name;
+const { author } = Astro.props;
+
+let longname = author.name;
+let shortname = author.name;
 if (author.family) {
   longname = author.family;
   shortname = author.family;
 }
 if (author.given && author.family) {
-  longname = author.given + " " + author.family;
-  shortname = author.family + " " + author.given.substr(0, 1);
+  longname = `${author.given} ${author.family}`;
+  shortname = `${author.family} ${author.given.substr(0, 1)}`;
 }
+const highlightedShortname = highlightAuthorName(shortname);
 ---
 
 <span title={longname}>
@@ -19,10 +22,10 @@ if (author.given && author.family) {
     author.ORCID ? (
       <a href={author.ORCID} target="_blank">
         <Icon name="simple-icons:orcid" size="16px" class="inline opacity-50" />
-        {shortname}
+        <Fragment set:html={highlightedShortname} />
       </a>
     ) : (
-      <>{shortname}</>
+      <Fragment set:html={highlightedShortname} />
     )
   }
 </span>
