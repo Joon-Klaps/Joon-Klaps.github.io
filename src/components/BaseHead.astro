@@ -6,7 +6,7 @@ import "../styles/global.css";
 import { Tooltips } from "astro-tooltips";
 import { ViewTransitions } from "astro:transitions";
 
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import { SITE_TITLE, SITE_DESCRIPTION, GOOGLE_SITE_VERIFICATION } from "../config";
 
 export interface Props {
   title: string;
@@ -51,6 +51,9 @@ const page_title = title && title != SITE_TITLE ? `${title} | ${SITE_TITLE}` : S
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
+{GOOGLE_SITE_VERIFICATION && (
+  <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+)}
 
 <!-- Primary Meta Tags -->
 <title>{page_title}</title>
