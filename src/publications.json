@@ -4778,5 +4778,273 @@
         "label": "Copyright"
       }
     ]
+  },
+  "10.1101/2025.11.20.685321": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T19:22:20Z",
+      "timestamp": 1763666540503,
+      "version": "3.45.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    },
+    "group-title": "Evolutionary Biology",
+    "reference-count": 0,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              20
+            ]
+          ],
+          "date-time": "2025-11-20T00:00:00Z",
+          "timestamp": 1763596800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Directie-Generaal Ontwikkelingssamenwerking en Humanitaire Hulp (DGD) (Belgian cooperation)"
+      },
+      {
+        "name": "Research Foundation - Flanders",
+        "award": [
+          "1226120N",
+          "G092921N"
+        ]
+      },
+      {
+        "name": "KU Leuven - Internal Funds",
+        "award": [
+          "PDM1/25/007"
+        ]
+      },
+      {
+        "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "award": [
+          "CNE - 204.165/2024",
+          "CNE - 269.891/2021",
+          "ColBio - 210.285/202",
+          "Nota 10 E-26/205.730/2022",
+          "205.731/2022"
+        ]
+      },
+      {
+        "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+        "award": [
+          "Research Fellow -  309627/2021-4",
+          "PROEP/IOC - 441639/2024-0",
+          "INCT-EpiAmo: 465657/2014-1"
+        ]
+      },
+      {
+        "name": "Coordena\u00e7\u00e3o de Aperfeicoamento de Pessoal de N\u00edvel Superior",
+        "award": [
+          "Finance Code 001"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  The evolutionary relationships between hosts and their symbionts offer valuable insights into the origins, maintenance, and consequences of biological interactions. While co-divergence and host-switching have been extensively explored in systems, such as\n                  <jats:italic>Wolbachia</jats:italic>\n                  -arthropod symbioses or viruses infecting vertebrates, similar investigations in protistan parasites remain scarce. The\n                  <jats:italic>Leishmania</jats:italic>\n                  -\n                  <jats:italic>Leishmaniavirus</jats:italic>\n                  (LRV) association offers a rare opportunity to study co-divergence in a medically relevant symbiotic system, in which the virus modulates the parasitic disease severity in humans. Here, we used total RNA sequencing to capture both the\n                  <jats:italic>Leishmania</jats:italic>\n                  transcriptome and the LRV genome simultaneously, enabling the first comprehensive investigation of the co-evolutionary history of\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV across different hierarchical levels (subgenus, species and population). We found significant positive correlations between the parasite and viral genetic distances at both the subgenus (R\n                  <jats:sup>2</jats:sup>\n                  = 0.89; F = 10,913.49;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001) and species level (focusing on\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>Viannia</jats:italic>\n                  ) spp.; R\n                  <jats:sup>2</jats:sup>\n                  = 0.59; F = 1,254;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001). This was corroborated by additional co-phylogenetic methods (global-fit and event-based), indicating a strong pattern of phylogenetic congruence between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV up to the species level. Only at the population level, focusing on the interactions of\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>braziliensis</jats:italic>\n                  and\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>guyanensis</jats:italic>\n                  with LRV1, we found weaker co-phylogenetic signals accompanied by more instances of intraspecific host switching. Overall, our findings provide, for the first time, analytical evidence for the co-evolution between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV, with co-speciation as the predominant process, while also shedding light on how such symbioses were maintained over larger time scales.\n                </jats:p>",
+    "DOI": "10.1101/2025.11.20.685321",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T19:20:26Z",
+      "timestamp": 1763666426000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Genomic evidence for co-evolution and sporadic host shifts in leishmaniaviruses"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5786-258X",
+        "authenticated-orcid": false,
+        "given": "Senne",
+        "family": "Heeren",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2376-4236",
+        "authenticated-orcid": false,
+        "given": "Lilian",
+        "family": "Motta Cantanhede",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8722-6288",
+        "authenticated-orcid": false,
+        "given": "Khaled",
+        "family": "Chourabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-1804-0750",
+        "authenticated-orcid": false,
+        "given": "Mayara Christine",
+        "family": "de Oliviera Santana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2507-0430",
+        "authenticated-orcid": false,
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1516-437X",
+        "authenticated-orcid": false,
+        "given": "Alexei Yu.",
+        "family": "Kostygov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4765-3263",
+        "authenticated-orcid": false,
+        "given": "Vyacheslav",
+        "family": "Yurchenko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2826-5353",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9217-5240",
+        "authenticated-orcid": false,
+        "given": "Jean-Claude",
+        "family": "Dujardin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2542-5585",
+        "authenticated-orcid": false,
+        "given": "Frederik",
+        "family": "Van den Broeck",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0620-3250",
+        "authenticated-orcid": false,
+        "given": "Elisa",
+        "family": "Cupolillo",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.20.685321",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T19:20:26Z",
+      "timestamp": 1763666426000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.20.685321"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/2025.11.20.685321",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
   }
 }
