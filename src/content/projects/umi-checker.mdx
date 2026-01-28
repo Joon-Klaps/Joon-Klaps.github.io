@@ -1,0 +1,24 @@
+---
+title: umi-checker
+description: High-performance UMI collision detection tool utilizing Rust and SIMD
+# projectURL: https://github.com/Joon-Klaps/umi-checker
+github: Joon-Klaps/umi-checker
+# heroImage: /post_img.webp
+iconImage: /images/projects/rust-logo-transparent.png
+iconImageDark: /images/projects/rust-logo-transparent.png
+logoImage: /images/projects/rust-logo-transparent.png
+logoImageDark: /images/projects/rust-logo-transparent.png
+order: 30
+---
+
+[umi-checker](https://github.com/Joon-Klaps/umi-checker) is a command-line tool developed to efficiently detect collisions in Unique Molecular Identifiers (UMIs) within high-throughput sequencing data. It specifically tackles the computational challenge of calculating Hamming distances across massive datasets to ensure data integrity.
+
+This project marks my transition into **Rust** development. I created `umi-checker` to move beyond the performance limitations of interpreted languages when handling raw sequencing data. It served as a deep dive into systems programming, allowing me to explore low-level memory management and hardware-specific optimizations.
+
+To achieve maximum throughput, I implemented **SIMD (Single Instruction, Multiple Data)** comparisons, broadening my knowledge of:
+
+1.  **Parallel computing:** Leveraging data parallelism to process multiple UMI sequences simultaneously.
+2.  **Rust ownership model:** Ensuring memory safety without garbage collection overhead.
+3.  **Benchmarking:** Rigorously comparing scalar versus vectorized implementations to validate performance gains.
+
+The result is a highly performant utility that significantly reduces the time required to quality-check sequencing libraries.
