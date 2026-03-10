@@ -3,14 +3,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          7,
-          30
+          2026,
+          2,
+          26
         ]
       ],
-      "date-time": "2025-07-30T11:43:53Z",
-      "timestamp": 1753875833070,
-      "version": "3.41.2"
+      "date-time": "2026-02-26T20:34:32Z",
+      "timestamp": 1772138072350,
+      "version": "3.50.1"
     },
     "reference-count": 19,
     "publisher": "Oxford University Press (OUP)",
@@ -41,6 +41,13 @@
         "name": "European Union Horizon 2020 project MOOD",
         "award": [
           "874850"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "874850"
+            ]
+          }
         ]
       }
     ],
@@ -58,22 +65,22 @@
         ]
       ]
     },
-    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Bayesian phylogeographic analyses are pivotal in reconstructing the spatio-temporal dispersal histories of pathogens. However, interpreting the complex outcomes of phylogeographic reconstructions requires sophisticated visualization tools.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>To meet this challenge, we developed spread.gl, an open-source, feature-rich browser application offering a smooth and intuitive visualization tool for both discrete and continuous phylogeographic inferences, including the animation of pathogen geographic dispersal through time. Spread.gl can render and combine the visualization of multiple layers that contain information extracted from the input phylogeny and diverse environmental data layers, enabling researchers to explore which environmental factors may have impacted pathogen dispersal patterns before conducting formal testing. We showcase the visualization features of spread.gl with representative examples, including the smooth animation of a phylogeographic reconstruction based on &amp;gt;17\u00a0000 SARS-CoV-2 genomic sequences.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>Source code, installation instructions, example input data, and outputs of spread.gl are accessible at https://github.com/GuyBaele/SpreadGL.</jats:p>\n               </jats:sec>",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Bayesian phylogeographic analyses are pivotal in reconstructing the spatio-temporal dispersal histories of pathogens. However, interpreting the complex outcomes of phylogeographic reconstructions requires sophisticated visualization tools.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>To meet this challenge, we developed spread.gl, an open-source, feature-rich browser application offering a smooth and intuitive visualization tool for both discrete and continuous phylogeographic inferences, including the animation of pathogen geographic dispersal through time. Spread.gl can render and combine the visualization of multiple layers that contain information extracted from the input phylogeny and diverse environmental data layers, enabling researchers to explore which environmental factors may have impacted pathogen dispersal patterns before conducting formal testing. We showcase the visualization features of spread.gl with representative examples, including the smooth animation of a phylogeographic reconstruction based on &amp;gt;17\u00a0000 SARS-CoV-2 genomic sequences.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>Source code, installation instructions, example input data, and outputs of spread.gl are accessible at https://github.com/GuyBaele/SpreadGL.</jats:p>\n                  </jats:sec>",
     "DOI": "10.1093/bioinformatics/btae721",
     "type": "journal-article",
     "created": {
       "date-parts": [
         [
           2024,
-          12,
-          3
+          11,
+          27
         ]
       ],
-      "date-time": "2024-12-03T22:33:06Z",
-      "timestamp": 1733265186000
+      "date-time": "2024-11-27T15:27:45Z",
+      "timestamp": 1732721265000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 9,
     "title": [
       "spread.gl: visualizing pathogen dispersal in a high-performance browser application"
     ],
@@ -321,9 +328,9 @@
         "journal-title": "PLoS Comput Biol"
       },
       {
-        "year": "2012",
+        "key": "2024121804355793600_btae721-B4",
         "author": "Coles",
-        "key": "2024121804355793600_btae721-B4"
+        "year": "2012"
       },
       {
         "key": "2024121804355793600_btae721-B5",
@@ -381,9 +388,9 @@
         "journal-title": "Mol Biol Evol"
       },
       {
-        "year": "2022",
+        "key": "2024121804355793600_btae721-B10",
         "author": "Hill",
-        "key": "2024121804355793600_btae721-B10"
+        "year": "2022"
       },
       {
         "key": "2024121804355793600_btae721-B11",
@@ -515,11 +522,11 @@
         [
           2024,
           12,
-          18
+          17
         ]
       ],
-      "date-time": "2024-12-18T04:36:34Z",
-      "timestamp": 1734496594000
+      "date-time": "2024-12-17T23:36:34Z",
+      "timestamp": 1734478594000
     },
     "score": 1,
     "resource": {
@@ -574,8 +581,8 @@
     ],
     "issn-type": [
       {
-        "type": "electronic",
-        "value": "1367-4811"
+        "value": "1367-4811",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -602,14 +609,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          5,
-          28
+          2026,
+          3,
+          9
         ]
       ],
-      "date-time": "2025-05-28T09:28:06Z",
-      "timestamp": 1748424486248,
-      "version": "3.37.3"
+      "date-time": "2026-03-09T10:51:22Z",
+      "timestamp": 1773053482961,
+      "version": "3.50.1"
     },
     "reference-count": 64,
     "publisher": "Public Library of Science (PLoS)",
@@ -640,6 +647,13 @@
         "award": [
           "JU2856/2\u20132"
         ],
+        "award-info": [
+          {
+            "award-number": [
+              "JU2856/2\u20132"
+            ]
+          }
+        ],
         "id": [
           {
             "id": "10.13039/501100001659",
@@ -652,6 +666,13 @@
         "name": "Spanish Ministry of Science",
         "award": [
           "RYC2018-023847-I"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RYC2018-023847-I"
+            ]
+          }
         ]
       }
     ],
@@ -680,7 +701,7 @@
     "page": "e0240093",
     "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 11,
+    "is-referenced-by-count": 13,
     "title": [
       "Candida metrosideri pro tempore sp. nov. and Candida ohialehuae pro tempore sp. nov., two antifungal-resistant yeasts associated with Metrosideros polymorpha flowers in Hawaii"
     ],
@@ -1549,8 +1570,8 @@
     ],
     "issn-type": [
       {
-        "type": "electronic",
-        "value": "1932-6203"
+        "value": "1932-6203",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1568,14 +1589,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          8,
-          6
+          2026,
+          3,
+          4
         ]
       ],
-      "date-time": "2025-08-06T12:11:57Z",
-      "timestamp": 1754482317309,
-      "version": "3.37.3"
+      "date-time": "2026-03-04T07:37:31Z",
+      "timestamp": 1772609851890,
+      "version": "3.50.1"
     },
     "reference-count": 81,
     "publisher": "Springer Science and Business Media LLC",
@@ -1621,6 +1642,13 @@
         "doi-asserted-by": "publisher",
         "award": [
           "742964"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "742964"
+            ]
+          }
         ],
         "id": [
           {
@@ -1700,7 +1728,7 @@
     },
     "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 41,
+    "is-referenced-by-count": 51,
     "title": [
       "Towards a better understanding of the role of nectar-inhabiting yeasts in plant\u2013animal interactions"
     ],
@@ -2751,8 +2779,8 @@
     ],
     "issn-type": [
       {
-        "type": "electronic",
-        "value": "2054-3085"
+        "value": "2054-3085",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -2857,14 +2885,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          7,
-          5
+          2026,
+          1,
+          16
         ]
       ],
-      "date-time": "2025-07-05T04:10:10Z",
-      "timestamp": 1751688610147,
-      "version": "3.41.0"
+      "date-time": "2026-01-16T00:46:55Z",
+      "timestamp": 1768524415839,
+      "version": "3.49.0"
     },
     "posted": {
       "date-parts": [
@@ -2877,7 +2905,7 @@
     },
     "group-title": "Bioinformatics",
     "reference-count": 49,
-    "publisher": "Cold Spring Harbor Laboratory",
+    "publisher": "openRxiv",
     "license": [
       {
         "start": {
@@ -2899,10 +2927,71 @@
     "funder": [
       {
         "award": [
-          "G005323N",
-          "G051322N",
-          "1SH2V24N",
+          "G005323N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G005323N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/03qtxy027",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "G051322N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G051322N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/03qtxy027",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "1SH2V24N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1SH2V24N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/03qtxy027",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
           "12X9222N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "12X9222N"
+            ]
+          }
         ],
         "id": [
           {
@@ -2927,7 +3016,7 @@
         ]
       ]
     },
-    "abstract": "<jats:title>Abstract</jats:title>\n            <jats:sec>\n               <jats:title>Motivation</jats:title>\n               <jats:p>Eukaryotic viruses present significant challenges for genome reconstruction and variant analysis due to their extensive diversity and potential genome segmentation. While de novo assembly followed by reference database matching and scaffolding is a commonly used approach, the manual execution of this workflow is extremely time-consuming, particularly due to the extensive reference curation required. Here, we address the critical need for an automated, scalable pipeline that can efficiently handle viral metagenomic analysis without manual intervention.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Results</jats:title>\n               <jats:p>We present nf-core/viralmetagenome, a comprehensive viral metagenomic pipeline for untargeted genome reconstruction and variant analysis of eukaryotic DNA and RNA viruses. Viral-metagenome is implemented as a Nextflow workflow that processes short-read metagenomic samples to automatically detect and assemble viral genomes, while also performing variant analysis. The pipeline features automated reference selection, consensus quality control metrics, comprehensive documentation, and seamless integration with containerization technologies, including Docker and Singularity. We demonstrate the utility and accuracy of our approach through validation on both simulated and real datasets, showing robust performance across diverse viral families in metage-nomic samples.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Availability</jats:title>\n               <jats:p>nf-core/viralmetagenome is freely available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/nf-core/viralmetagenome\">https://github.com/nf-core/viralmetagenome</jats:ext-link> with comprehensive documentation at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://nf-co.re/viralmetagenome\">https://nf-co.re/viralmetagenome</jats:ext-link>\n               </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Contact</jats:title>\n               <jats:p>\n                  <jats:email>joon.klaps@kuleuven.be</jats:email>\n               </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Supplementary information</jats:title>\n               <jats:p>Supplementary data are available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript\">https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript</jats:ext-link> online.</jats:p>\n            </jats:sec>",
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Eukaryotic viruses present significant challenges for genome reconstruction and variant analysis due to their extensive diversity and potential genome segmentation. While de novo assembly followed by reference database matching and scaffolding is a commonly used approach, the manual execution of this workflow is extremely time-consuming, particularly due to the extensive reference curation required. Here, we address the critical need for an automated, scalable pipeline that can efficiently handle viral metagenomic analysis without manual intervention.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We present nf-core/viralmetagenome, a comprehensive viral metagenomic pipeline for untargeted genome reconstruction and variant analysis of eukaryotic DNA and RNA viruses. Viral-metagenome is implemented as a Nextflow workflow that processes short-read metagenomic samples to automatically detect and assemble viral genomes, while also performing variant analysis. The pipeline features automated reference selection, consensus quality control metrics, comprehensive documentation, and seamless integration with containerization technologies, including Docker and Singularity. We demonstrate the utility and accuracy of our approach through validation on both simulated and real datasets, showing robust performance across diverse viral families in metage-nomic samples.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    nf-core/viralmetagenome is freely available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/nf-core/viralmetagenome\">https://github.com/nf-core/viralmetagenome</jats:ext-link>\n                    with comprehensive documentation at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://nf-co.re/viralmetagenome\">https://nf-co.re/viralmetagenome</jats:ext-link>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>joon.klaps@kuleuven.be</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>\n                    Supplementary data are available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript\">https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript</jats:ext-link>\n                    online.\n                  </jats:p>\n                </jats:sec>",
     "DOI": "10.1101/2025.06.27.661954",
     "type": "posted-content",
     "created": {
@@ -2938,15 +3027,15 @@
           3
         ]
       ],
-      "date-time": "2025-07-03T04:05:15Z",
-      "timestamp": 1751515515000
+      "date-time": "2025-07-03T00:05:15Z",
+      "timestamp": 1751501115000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": [
       "nf-core/viralmetagenome: A Novel Pipeline for Untargeted Viral Genome Reconstruction"
     ],
-    "prefix": "10.1101",
+    "prefix": "10.64898",
     "author": [
       {
         "ORCID": "https://orcid.org/0000-0002-2507-0430",
@@ -2978,7 +3067,7 @@
         "affiliation": []
       }
     ],
-    "member": "246",
+    "member": "54368",
     "reference": [
       {
         "key": "2025070420501509000_2025.06.27.661954v1.1",
@@ -3266,13 +3355,13 @@
     "deposited": {
       "date-parts": [
         [
-          2025,
-          7,
-          5
+          2026,
+          1,
+          15
         ]
       ],
-      "date-time": "2025-07-05T03:50:29Z",
-      "timestamp": 1751687429000
+      "date-time": "2026-01-15T09:03:04Z",
+      "timestamp": 1768467784000
     },
     "score": 1,
     "resource": {
@@ -3332,29 +3421,30 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          8,
-          27
+          2026,
+          3,
+          7
         ]
       ],
-      "date-time": "2025-08-27T00:17:08Z",
-      "timestamp": 1756253828314,
-      "version": "3.44.0"
+      "date-time": "2026-03-07T17:50:37Z",
+      "timestamp": 1772905837753,
+      "version": "3.50.1"
     },
     "reference-count": 88,
     "publisher": "Elsevier BV",
+    "issue": "23",
     "license": [
       {
         "start": {
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "tdm",
         "delay-in-days": 0,
@@ -3365,12 +3455,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "tdm",
         "delay-in-days": 0,
@@ -3381,12 +3471,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "stm-asf",
         "delay-in-days": 0,
@@ -3397,12 +3487,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "stm-asf",
         "delay-in-days": 0,
@@ -3413,12 +3503,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "stm-asf",
         "delay-in-days": 0,
@@ -3429,12 +3519,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "stm-asf",
         "delay-in-days": 0,
@@ -3445,12 +3535,12 @@
           "date-parts": [
             [
               2025,
-              8,
+              11,
               1
             ]
           ],
-          "date-time": "2025-08-01T00:00:00Z",
-          "timestamp": 1754006400000
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
         },
         "content-version": "stm-asf",
         "delay-in-days": 0,
@@ -3459,103 +3549,18 @@
     ],
     "funder": [
       {
-        "DOI": "10.13039/501100012247",
-        "name": "Program of Shanghai Academic Research Leader",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "ZYGXQNJSKYCXNLZCXM-116",
-          "23XD1420700"
-        ],
-        "id": [
-          {
-            "id": "10.13039/501100012247",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
-        "DOI": "10.13039/100000002",
-        "name": "National Institutes of Health",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "R01 AI153044"
-        ],
-        "id": [
-          {
-            "id": "10.13039/100000002",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
-        "DOI": "10.13039/501100001809",
-        "name": "National Natural Science Foundation of China",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "T2525019"
-        ],
-        "id": [
-          {
-            "id": "10.13039/501100001809",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
-        "DOI": "10.13039/501100005416",
-        "name": "Norges Forskningsr\u00e5d",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "262700"
-        ],
-        "id": [
-          {
-            "id": "10.13039/501100005416",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
-        "DOI": "10.13039/501100004359",
-        "name": "Vetenskapsr\u00e5det",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "2020-02593"
-        ],
-        "id": [
-          {
-            "id": "10.13039/501100004359",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
-        "DOI": "10.13039/501100000923",
-        "name": "Australian Research Council",
-        "doi-asserted-by": "publisher",
-        "award": [
-          "DE220100965"
-        ],
-        "id": [
-          {
-            "id": "10.13039/501100000923",
-            "id-type": "DOI",
-            "asserted-by": "publisher"
-          }
-        ]
-      },
-      {
         "DOI": "10.13039/501100012166",
         "name": "National Key Research and Development Program of China",
         "doi-asserted-by": "publisher",
         "award": [
-          "2021YFC2300903",
-          "32425053"
+          "2021YFC2300903"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021YFC2300903"
+            ]
+          }
         ],
         "id": [
           {
@@ -3566,16 +3571,22 @@
         ]
       },
       {
-        "DOI": "10.13039/501100003130",
-        "name": "Fonds Wetenschappelijk Onderzoek",
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
         "doi-asserted-by": "publisher",
         "award": [
-          "G005323N",
-          "G051322N"
+          "32425053"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32425053"
+            ]
+          }
         ],
         "id": [
           {
-            "id": "10.13039/501100003130",
+            "id": "10.13039/501100012166",
             "id-type": "DOI",
             "asserted-by": "publisher"
           }
@@ -3588,6 +3599,13 @@
         "award": [
           "GNT2017197"
         ],
+        "award-info": [
+          {
+            "award-number": [
+              "GNT2017197"
+            ]
+          }
+        ],
         "id": [
           {
             "id": "10.13039/501100000925",
@@ -3597,12 +3615,110 @@
         ]
       },
       {
-        "DOI": "10.13039/501100002338",
-        "name": "Ministry of Education of the People's Republic of China",
+        "DOI": "10.13039/501100005416",
+        "name": "Norges Forskningsr\u00e5d",
         "doi-asserted-by": "publisher",
+        "award": [
+          "262700"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "262700"
+            ]
+          }
+        ],
         "id": [
           {
-            "id": "10.13039/501100002338",
+            "id": "10.13039/501100005416",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012247",
+        "name": "Program of Shanghai Academic Research Leader",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZYGXQNJSKYCXNLZCXM-116"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ZYGXQNJSKYCXNLZCXM-116"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012247",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012247",
+        "name": "Program of Shanghai Academic Research Leader",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "23XD1420700"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "23XD1420700"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012247",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004359",
+        "name": "Vetenskapsr\u00e5det",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2020-02593"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020-02593"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004359",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "T2525019"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "T2525019"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
             "id-type": "DOI",
             "asserted-by": "publisher"
           }
@@ -3631,6 +3747,116 @@
             "asserted-by": "publisher"
           }
         ]
+      },
+      {
+        "DOI": "10.13039/501100002338",
+        "name": "Ministry of Education of the People&apos;s Republic of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U40"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U40"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002338",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE220100965"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE220100965"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01 AI153044"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01 AI153044"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "Fonds Wetenschappelijk Onderzoek",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G005323N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G005323N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "Fonds Wetenschappelijk Onderzoek",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G051322N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G051322N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
       }
     ],
     "content-domain": {
@@ -3648,7 +3874,7 @@
       "date-parts": [
         [
           2025,
-          8
+          11
         ]
       ]
     },
@@ -3665,13 +3891,15 @@
       "date-time": "2025-08-26T14:42:21Z",
       "timestamp": 1756219341000
     },
+    "page": "6591-6605.e14",
     "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 11,
     "title": [
       "Extensive cross-species transmission of pathogens and antibiotic resistance genes in mammals neglected by public health surveillance"
     ],
     "prefix": "10.1016",
+    "volume": "188",
     "author": [
       {
         "given": "Yuqi",
@@ -3897,9 +4125,7 @@
       },
       {
         "key": "10.1016/j.cell.2025.08.016_bib12",
-        "doi-asserted-by": "crossref",
         "first-page": "22067.1-13",
-        "DOI": "10.25225/jvb.22067",
         "article-title": "Forest musk deer (Moschus berezovskii) in China: research and protection",
         "volume": "72",
         "author": "Feng",
@@ -4698,13 +4924,13 @@
     "deposited": {
       "date-parts": [
         [
-          2025,
-          8,
-          26
+          2026,
+          3,
+          7
         ]
       ],
-      "date-time": "2025-08-26T14:42:32Z",
-      "timestamp": 1756219352000
+      "date-time": "2026-03-07T01:54:16Z",
+      "timestamp": 1772848456000
     },
     "score": 1,
     "resource": {
@@ -4718,11 +4944,22 @@
       "date-parts": [
         [
           2025,
-          8
+          11
         ]
       ]
     },
     "references-count": 88,
+    "journal-issue": {
+      "issue": "23",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
     "alternative-id": [
       "S0092867425009717"
     ],
@@ -4742,7 +4979,7 @@
       "date-parts": [
         [
           2025,
-          8
+          11
         ]
       ]
     },
@@ -4788,14 +5025,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          11,
-          20
+          2026,
+          1,
+          16
         ]
       ],
-      "date-time": "2025-11-20T19:22:20Z",
-      "timestamp": 1763666540503,
-      "version": "3.45.0"
+      "date-time": "2026-01-16T02:22:32Z",
+      "timestamp": 1768530152319,
+      "version": "3.49.0"
     },
     "posted": {
       "date-parts": [
@@ -4807,8 +5044,8 @@
       ]
     },
     "group-title": "Evolutionary Biology",
-    "reference-count": 0,
-    "publisher": "Cold Spring Harbor Laboratory",
+    "reference-count": 89,
+    "publisher": "openRxiv",
     "license": [
       {
         "start": {
@@ -4829,43 +5066,278 @@
     ],
     "funder": [
       {
-        "name": "Directie-Generaal Ontwikkelingssamenwerking en Humanitaire Hulp (DGD) (Belgian cooperation)"
+        "name": "Directie-Generaal Ontwikkelingssamenwerking en Humanitaire Hulp (DGD)"
       },
       {
         "name": "Research Foundation - Flanders",
         "award": [
-          "1226120N",
+          "1226120N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1226120N"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Foundation - Flanders",
+        "award": [
           "G092921N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G092921N"
+            ]
+          }
         ]
       },
       {
         "name": "KU Leuven - Internal Funds",
         "award": [
           "PDM1/25/007"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PDM1/25/007"
+            ]
+          }
         ]
       },
       {
+        "DOI": "10.13039/501100004586",
         "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "doi-asserted-by": "crossref",
         "award": [
-          "CNE - 204.165/2024",
-          "CNE - 269.891/2021",
-          "ColBio - 210.285/202",
-          "Nota 10 E-26/205.730/2022",
+          "CNE - 204.165/2024"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CNE - 204.165/2024"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004586",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004586",
+        "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "CNE - 269.891/2021"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CNE - 269.891/2021"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004586",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004586",
+        "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "ColBio - 210.285/202"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ColBio - 210.285/202"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004586",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004586",
+        "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "Nota 10 E-26/205.730/2022"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Nota 10 E-26/205.730/2022"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004586",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004586",
+        "name": "Funda\u00e7\u00e3o Carlos Chagas Filho de Amparo \u00e0 Pesquisa do Estado do Rio de Janeiro",
+        "doi-asserted-by": "crossref",
+        "award": [
           "205.731/2022"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "205.731/2022"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004586",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
         ]
       },
       {
+        "DOI": "10.13039/501100003593",
         "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+        "doi-asserted-by": "crossref",
         "award": [
-          "Research Fellow -  309627/2021-4",
-          "PROEP/IOC - 441639/2024-0",
-          "INCT-EpiAmo: 465657/2014-1"
+          "Research Fellow - 309627/2021-4"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Research Fellow - 309627/2021-4"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003593",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
         ]
       },
       {
-        "name": "Coordena\u00e7\u00e3o de Aperfeicoamento de Pessoal de N\u00edvel Superior",
+        "DOI": "10.13039/501100003593",
+        "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "PROEP/IOC - 441639/2024-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PROEP/IOC - 441639/2024-0"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003593",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003593",
+        "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "INCT-EpiAmo: 465657/2014-1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "INCT-EpiAmo: 465657/2014-1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003593",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002322",
+        "name": "Coordena\u00e7\u00e3o de Aperfei\u00e7oamento de Pessoal de N\u00edvel Superior",
+        "doi-asserted-by": "crossref",
         "award": [
           "Finance Code 001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Finance Code 001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002322",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "European Union through the Operational Programme \u201cJust Transition\u201d and the Czech Ministry of Environment",
+        "award": [
+          "CZ.10.03.01/00/22_003/0000003 LERCO"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CZ.10.03.01/00/22_003/0000003 LERCO"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001824",
+        "name": "Czech Science Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "24-10009S"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "24-10009S"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001824",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
         ]
       }
     ],
@@ -4878,12 +5350,12 @@
       "date-parts": [
         [
           2025,
-          11,
-          20
+          12,
+          16
         ]
       ]
     },
-    "abstract": "<jats:p>\n                  The evolutionary relationships between hosts and their symbionts offer valuable insights into the origins, maintenance, and consequences of biological interactions. While co-divergence and host-switching have been extensively explored in systems, such as\n                  <jats:italic>Wolbachia</jats:italic>\n                  -arthropod symbioses or viruses infecting vertebrates, similar investigations in protistan parasites remain scarce. The\n                  <jats:italic>Leishmania</jats:italic>\n                  -\n                  <jats:italic>Leishmaniavirus</jats:italic>\n                  (LRV) association offers a rare opportunity to study co-divergence in a medically relevant symbiotic system, in which the virus modulates the parasitic disease severity in humans. Here, we used total RNA sequencing to capture both the\n                  <jats:italic>Leishmania</jats:italic>\n                  transcriptome and the LRV genome simultaneously, enabling the first comprehensive investigation of the co-evolutionary history of\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV across different hierarchical levels (subgenus, species and population). We found significant positive correlations between the parasite and viral genetic distances at both the subgenus (R\n                  <jats:sup>2</jats:sup>\n                  = 0.89; F = 10,913.49;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001) and species level (focusing on\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>Viannia</jats:italic>\n                  ) spp.; R\n                  <jats:sup>2</jats:sup>\n                  = 0.59; F = 1,254;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001). This was corroborated by additional co-phylogenetic methods (global-fit and event-based), indicating a strong pattern of phylogenetic congruence between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV up to the species level. Only at the population level, focusing on the interactions of\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>braziliensis</jats:italic>\n                  and\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>guyanensis</jats:italic>\n                  with LRV1, we found weaker co-phylogenetic signals accompanied by more instances of intraspecific host switching. Overall, our findings provide, for the first time, analytical evidence for the co-evolution between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV, with co-speciation as the predominant process, while also shedding light on how such symbioses were maintained over larger time scales.\n                </jats:p>",
+    "abstract": "<jats:title>\n                  <jats:bold>Abstract</jats:bold>\n                </jats:title>\n                <jats:p>\n                  The evolutionary relationships between hosts and their symbionts offer valuable insights into the origins, maintenance, and consequences of biological interactions. While co-divergence and host-switching have been extensively explored in systems, such as\n                  <jats:italic>Wolbachia</jats:italic>\n                  -arthropod symbioses or viruses infecting vertebrates, similar investigations in protistan parasites remain scarce. The\n                  <jats:italic>Leishmania-Leishmaniavirus</jats:italic>\n                  (LRV) association offers a rare opportunity to study co-divergence in a medically relevant symbiotic system, in which the virus modulates the parasitic disease severity in humans. Here, we used total RNA sequencing to capture both the\n                  <jats:italic>Leishmania</jats:italic>\n                  transcriptome and the LRV genome simultaneously, enabling the first comprehensive investigation of the co-evolutionary history of\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV across different hierarchical levels (subgenus, species, and population). We found significant positive correlations between the parasite and viral genetic distances at both the subgenus (R\n                  <jats:sup>2</jats:sup>\n                  = 0.89; F = 10,913.49;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001) and species level (focusing on\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>Viannia</jats:italic>\n                  ) spp.; R\n                  <jats:sup>2</jats:sup>\n                  = 0.59; F = 1,254;\n                  <jats:italic>p</jats:italic>\n                  &lt; 0.001). This was corroborated by additional co-phylogenetic methods (global-fit and event-based), indicating a strong pattern of phylogenetic congruence between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV up to the species level. Only at the population level, focusing on the interactions of\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>braziliensis</jats:italic>\n                  and\n                  <jats:italic>L.</jats:italic>\n                  (\n                  <jats:italic>V.</jats:italic>\n                  )\n                  <jats:italic>guyanensis</jats:italic>\n                  with LRV1, we found weaker co-phylogenetic signals accompanied by more instances of intraspecific host switching. Overall and for the first time, our findings provide analytical evidence for the co-evolution between\n                  <jats:italic>Leishmania</jats:italic>\n                  and LRV, with co-speciation as the predominant process, while also shedding light on how such symbioses were maintained over long evolutionary time scales.\n                </jats:p>",
     "DOI": "10.1101/2025.11.20.685321",
     "type": "posted-content",
     "created": {
@@ -4902,7 +5374,7 @@
     "title": [
       "Genomic evidence for co-evolution and sporadic host shifts in leishmaniaviruses"
     ],
-    "prefix": "10.1101",
+    "prefix": "10.64898",
     "author": [
       {
         "ORCID": "https://orcid.org/0000-0002-5786-258X",
@@ -4910,15 +5382,29 @@
         "given": "Senne",
         "family": "Heeren",
         "sequence": "first",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Sciences, Institute of Tropical Medicine, Antwerp, Belgium"
+          },
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven, Leuven, Belgium"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0002-2376-4236",
         "authenticated-orcid": false,
-        "given": "Lilian",
-        "family": "Motta Cantanhede",
+        "given": "Lilian Motta",
+        "family": "Cantanh\u00eade",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Leishmaniasis Research Laboratory, Oswaldo Cruz Institute, Oswaldo Cruz Foundation, Rio de Janeiro 21040360, Brazil"
+          },
+          {
+            "name": "Instituto Nacional de Ci\u00eancia e Tecnologia de Epidemiologia da Amaz\u00f4nia Ocidental, INCT EpiAmO, Porto Velho 76812100, Brazil"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0001-8722-6288",
@@ -4926,15 +5412,29 @@
         "given": "Khaled",
         "family": "Chourabi",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Leishmaniasis Research Laboratory, Oswaldo Cruz Institute, Oswaldo Cruz Foundation, Rio de Janeiro 21040360, Brazil"
+          },
+          {
+            "name": "Instituto Nacional de Ci\u00eancia e Tecnologia de Epidemiologia da Amaz\u00f4nia Ocidental, INCT EpiAmO, Porto Velho 76812100, Brazil"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0009-0005-1804-0750",
         "authenticated-orcid": false,
-        "given": "Mayara Christine",
-        "family": "de Oliviera Santana",
+        "given": "Mayara Cristhine",
+        "family": "de Oliveira Santana",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Leishmaniasis Research Laboratory, Oswaldo Cruz Institute, Oswaldo Cruz Foundation, Rio de Janeiro 21040360, Brazil"
+          },
+          {
+            "name": "Instituto Nacional de Ci\u00eancia e Tecnologia de Epidemiologia da Amaz\u00f4nia Ocidental, INCT EpiAmO, Porto Velho 76812100, Brazil"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0002-2507-0430",
@@ -4942,15 +5442,26 @@
         "given": "Joon",
         "family": "Klaps",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven, Leuven, Belgium"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0002-1516-437X",
         "authenticated-orcid": false,
-        "given": "Alexei Yu.",
+        "given": "Alexei Y.",
         "family": "Kostygov",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Life Science Research Centre, Faculty of Science, University of Ostrava, Ostrava, Czechia"
+          },
+          {
+            "name": "Zoological Institute of Russian Academy of Sciences, St. Petersburg, Russia"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0003-4765-3263",
@@ -4958,7 +5469,11 @@
         "given": "Vyacheslav",
         "family": "Yurchenko",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Life Science Research Centre, Faculty of Science, University of Ostrava, Ostrava, Czechia"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0003-2826-5353",
@@ -4966,7 +5481,11 @@
         "given": "Philippe",
         "family": "Lemey",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven, Leuven, Belgium"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0002-9217-5240",
@@ -4974,7 +5493,14 @@
         "given": "Jean-Claude",
         "family": "Dujardin",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Sciences, Institute of Tropical Medicine, Antwerp, Belgium"
+          },
+          {
+            "name": "Department of Biomedical Sciences, University of Antwerp, Antwerp, Belgium"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0003-2542-5585",
@@ -4982,7 +5508,14 @@
         "given": "Frederik",
         "family": "Van den Broeck",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Sciences, Institute of Tropical Medicine, Antwerp, Belgium"
+          },
+          {
+            "name": "Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven, Leuven, Belgium"
+          }
+        ]
       },
       {
         "ORCID": "https://orcid.org/0000-0002-0620-3250",
@@ -4990,10 +5523,547 @@
         "given": "Elisa",
         "family": "Cupolillo",
         "sequence": "additional",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Leishmaniasis Research Laboratory, Oswaldo Cruz Institute, Oswaldo Cruz Foundation, Rio de Janeiro 21040360, Brazil"
+          },
+          {
+            "name": "Instituto Nacional de Ci\u00eancia e Tecnologia de Epidemiologia da Amaz\u00f4nia Ocidental, INCT EpiAmO, Porto Velho 76812100, Brazil"
+          }
+        ]
       }
     ],
-    "member": "246",
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/0074-02760170487"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00436-023-07928-x"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-44085-2"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Gupta , et al., A parasite odyssey: An RNA virus concealed in Toxoplasma gondii . Virus Evol. 10, veae040 (2024).",
+        "DOI": "10.1093/ve/veae040"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1008216"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Iba\u00f1ez-Escribano , et al., Microbial matryoshka: Addressing the relationship between pathogenic flagellated protozoans and their RNA viral endosymbionts (family Totiviridae). Vet. Sci. 11, 321 (2024).",
+        "DOI": "10.3390/vetsci11070321"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1199326"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jiv354"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jiv355"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. M. Cantanh\u00eade , et al., The Maze Pathway of Coevolution: A Critical Review over the Leishmania and Its Endosymbiotic History. Genes 12 (2021).",
+        "DOI": "10.3390/genes12050657"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.11",
+        "unstructured": "P. Simmonds , et al., Changes to virus taxonomy and the ICTV Statutes ratified by the International Committee on Taxonomy of Viruses (2024). Arch. Virol. 169, 236 (2024)."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-13356-2"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0317221",
+        "DOI": "10.1371/journal.pone.0317221",
+        "article-title": "Mucosal leishmaniasis is associated with the Leishmania RNA virus and inappropriate cutaneous leishmaniasis treatment",
+        "volume": "20",
+        "year": "2025",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. I. Hillman , A. B. Cohen , \u201cTotiviruses (Totiviridae)\u201d in Encyclopedia of Virology (Fourth Edition), D. H. Bamford, M. Zuckerman, Eds. (Academic Press, 2021), pp. 648\u2013657.",
+        "DOI": "10.1016/B978-0-12-809633-8.21347-2"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. C. de O . Santana, K. Chourabi, L. M. Cantanh\u00eade, E. Cupolillo, Exploring Host-Specificity: Untangling the Relationship between Leishmania (Viannia) Species and Its Endosymbiont Leishmania RNA Virus 1. Microorganisms 11 (2023).",
+        "DOI": "10.20944/preprints202308.0703.v1"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/23.12.2300"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Grybchuk , et al., RNA Viruses in Blechomonas (Trypanosomatidae) and Evolution of Leishmaniavirus . MBio 9 (2018).",
+        "DOI": "10.1128/mBio.01932-18"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00705-016-3044-z"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1016/j.ijid.2020.08.033",
+        "article-title": "Presence and diversity of Leishmania RNA virus in an old zoonotic cutaneous leishmaniasis focus, northeastern Iran: haplotype and phylogenetic based approach",
+        "volume": "101",
+        "year": "2020",
+        "journal-title": "Int. J. Infect. Dis"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/trstmh/trz023"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.21",
+        "first-page": "151",
+        "article-title": "Novel detection of Leishmania RNA virus-1 (LRV-1) in clinical isolates of Leishmania Viannia panamensis",
+        "volume": "151",
+        "year": "2024",
+        "journal-title": "Parasitology"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.3390/microorganisms12071317",
+        "article-title": "Epidemiology and Genetic Characterization of Leishmania RNA Virus in Leishmania (Viannia) spp. Isolates from Cutaneous Leishmaniasis Endemic Areas in Panama",
+        "volume": "12",
+        "year": "2024",
+        "journal-title": "Microorganisms"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Y. Kostygov , et al., Analyses of Leishmania-LRV Co-Phylogenetic Patterns and Evolutionary Variability of Viral Proteins. Viruses 13 (2021).",
+        "DOI": "10.3390/v13112305"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/viro.1995.1456"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Klaps , P. Lemey , nf-core community, L. E. Kafetzopoulou, Nf-core/viralmetagenome: A novel pipeline for untargeted viral genome reconstruction. bioRxiv 2025.06.27.661954 (2025).",
+        "DOI": "10.1101/2025.06.27.661954"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Tirera , et al., Unraveling the genetic diversity and phylogeny of Leishmania RNA virus 1 strains of infected Leishmania isolates circulating in French Guiana. PLoS Negl. Trop. Dis. 11, e0005764 (2017).",
+        "DOI": "10.1371/journal.pntd.0005764"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.27",
+        "first-page": "1076",
+        "article-title": "Genome Analysis of Triploid Hybrid Leishmania Parasite from the Neotropics",
+        "volume": "29",
+        "year": "2023",
+        "journal-title": "Emerg. Infect. Dis"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.28",
+        "first-page": "1587",
+        "article-title": "Evolutionary genomics of Leishmania braziliensis across the neotropical realm. Commun",
+        "volume": "7",
+        "year": "2024",
+        "journal-title": "Biol"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1920136117"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.122945.111"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/mec.14271"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syae013"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1005098"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0003665",
+        "DOI": "10.1371/journal.pntd.0003665",
+        "article-title": "Genetic recombination between human and animal parasites creates novel strains of human pathogen",
+        "volume": "9",
+        "year": "2015",
+        "journal-title": "PLoS Negl. Trop. Dis"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Izeta-Alberdi , C. N. Ibarra-Cerde\u00f1a , D. A. Moo-Llanes , J. M. Ramsey , Geographical, landscape and host associations of Trypanosoma cruzi DTUs and lineages. Parasit. Vectors 9, 631 (2016).",
+        "DOI": "10.1186/s13071-016-1918-2"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1169464"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1004092"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1008465"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Hadermann , et al., Genome diversity of Leishmania aethiopica . Front. Cell. Infect. Microbiol. 13 (2023).",
+        "DOI": "10.3389/fcimb.2023.1147998"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pt.2020.01.008"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Grybchuk , et al., The First Non-LRV RNA Virus in Leishmania . Viruses 12 (2020).",
+        "DOI": "10.3390/v12020168"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. R. Hughes , et al., Summary of taxonomy changes ratified by the International Committee on Taxonomy of Viruses (ICTV) from the Animal dsRNA and ssRNA(-) Viruses Subcommittee, 2025. J. Gen. Virol. 106 (2025).",
+        "DOI": "10.1099/jgv.0.002116"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ele.13757"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "714",
+        "DOI": "10.1038/s41564-018-0352-y",
+        "article-title": "Exploitation of the Leishmania exosomal pathway by Leishmania RNA virus 1",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1010910",
+        "DOI": "10.1371/journal.ppat.1010910",
+        "article-title": "Viral endosymbiotic infection of protozoan parasites: How it influences the development of cutaneous leishmaniasis",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLoS Pathog"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1016/j.coi.2020.08.004",
+        "article-title": "LRV1 virus and extracellular vesicles: a dangerous trio influencing the faith of immune response during muco-cutaneous leishmaniasis",
+        "volume": "66",
+        "year": "2020",
+        "journal-title": "Curr. Opin. Immunol"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1016/j.molimm.2021.04.003",
+        "article-title": "Extracellular vesicles and leishmaniasis: Current knowledge and promising avenues for future development",
+        "volume": "135",
+        "year": "2021",
+        "journal-title": "Mol. Immunol"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0012767",
+        "DOI": "10.1371/journal.pntd.0012767",
+        "article-title": "A novel strain of Leishmania braziliensis harbors not a toti- but a bunyavirus",
+        "volume": "18",
+        "year": "2024",
+        "journal-title": "PLoS Negl. Trop. Dis"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0166-6851(92)90099-6"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/0074-0276108052013021"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1016/j.molbiopara.2016.08.005",
+        "article-title": "Low frequency of LRV1 in Leishmania braziliensis strains isolated from typical and atypical lesions in the State of Minas Gerais, Brazil",
+        "volume": "210",
+        "year": "2016",
+        "journal-title": "Mol. Biochem. Parasitol"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M.-A. Hartley , C. Ronet , H. Zangger , S. M. Beverley , N. Fasel , Leishmania RNA virus: when the host pays the toll. Front. Cell. Infect. Microbiol. 2, 99 (2012).",
+        "DOI": "10.3389/fcimb.2012.00099"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": ". L. M. Cantanh\u00eade , et al., Further evidence of an association between the presence of Leishmania RNA virus 1 and the mucosal manifestations in tegumentary leishmaniasis patients. PLoS Negl. Trop. Dis. 9, e0004079 (2015).",
+        "DOI": "10.1371/journal.pntd.0004079"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0010510",
+        "DOI": "10.1371/journal.pntd.0010510",
+        "article-title": "Leishmania guyanensis M4147 as a new LRV1-bearing model parasite: Phosphatidate phosphatase 2-like protein controls cell cycle progression and intracellular lipid content",
+        "volume": "16",
+        "year": "2022",
+        "journal-title": "PLoS Negl. Trop. Dis"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.85.24.9572"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.56",
+        "unstructured": "P. Ranque , \u201cEtude morphologique et biologique de quelques Trypanosomatides r\u00e9colt\u00e9s au S\u00e9n\u00e9gal,\u201d Universit\u00e9 de Aix-Marseilles. (1973)."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty560"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv033"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cpbi.102"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jmbi.1990.9999"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Danecek , et al., Twelve years of SAMtools and BCFtools. Gigascience 10 (2021).",
+        "DOI": "10.1093/gigascience/giab008"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. D. Grubaugh , et al., An amplicon-based sequencing framework for accurately measuring intrahost virus diversity using PrimalSeq and iVar. Genome Biol. 20, 8 (2019).",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaa015"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst024"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.4285"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinfor-matics/bty633"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msj030"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.105.048975"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. A. Suchard , et al., Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10. Virus Evol 4, vey016 (2018).",
+        "DOI": "10.1093/ve/vey016"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syr100"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.72",
+        "unstructured": "S. Tavar\u00e9 , Some probabilistic and statistical problems in the analysis of DNA sequences. Lecture of mathematics for life science (1986)."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00160154"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000520"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2008.04.005"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syy032"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.77",
+        "unstructured": "G. A. Van der Auwera , B. D. OConnor , Genomics in the Cloud Using Docker, GATK, and WDL in Terra (First edition) (O\u2019Reilly Media, 2020)."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.78",
+        "first-page": "11.10.1",
+        "article-title": "From FastQ data to high confidence variant calls: the Genome Analysis Toolkit best practices pipeline",
+        "volume": "43",
+        "year": "2013",
+        "journal-title": "Curr. Protoc. Bioinformatics"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Bryant , V. Moulton , NeighborNet: An Agglomerative Method for the Construction of Planar Phylogenetic Networks in Algorithms in Bioinformatics, (Springer Berlin Heidelberg, 2002), pp. 375\u2013391.",
+        "DOI": "10.1007/3-540-45784-4_28"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. W. M. Dress , D. H. Huson , Constructing splits graphs. IEEE/ACM Trans. Comput. Biol. Bioinform. 1, 109\u2013115 (2004).",
+        "DOI": "10.1109/TCBB.2004.27"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.81",
+        "unstructured": "R Core Team, R: A Language and Environment for Statistical Computing. (2024). Available at: https://www.R-project.org/."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.82",
+        "unstructured": "D. H. Ogle , J. C. Doll , A. P. Wheeler , A. Dinno , FSA: Simple fisheries stock assessment methods. R package version 0.9. 4. (2023). Available at: https://CRAN.R-project.org/package=FSA."
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Coughlan , et al., The genome of Leishmania adleri from a mammalian host highlights chromosome fission in Sauroleishmania . Sci. Rep. 7, 43747 (2017).",
+        "DOI": "10.1038/srep43747"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/evo.12134"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.16505"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0061048"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Santichaivekin , et al., eMPRess: a systematic cophylogeny reconciliation tool. Bioinformatics 37, 2481\u20132482 (2021).",
+        "DOI": "10.1093/bioinformatics/btaa978"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-ecolsys-102320-112823"
+      },
+      {
+        "key": "2026010105414259000_2025.11.20.685321v2.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nph.12150"
+      }
+    ],
     "container-title": [],
     "original-title": [],
     "link": [
@@ -5007,13 +6077,13 @@
     "deposited": {
       "date-parts": [
         [
-          2025,
-          11,
-          20
+          2026,
+          1,
+          15
         ]
       ],
-      "date-time": "2025-11-20T19:20:26Z",
-      "timestamp": 1763666426000
+      "date-time": "2026-01-15T10:04:09Z",
+      "timestamp": 1768471449000
     },
     "score": 1,
     "resource": {
@@ -5032,7 +6102,7 @@
         ]
       ]
     },
-    "references-count": 0,
+    "references-count": 89,
     "URL": "https://doi.org/10.1101/2025.11.20.685321",
     "relation": {},
     "subject": [],
