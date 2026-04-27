@@ -20,10 +20,15 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: "Set up Python"
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+
     - name: Set up uv and Python
       uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
       with:
-        python-version: '3.11'
+        version: "0.11.7"
         enable-caching: true
 
     - name: Fetch new publications
