@@ -1,0 +1,30 @@
+[project]
+name = "publication-scripts"
+version = "0.1.0"
+dependencies = [
+    "annotated-doc>=0.0.4",
+    "biopython>=1.87",
+    "certifi>=2026.4.22",
+    "charset-normalizer>=3.4.7",
+    "click>=8.3.3",
+    "idna>=3.13",
+    "markdown-it-py>=4.0.0",
+    "mdurl>=0.1.2",
+    "numpy>=2.4.4",
+    "prompt-toolkit>=3.0.52",
+    "pygments>=2.20.0",
+    "pyyaml>=6.0.3",
+    "questionary>=2.1.1",
+    "requests>=2.33.1",
+    "rich>=15.0.0",
+    "shellingham>=1.5.4",
+    "typer>=0.25.0",
+    "unidecode>=1.4.0",
+    "urllib3>=2.6.3",
+    "wcwidth>=0.6.0"
+]
+
+[tool.uv]
+python-downloads = "manual"
+compile-bytecode = true
+link-mode = "hardlink"

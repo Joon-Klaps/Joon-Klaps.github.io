@@ -20,20 +20,16 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Set up uv and Python
+      uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
       with:
         python-version: '3.11'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r .github/scripts/requirements.txt
+        enable-caching: true
 
     - name: Fetch new publications
       env:
         ENTREZ_EMAIL: ${{ secrets.ENTREZ_EMAIL }}
-      run: python .github/scripts/fetch_pub.py > new_dois.txt
+      run: uv run --locked python .github/scripts/fetch_pub.py > new_dois.txt
 
     - name: Check for new DOIs
       id: filter_dois
@@ -51,9 +47,9 @@ jobs:
       if: github.event_name == 'workflow_dispatch' || steps.filter_dois.outputs.new_dois == 'true'
       run: |
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          python .github/scripts/add_pub.py --force
+          uv run --locked python .github/scripts/add_pub.py --force
         else
-          python .github/scripts/add_pub.py --dois-file new_dois.txt
+          uv run --locked python .github/scripts/add_pub.py --dois-file new_dois.txt
         fi
 
     - name: Check for changes

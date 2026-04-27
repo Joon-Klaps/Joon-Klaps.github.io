@@ -13,7 +13,7 @@ from unidecode import unidecode
 
 
 def main(
-    doi: Optional[str] = typer.Argument(None),
+    cli_doi: Optional[str] = typer.Argument(None),
     dois_file: Optional[str] = typer.Option(None, "--dois-file", "-f", help="File containing DOIs to process, one per line"),
     force: bool = typer.Option(False, "--force", "-F", help="Force update of all publications")
 ):
@@ -22,26 +22,31 @@ def main(
         publications = json.load(f)
 
     # Determine which DOIs to process
+    new_dois = []
     if dois_file:
-        # Read DOIs from file
-        print(f"[green]Reading DOIs from file: {dois_file}")
         with open(dois_file, 'r', encoding="utf-8") as f:
-            dois = [line.strip() for line in f.readlines() if line.strip()]
-        if not dois:
+            new_dois = [line.strip() for line in f if line.strip()]
+        if not new_dois and not force:
             print("[yellow]No DOIs found in file. Nothing to do.")
             return
-        print(f"[green]Found {len(dois)} DOIs in file")
-    elif doi is None:
-        if force or Confirm.ask("Update all publications?"):
-            print("[green]Updating all publications")
-            dois = publications.keys()
-        else:
-            print("[red]Either provide a DOI as a CLI argument, use --dois-file, or update all.")
-            print("Nothing to do. Exiting...")
-            return
+
+    # Build the full list
+    if force:
+        existing = [d for d in publications.keys() if d not in new_dois]
+        dois = new_dois + existing
+        print(f"[green]Found {len(new_dois)} new DOIs + updating {len(existing)} existing")
+    elif new_dois:
+        dois = new_dois
+        print(f"[green]Found {len(dois)} new DOIs to add")
+    elif cli_doi:
+        dois = [cli_doi]
+        print(f"[green]Adding publication: '{cli_doi}'")
+    elif Confirm.ask("Update all publications?"):
+        dois = list(publications.keys())
+        print("[green]Updating all publications")
     else:
-        print(f"[green]Adding publication: '{doi}'")
-        dois = [doi]
+        print("[red]Nothing to do. Exiting...")
+        return
 
     # Go through requested DOIs
     for this_doi in dois:
