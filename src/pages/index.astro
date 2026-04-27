@@ -6,6 +6,7 @@ import PageTitle from "@components/PageTitle.astro";
 import HomepageButton from "@components/HomepageButton.astro";
 import HomepageCard from "@components/HomepageCard.astro";
 import publications from "../publications.json";
+import { MAX_HOMEPAGE_ICONS } from "../config";
 
 const workplaces = (await getCollection("workplaces"))
   .sort((a, b) => new Date(b.data.startDate).valueOf() - new Date(a.data.startDate).valueOf())
@@ -80,22 +81,22 @@ const grants_count = (await getCollection("grants")).length;
       title="Where I've learned"
       description="I'm a biochemical engineer turned epidemiologists with a love for automation."
       href="/work"
-      items={workplaces_edu}
-      plus={workplaces_edu_count - workplaces_edu.length}
+      items={workplaces_edu.slice(0, MAX_HOMEPAGE_ICONS)}
+      plus={workplaces_edu_count - Math.min(workplaces_edu.length, MAX_HOMEPAGE_ICONS)}
     />
     <HomepageCard
       title="Projects"
       description="Explore some of the projects I've worked on."
       href="/projects"
-      items={projects}
-      plus={projects_count - projects.length}
+      items={projects.slice(0, MAX_HOMEPAGE_ICONS)}
+      plus={projects_count - Math.min(projects.length, MAX_HOMEPAGE_ICONS)}
     />
     <HomepageCard
       title="Grants and Awards"
       description="Explore the grants and awards I've received."
       href="/grants"
-      items={grants}
-      plus={grants_count - grants.length}
+      items={grants.slice(0, MAX_HOMEPAGE_ICONS)}
+      plus={grants_count - Math.min(grants.length, MAX_HOMEPAGE_ICONS)}
     />
     <HomepageCard
       title="Publications"

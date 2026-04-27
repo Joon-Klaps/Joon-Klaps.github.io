@@ -1,0 +1,20 @@
+---
+title: rapidtrees
+description: Blazingly fast pairwise phylogenetic tree distance calculations powered by Rust
+projectURL: https://pypi.org/project/rapidtrees
+github: Joon-Klaps/rapidtrees
+# heroImage: /post_img.webp
+iconImage: /images/projects/rapidtrees-icon.svg
+iconImageDark: /images/projects/rapidtrees-icon.svg
+logoImage: /images/projects/rapidtrees-icon.svg
+logoImageDark: /images/projects/rapidtrees-icon.svg
+order: 11
+---
+
+[rapidtrees](https://github.com/Joon-Klaps/rapidtrees) is a high-performance tool for computing pairwise phylogenetic tree distances from [BEAST](https://beast.community/)/NEXUS `.trees` files. It supports three distance metrics — **Robinson–Foulds**, **Weighted RF**, and **Kuhner–Felsenstein** — and outputs a labeled distance matrix in TSV format.
+
+I built `rapidtrees` to address a recurring bottleneck in Bayesian phylogenetic analyses: comparing thousands of posterior trees is computationally expensive and slow in pure Python. By writing the core in **Rust** and exposing **Python bindings** via [PyO3](https://pyo3.rs/), the tool fits naturally into existing bioinformatics workflows while delivering orders-of-magnitude faster runtimes.
+
+By implementing a bit vector representations for every tree's bipartition (based on the work of [Branco et al.](https://doi.org/10.48550/arXiv.2312.14029)), `rapidtrees` achieves blazing fast distance calculations, even for large tree sets in seconds. On a MacBook Pro M1, it can compute the full pairwise distance matrix for 1000 trees with 5000 taxa in under 30 seconds.
+
+The tool is available as a standalone CLI (`cargo install rapidtrees`) and as a Python package (`pip install rapidtrees`) for seamless integration into NumPy-based workflows.

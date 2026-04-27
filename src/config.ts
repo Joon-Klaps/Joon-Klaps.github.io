@@ -5,3 +5,5 @@ export const SITE_TITLE = "Joon Klaps";
 export const SITE_DESCRIPTION = "Personal website for Joon Klaps, a bioinformatician living in Belgium 🇧🇪.";
 
 export const GOOGLE_SITE_VERIFICATION = "g_-UEYoHNh9r6fT0p49sMm9DN-tKX_Yg1nW7QuAD8mE";
+
+export const MAX_HOMEPAGE_ICONS = 4;
