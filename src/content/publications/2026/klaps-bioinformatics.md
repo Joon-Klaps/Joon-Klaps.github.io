@@ -1,6 +1,6 @@
 ---
 doi: 10.1093/bioinformatics/btag187
-title: 'nf-core/viralmetagenome: A novel pipeline for untargeted viral genome reconstruction'
+title: 'nf-core/viralmetagenome: A Novel Pipeline for Untargeted Viral Genome Reconstruction'
 journal: Bioinformatics
 pubDate: 2026-04-29
 ---
@@ -18,5 +18,9 @@ We present nf-core/viralmetagenome, a comprehensive Nextflow pipeline for the un
 ## Availability
 
 nf-core/viralmetagenome is freely available at https://github.com/nf-core/viralmetagenome with comprehensive documentation at https://nf-co.re/viralmetagenome. Archival code repository snapshots are published at zenodo with doi: https://doi.org/10.5281/zenodo.17524074.
+
+## Supplementary information
+
+Supplementary data are available at https://github.com/Joon-Klaps/nf-core-viralmetagenome-manuscript online.
 
 
