@@ -4,13 +4,13 @@
       "date-parts": [
         [
           2026,
-          2,
-          26
+          5,
+          7
         ]
       ],
-      "date-time": "2026-02-26T20:34:32Z",
-      "timestamp": 1772138072350,
-      "version": "3.50.1"
+      "date-time": "2026-05-07T02:50:15Z",
+      "timestamp": 1778122215931,
+      "version": "3.51.4"
     },
     "reference-count": 19,
     "publisher": "Oxford University Press (OUP)",
@@ -80,7 +80,7 @@
       "timestamp": 1732721265000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 9,
+    "is-referenced-by-count": 10,
     "title": [
       "spread.gl: visualizing pathogen dispersal in a high-performance browser application"
     ],
@@ -6123,12 +6123,12 @@
         [
           2026,
           4,
-          23
+          29
         ]
       ],
-      "date-time": "2026-04-23T00:47:18Z",
-      "timestamp": 1776905238072,
-      "version": "3.51.2"
+      "date-time": "2026-04-29T15:26:49Z",
+      "timestamp": 1777476409693,
+      "version": "3.51.4"
     },
     "reference-count": 0,
     "publisher": "Oxford University Press (OUP)",
@@ -6170,7 +6170,7 @@
       "timestamp": 1776770859000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": [
       "Nosocomial outbreak of Lassa fever in Conakry, Guinea, 2022"
     ],
@@ -6735,5 +6735,1115 @@
       ]
     },
     "article-number": "jiag229"
+  },
+  "10.3201/eid3205.260386": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T10:21:08Z",
+      "timestamp": 1777630868327,
+      "version": "3.51.4"
+    },
+    "reference-count": 10,
+    "publisher": "Centers for Disease Control and Prevention (CDC)",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Emerg. Infect. Dis."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.3201/eid3205.260386",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T03:10:56Z",
+      "timestamp": 1777432256000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Genomic Surveillance of Lassa Virus through In-Country Sequencing, Guinea"
+    ],
+    "prefix": "10.3201",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Jacob",
+        "family": "Camara",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Giuditta",
+        "family": "Annibaldis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "K\u00e9koura",
+        "family": "Ifono",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fara Raymond",
+        "family": "Koundouno",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Youssouf",
+        "family": "Sidib\u00e9",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah",
+        "family": "Ryter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Moussa",
+        "family": "Conde",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saa Lucien",
+        "family": "Millimono",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mette",
+        "family": "Hinrichs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julia",
+        "family": "Hinzmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nils Peter",
+        "family": "Petersen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mia",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Annick",
+        "family": "Renevey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ehizojie Ehiremen",
+        "family": "Emua",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Simon",
+        "family": "Dellicour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephan",
+        "family": "G\u00fcnther",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "N\u2019Faly",
+        "family": "Magassouba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sophie",
+        "family": "Duraffour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Liana Eleni",
+        "family": "Kafetzopoulou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanaba",
+        "family": "Boumbaly",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1822",
+    "reference": [
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R1",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.1038/s41579-022-00789-8",
+        "article-title": "Lassa fever\u2014the road ahead.",
+        "volume": "21",
+        "author": "Garry",
+        "year": "2023",
+        "journal-title": "Nat Rev Microbiol"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R2",
+        "doi-asserted-by": "publisher",
+        "first-page": "e548",
+        "DOI": "10.1371/journal.pntd.0000548",
+        "article-title": "Prevalence and risk factors of Lassa seropositivity in inhabitants of the forest region of Guinea: a cross-sectional study.",
+        "volume": "3",
+        "author": "Kern\u00e9is",
+        "year": "2009",
+        "journal-title": "PLoS Negl Trop Dis"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R3",
+        "doi-asserted-by": "publisher",
+        "first-page": "e830",
+        "DOI": "10.1093/infdis/jiaf308",
+        "article-title": "Serosurveillance identifies an endemic hotspot of Lassa fever in Faranah, Upper Guinea.",
+        "volume": "232",
+        "author": "Mari\u00ebn",
+        "year": "2025",
+        "journal-title": "J Infect Dis"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R4",
+        "doi-asserted-by": "publisher",
+        "first-page": "21977",
+        "DOI": "10.1038/srep21977",
+        "article-title": "Spatial and temporal evolution of Lassa virus in the natural host population in Upper Guinea.",
+        "volume": "6",
+        "author": "Fichet-Calvet",
+        "year": "2016",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1062",
+        "DOI": "10.3390/v12101062",
+        "article-title": "A sporadic and lethal Lassa fever case in Forest Guinea, 2019.",
+        "volume": "12",
+        "author": "Magassouba",
+        "year": "2020",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1371",
+        "DOI": "10.1016/S1473-3099(19)30486-4",
+        "article-title": "Lassa virus circulating in Liberia: a retrospective genomic characterisation.",
+        "volume": "19",
+        "author": "Wiley",
+        "year": "2019",
+        "journal-title": "Lancet Infect Dis"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R7",
+        "doi-asserted-by": "publisher",
+        "first-page": "11225",
+        "DOI": "10.1038/s41598-026-46736-y",
+        "article-title": "Two years of SARS-CoV-2 genomic surveillance capacity development in Guinea.",
+        "volume": "16",
+        "author": "Magassouba",
+        "year": "2026",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R8",
+        "doi-asserted-by": "publisher",
+        "first-page": "100777",
+        "DOI": "10.1016/j.ijregi.2025.100777",
+        "article-title": "Dengue diagnosis in Guinea in two returning travelers from C\u00f4te d\u2019Ivoire: a case report.",
+        "volume": "17",
+        "author": "Camara",
+        "year": "2025",
+        "journal-title": "IJID Reg"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R9",
+        "doi-asserted-by": "publisher",
+        "first-page": "2528",
+        "DOI": "10.1056/NEJMc2120183",
+        "article-title": "Detection of Marburg virus disease in Guinea.",
+        "volume": "386",
+        "author": "Koundouno",
+        "year": "2022",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "key-10.3201/eid3205.260386-202604282310-R10",
+        "doi-asserted-by": "publisher",
+        "first-page": "jiag229",
+        "DOI": "10.1093/infdis/jiag229",
+        "article-title": "Nosocomial outbreak of Lassa fever in Conakry, Guinea, 2022.",
+        "volume": "\u2022\u2022\u2022",
+        "author": "Annibaldis",
+        "year": "2026",
+        "journal-title": "J Infect Dis"
+      }
+    ],
+    "container-title": [
+      "Emerging Infectious Diseases"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T03:10:58Z",
+      "timestamp": 1777432258000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://wwwnc.cdc.gov/eid/article/32/5/26-0386_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "references-count": 10,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3201/eid3205.260386",
+    "relation": {},
+    "ISSN": [
+      "1080-6040",
+      "1080-6059"
+    ],
+    "issn-type": [
+      {
+        "value": "1080-6040",
+        "type": "print"
+      },
+      {
+        "value": "1080-6059",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    }
+  },
+  "10.1093/bioinformatics/btag187": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2026-05-05T14:13:30Z",
+      "timestamp": 1777990410305,
+      "version": "3.51.4"
+    },
+    "reference-count": 39,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2026-04-30T00:00:00Z",
+          "timestamp": 1777507200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "German Research Foundation [Deutsche Forschungsgemeinschaft",
+        "award": [
+          "511260616"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "511260616"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Foundation\u2014Flanders",
+        "award": [
+          "G005323N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G005323N"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Foundation\u2014Flanders",
+        "award": [
+          "G051322N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G051322N"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Foundation\u2014Flanders",
+        "award": [
+          "1SH2V24N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1SH2V24N"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Foundation\u2014Flanders",
+        "award": [
+          "12X9222N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "12X9222N"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Reconstructing eukaryotic viral genomes from metagenomic data is challenging due to their extensive diversity and potential genome segmentation. Current approaches often rely on labor-intensive manual curation for reference selection and scaffolding, limiting scalability for large studies or rapid outbreak response. We address the critical need for an automated, scalable pipeline for efficient viral metagenomic analysis without manual intervention.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We present nf-core/viralmetagenome, a comprehensive Nextflow pipeline for the untargeted reconstruction and variant analysis of eukaryotic DNA and RNA viruses from short-read metagenomic or hybridisation capture enriched samples. The pipeline automates the entire process from read preprocessing to consensus generation, integrating multiple de novo assemblers, automated reference selection, and iterative consensus refinement. It features robust quality control, extensive documentation, and seamless portability via Docker and Singularity. We validated the pipeline on diverse simulated and real datasets, demonstrating its ability to recover high-quality genomes from complex metagenomic samples and resolve co-infections, making it a powerful tool for viral surveillance.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability</jats:title>\n                    <jats:p>nf-core/viralmetagenome is freely available at https://github.com/nf-core/viralmetagenome with comprehensive documentation at https://nf-co.re/viralmetagenome. Archival code repository snapshots are published at zenodo with doi: https://doi.org/10.5281/zenodo.17524074.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1093/bioinformatics/btag187",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2026-04-14T11:33:43Z",
+      "timestamp": 1776166423000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "nf-core/viralmetagenome: A novel pipeline for untargeted viral genome reconstruction"
+    ],
+    "prefix": "10.1093",
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2507-0430",
+        "authenticated-orcid": false,
+        "given": "Joon",
+        "family": "Klaps",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven , Leuven,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2826-5353",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven , Leuven,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3184-6618",
+        "authenticated-orcid": false,
+        "given": "Magda",
+        "family": "Bletsa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven , Leuven,",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "nf-core community",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4531-1374",
+        "authenticated-orcid": false,
+        "given": "Liana Eleni",
+        "family": "Kafetzopoulou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven , Leuven,",
+            "place": [
+              "Belgium"
+            ]
+          },
+          {
+            "name": "Leiden University Center of Infectious Diseases (LUCID), Leiden University Medical Center , Leiden, 2333 ZA,",
+            "place": [
+              "the Netherlands"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2026050509301649400_btag187-B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1016/S0022-2836(05)80360-2",
+        "article-title": "Basic local alignment search tool",
+        "volume": "215",
+        "author": "Altschul",
+        "year": "1990",
+        "journal-title": "J Mol Biol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "835",
+        "DOI": "10.1101/gr.215038.116",
+        "article-title": "De novo assembly of viral quasispecies using overlap graphs",
+        "volume": "27",
+        "author": "Baaijens",
+        "year": "2017",
+        "journal-title": "Genome Res"
+      },
+      {
+        "key": "2026050509301649400_btag187-B3",
+        "doi-asserted-by": "publisher",
+        "author": "Bassano",
+        "year": "2022",
+        "DOI": "10.1101/2022.06.06.22275866"
+      },
+      {
+        "key": "2026050509301649400_btag187-B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2114",
+        "DOI": "10.1093/bioinformatics/btu170",
+        "article-title": "Trimmomatic: a flexible trimmer for illumina sequence data",
+        "volume": "30",
+        "author": "Bolger",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B5",
+        "volume-title": "BBMap: A Fast, Accurate, Splice-Aware Aligner",
+        "author": "Brian Bushnell",
+        "year": "2014"
+      },
+      {
+        "key": "2026050509301649400_btag187-B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "e27553v1",
+        "DOI": "10.7287/peerj.preprints.27553v1",
+        "article-title": "PRINSEQ++, a multi-threaded tool for fast and efficient quality control and preprocessing of sequencing datasets",
+        "volume": "7",
+        "author": "Cantu",
+        "year": "2019",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "2026050509301649400_btag187-B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "i884",
+        "DOI": "10.1093/bioinformatics/bty560",
+        "article-title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+        "volume": "34",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0028625",
+        "DOI": "10.1128/msphere.00286-25",
+        "article-title": "Refinement of the reference viral database (RVDB) for improving bioinformatics analysis of virus detection by high-throughput sequencing (HTS)",
+        "volume": "10",
+        "author": "Chin",
+        "year": "2025",
+        "journal-title": "mSphere"
+      },
+      {
+        "key": "2026050509301649400_btag187-B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "giab008",
+        "DOI": "10.1093/gigascience/giab008",
+        "article-title": "Twelve years of SAMtools and BCFtools",
+        "volume": "10",
+        "author": "Danecek",
+        "year": "2021",
+        "journal-title": "Gigascience"
+      },
+      {
+        "key": "2026050509301649400_btag187-B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "104908",
+        "DOI": "10.1016/j.jcv.2021.104908",
+        "article-title": "Benchmark of thirteen bioinformatic pipelines for metagenomic virus diagnostics using datasets from clinical samples",
+        "volume": "141",
+        "author": "de Vries",
+        "year": "2021",
+        "journal-title": "J Clin Virol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "316",
+        "DOI": "10.1038/nbt.3820",
+        "article-title": "Nextflow enables reproducible computational workflows",
+        "volume": "35",
+        "author": "Di Tommaso",
+        "year": "2017",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "3047",
+        "DOI": "10.1093/bioinformatics/btw354",
+        "article-title": "MultiQC: summarize analysis results for multiple tools and samples in a single report",
+        "volume": "32",
+        "author": "Ewels",
+        "year": "2016",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1248",
+        "DOI": "10.3390/v12111248",
+        "article-title": "Virosaurus a reference to explore and capture virus genetic diversity",
+        "volume": "12",
+        "author": "Gleizes",
+        "year": "2020",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "2026050509301649400_btag187-B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "644",
+        "DOI": "10.1038/nbt.1883",
+        "article-title": "Full-length transcriptome assembly from RNA-seq data without a reference genome",
+        "volume": "29",
+        "author": "Grabherr",
+        "year": "2011",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.1186/s13059-018-1618-7",
+        "article-title": "An amplicon-based sequencing framework for accurately measuring intrahost virus diversity using PrimalSeq and iVar",
+        "volume": "20",
+        "author": "Grubaugh",
+        "year": "2019",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1186/s40168-020-00990-y",
+        "article-title": "VirSorter2: a multi-classifier, expert-guided approach to detect diverse DNA and RNA viruses",
+        "volume": "9",
+        "author": "Guo",
+        "year": "2021",
+        "journal-title": "Microbiome"
+      },
+      {
+        "key": "2026050509301649400_btag187-B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "3059",
+        "DOI": "10.1093/nar/gkf436",
+        "article-title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast fourier transform",
+        "volume": "30",
+        "author": "Katoh",
+        "year": "2002",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2026050509301649400_btag187-B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "e83",
+        "DOI": "10.1093/nar/gkac341",
+        "article-title": "vRhyme enables binning of viral genomes from metagenomes",
+        "volume": "50",
+        "author": "Kieft",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2026050509301649400_btag187-B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1186/s40168-020-00867-0",
+        "article-title": "VIBRANT: automated recovery, annotation and curation of microbial viruses, and evaluation of viral community function from genomic sequences",
+        "volume": "8",
+        "author": "Kieft",
+        "year": "2020",
+        "journal-title": "Microbiome"
+      },
+      {
+        "key": "2026050509301649400_btag187-B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0177459",
+        "DOI": "10.1371/journal.pone.0177459",
+        "article-title": "Singularity: scientific containers for mobility of compute",
+        "volume": "12",
+        "author": "Kurtzer",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2026050509301649400_btag187-B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "228",
+        "DOI": "10.1186/s13059-025-03673-9",
+        "article-title": "Empowering bioinformatics communities with nextflow and nf-core",
+        "volume": "26",
+        "author": "Langer",
+        "year": "2025",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "421",
+        "DOI": "10.1093/bioinformatics/bty648",
+        "article-title": "Scaling read aligners to hundreds of threads on general-purpose processors",
+        "volume": "35",
+        "author": "Langmead",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1016/j.ymeth.2016.02.020",
+        "article-title": "MEGAHIT v1.0: a fast and scalable metagenome assembler driven by advanced methodologies and community practices",
+        "volume": "102",
+        "author": "Li",
+        "year": "2016",
+        "journal-title": "Methods"
+      },
+      {
+        "key": "2026050509301649400_btag187-B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "3094",
+        "DOI": "10.1093/bioinformatics/bty191",
+        "article-title": "Minimap2: pairwise alignment for nucleotide sequences",
+        "volume": "34",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1658",
+        "DOI": "10.1093/bioinformatics/btl158",
+        "article-title": "Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences",
+        "volume": "22",
+        "author": "Li",
+        "year": "2006",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1093/bioinformatics/btab597",
+        "article-title": "coronaSPAdes: from biosynthetic gene clusters to RNA viral assemblies",
+        "volume": "38",
+        "author": "Meleshko",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "11257",
+        "DOI": "10.1038/ncomms11257",
+        "article-title": "Fast and sensitive taxonomic classification for metagenomics with kaiju",
+        "volume": "7",
+        "author": "Menzel",
+        "year": "2016",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2026050509301649400_btag187-B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.5555/2600239.2600241",
+        "article-title": "Docker: lightweight linux containers for consistent development and deployment",
+        "volume": "2014",
+        "author": "Merkel",
+        "year": "2014",
+        "journal-title": "Linux Journal"
+      },
+      {
+        "key": "2026050509301649400_btag187-B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "578",
+        "DOI": "10.1038/s41587-020-00774-7",
+        "article-title": "CheckV assesses the quality and completeness of metagenome-assembled viral genomes",
+        "volume": "39",
+        "author": "Nayfach",
+        "year": "2021",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "385",
+        "DOI": "10.1186/1471-2105-12-385",
+        "article-title": "Interactive metagenomic visualization in a web browser",
+        "volume": "12",
+        "author": "Ondov",
+        "year": "2011",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "232",
+        "DOI": "10.1186/s13059-019-1841-x",
+        "article-title": "Mash screen: high-throughput sequence containment estimation for genome discovery",
+        "volume": "20",
+        "author": "Ondov",
+        "year": "2019",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B32",
+        "doi-asserted-by": "publisher",
+        "author": "Rangel-Pineros",
+        "year": "2022",
+        "DOI": "10.1101/2022.08.22.504484"
+      },
+      {
+        "key": "2026050509301649400_btag187-B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2584",
+        "DOI": "10.7717/peerj.2584",
+        "article-title": "VSEARCH: a versatile open source tool for metagenomics",
+        "volume": "4",
+        "author": "Rognes",
+        "year": "2016",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "2026050509301649400_btag187-B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "708",
+        "DOI": "10.1186/s12864-016-3030-6",
+        "article-title": "Viral deep sequencing needs an adaptive approach: IRMA, the iterative refinement meta-assembler",
+        "volume": "17",
+        "author": "Shepard",
+        "year": "2016",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "2026050509301649400_btag187-B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "491",
+        "DOI": "10.1101/gr.209601.116",
+        "article-title": "UMI-tools: modeling sequencing errors in unique molecular identifiers to improve quantification accuracy",
+        "volume": "27",
+        "author": "Smith",
+        "year": "2017",
+        "journal-title": "Genome Res"
+      },
+      {
+        "key": "2026050509301649400_btag187-B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1026",
+        "DOI": "10.1038/nbt.3988",
+        "article-title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+        "volume": "35",
+        "author": "Steinegger",
+        "year": "2017",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B37",
+        "doi-asserted-by": "publisher",
+        "author": "Vasimuddin",
+        "year": "2019",
+        "DOI": "10.1109/IPDPS.2019.00041"
+      },
+      {
+        "key": "2026050509301649400_btag187-B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "257",
+        "DOI": "10.1186/s13059-019-1891-0",
+        "article-title": "Improved metagenomic analysis with kraken 2",
+        "volume": "20",
+        "author": "Wood",
+        "year": "2019",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2026050509301649400_btag187-B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1191",
+        "DOI": "10.1038/s41592-025-02701-7",
+        "article-title": "Ultrafast and accurate sequence alignment and clustering of viral genomes",
+        "volume": "22",
+        "author": "Zielezinski",
+        "year": "2025",
+        "journal-title": "Nat Methods"
+      }
+    ],
+    "container-title": [
+      "Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btag187/68190223/btag187.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/bioinformatics/article-pdf/42/5/btag187/68190223/btag187.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/bioinformatics/article-pdf/42/5/btag187/68190223/btag187.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2026-05-05T13:30:24Z",
+      "timestamp": 1777987824000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btag187/8665237"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Christina",
+        "family": "Kendziorski",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            3
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/bioinformatics/btag187",
+    "relation": {},
+    "ISSN": [
+      "1367-4803",
+      "1367-4811"
+    ],
+    "issn-type": [
+      {
+        "value": "1367-4803",
+        "type": "print"
+      },
+      {
+        "value": "1367-4811",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    },
+    "article-number": "btag187"
   }
 }
